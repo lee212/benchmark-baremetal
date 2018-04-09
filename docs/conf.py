@@ -156,7 +156,6 @@ texinfo_documents = [
 html_sidebars = {
         '**': [
             'about.html',
-            'plan.html'
             ]
         }
 html_theme_options = {
