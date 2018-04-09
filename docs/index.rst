@@ -46,6 +46,7 @@ Target serverless platform is:
    :alt: Amazon EC2
 
 Table of Contents:
+
 .. toctree::
    :maxdepth: 1
 
