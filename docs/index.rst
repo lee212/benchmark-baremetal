@@ -35,6 +35,10 @@ Target cloud providers are:
 
 - Oracle Cloud Infrastructure and Amazon EC2
 
+Target serverless platform is:
+
+- Apache OpenWhisk
+
 .. image:: https://openwhisk.apache.org/images/illustration-openwhisk.svg
    :alt: openwhisk
 .. image:: http://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/41865/Z9Ik6huVSQC0sSJf8To4
@@ -46,4 +50,8 @@ Target cloud providers are:
    :maxdepth: 2
    :caption: Contents:
    plan
+   deployment
+   benchmark
+   guide
+   summary
 
