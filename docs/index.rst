@@ -20,6 +20,15 @@ execution time. Applications for big data, deep learning, computer vision and
 genomics typically require multiple and complicated libraries along with cpu
 and data intensive tasks.
 
+.. toctree::
+   :maxdepth: 1
+
+   plan
+   deployment
+   benchmark
+   guide
+   summary
+
 We have three objectives to achieve during this experiment:
 
 - Sucessful deployment of Apache OpenWhisk on public clouds to comare its
@@ -46,13 +55,4 @@ Target serverless platform is:
 .. image:: https://signalfx-82c9.kxcdn.com/wp-content/uploads/EC2-logo-full.jpg
    :alt: Amazon EC2
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Contents:
-
-   plan
-   deployment
-   benchmark
-   guide
-   summary
 
