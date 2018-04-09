@@ -153,4 +153,18 @@ texinfo_documents = [
 ]
 
 
-
+html_sidebars = {
+        '**': [
+            'plan.html',
+            'deployment.html',
+            'benchmark.html',
+            'guide.html',
+            'summary.html'
+            ]
+        }
+html_theme_options = {
+        'description': "Experiment: Running OpenWhisk on Public Clouds",
+        'github_user': 'lee212',
+        'github_repo': 'openwhisk_experiment',
+        'fixed_sidebar': True
+        }
