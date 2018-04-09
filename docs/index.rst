@@ -30,15 +30,6 @@ We have three objectives to achieve during this experiment:
 - Practical guide to building services on public clouds with the experience of
   deploying Apache OpenWhisk. 
  
-.. toctree::
-   :maxdepth: 1
-
-   plan
-   deployment
-   benchmark
-   guide
-   summary
-
 Target cloud providers are:
 
 - Oracle Cloud Infrastructure and Amazon EC2
@@ -53,5 +44,15 @@ Target serverless platform is:
    :alt: oracle cloud infrastructure
 .. image:: https://signalfx-82c9.kxcdn.com/wp-content/uploads/EC2-logo-full.jpg
    :alt: Amazon EC2
+
+Table of Contents:
+.. toctree::
+   :maxdepth: 1
+
+   plan
+   deployment
+   benchmark
+   guide
+   summary
 
 
