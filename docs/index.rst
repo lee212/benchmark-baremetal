@@ -47,8 +47,9 @@ Target serverless platform is:
    :alt: Amazon EC2
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
+
    plan
    deployment
    benchmark
