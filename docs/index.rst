@@ -20,15 +20,6 @@ execution time. Applications for big data, deep learning, computer vision and
 genomics typically require multiple and complicated libraries along with cpu
 and data intensive tasks.
 
-.. toctree::
-   :maxdepth: 1
-
-   plan
-   deployment
-   benchmark
-   guide
-   summary
-
 We have three objectives to achieve during this experiment:
 
 - Sucessful deployment of Apache OpenWhisk on public clouds to comare its
@@ -39,6 +30,14 @@ We have three objectives to achieve during this experiment:
 - Practical guide to building services on public clouds with the experience of
   deploying Apache OpenWhisk. 
  
+.. toctree::
+   :maxdepth: 1
+
+   plan
+   deployment
+   benchmark
+   guide
+   summary
 
 Target cloud providers are:
 
