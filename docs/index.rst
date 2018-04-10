@@ -53,6 +53,7 @@ Target serverless platform is:
    :alt: oracle cloud infrastructure
 .. image:: https://signalfx-82c9.kxcdn.com/wp-content/uploads/EC2-logo-full.jpg
    :alt: Amazon EC2
+   :width: 100px
 
 Table of Contents
 -------------------------------------------------------------------------------
