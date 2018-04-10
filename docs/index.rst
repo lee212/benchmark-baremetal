@@ -41,10 +41,6 @@ Target serverless platform is:
 
 - Apache OpenWhisk
 
-.. image:: https://openwhisk.apache.org/images/illustration-openwhisk.svg
-   :alt: openwhisk
-   :align: center
-
 .. image:: http://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/41865/Z9Ik6huVSQC0sSJf8To4
    :alt: oracle cloud infrastructure
    :width: 100px

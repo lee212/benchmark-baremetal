@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'OpenWhisk Experiment'
-copyright = u'2018, Hyungro Lee, Geoffrey Fox'
+copyright = u'2018, Hyungro Lee'
 author = u'Hyungro Lee, Geoffrey Fox'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -127,7 +127,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'OpenWhiskExperiment.tex', u'OpenWhisk Experiment Documentation',
-     u'Hyungro Lee', 'manual'),
+     u'Hyungro Lee, Geoffrey Fox', 'manual'),
 ]
 
 
