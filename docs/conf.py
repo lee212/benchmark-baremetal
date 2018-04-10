@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'OpenWhisk Experiment'
-copyright = u'2018, Hyungro Lee'
+copyright = u'2018, Hyungro Lee, Geoffrey Fox'
 author = u'Hyungro Lee, Geoffrey Fox'
 
 # The version info for the project you're documenting, acts as replacement for
