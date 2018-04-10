@@ -53,8 +53,7 @@ Target serverless platform is:
    :alt: Amazon EC2
    :width: 100px
 
-Table of Contents
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Table of Contents:
 
 .. toctree::
    :maxdepth: 1
