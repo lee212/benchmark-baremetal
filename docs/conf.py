@@ -47,7 +47,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'OpenWhisk Experiment'
 copyright = u'2018, Hyungro Lee'
-author = u'Hyungro Lee'
+author = u'Hyungro Lee, Geoffrey Fox'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
