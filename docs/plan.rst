@@ -1,6 +1,5 @@
-*******************************************************************************
 Development Plan
-*******************************************************************************
+===============================================================================
 
 This page shows a list of items to achieve during this experiment with the
 tentative date. Changes may occur based on discussions. 
