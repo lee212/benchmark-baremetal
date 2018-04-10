@@ -24,7 +24,7 @@ learning, computer vision and genomics typically require multiple and
 complicated libraries along with cpu and data intensive tasks.
 
 Objective
--------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We have three objectives to achieve during this experiment:
 
@@ -56,7 +56,7 @@ Target serverless platform is:
    :width: 100px
 
 Table of Contents
--------------------------------------------------------------------------------
+*******************************************************************************
 
 .. toctree::
    :maxdepth: 1
