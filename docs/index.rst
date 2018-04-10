@@ -3,7 +3,8 @@ Experiment: Running Apache OpenWhisk for Heavy Workloads on Public Clouds
 
 .. image:: https://openwhisk.apache.org/images/apache-openwhisk@2x.jpg
    :alt: Apache OpenWhisk
-   :class: floatingflask
+   :width: 200px
+   :align: right
 
 Lightweight dynamic applications on cloud computing have been migrated to
 serverless computing platforms, such as Apache OpenWhisk, recently due to its
@@ -42,11 +43,16 @@ Target serverless platform is:
 
 .. image:: https://openwhisk.apache.org/images/illustration-openwhisk.svg
    :alt: openwhisk
+   :align: center
+
 .. image:: http://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/41865/Z9Ik6huVSQC0sSJf8To4
    :alt: oracle cloud infrastructure
+   :align: left
+
 .. image:: https://signalfx-82c9.kxcdn.com/wp-content/uploads/EC2-logo-full.jpg
    :alt: Amazon EC2
    :width: 100px
+   :align: right
 
 .. toctree::
    :maxdepth: 1
