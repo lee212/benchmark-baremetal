@@ -1,8 +1,9 @@
 Experiment: Running Apache OpenWhisk for Heavy Workloads on Public Clouds
 ===============================================================================
 
-Overview
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. image:: https://openwhisk.apache.org/images/apache-openwhisk@2x.jpg
+   :alt: Apache OpenWhisk
+   :class: floatingflask
 
 Lightweight dynamic applications on cloud computing have been migrated to
 serverless computing platforms, such as Apache OpenWhisk, recently due to its
@@ -18,8 +19,6 @@ due to its size and its long execution time. Applications for big data, deep
 learning, computer vision and genomics typically require multiple and
 complicated libraries along with cpu and data intensive tasks.
 
-Objective
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We have three objectives to achieve during this experiment:
 
@@ -31,12 +30,11 @@ We have three objectives to achieve during this experiment:
 - Practical guide to building services on public clouds with the experience of
   deploying Apache OpenWhisk. 
 
-Resource
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Target cloud providers are:
 
-- Oracle Cloud Infrastructure and Amazon EC2
+- Oracle Cloud Infrastructure 
+- Amazon EC2
 
 Target serverless platform is:
 
@@ -49,5 +47,14 @@ Target serverless platform is:
 .. image:: https://signalfx-82c9.kxcdn.com/wp-content/uploads/EC2-logo-full.jpg
    :alt: Amazon EC2
    :width: 100px
+
+.. toctree::
+   :maxdepth: 1
+
+   plan
+   deployment
+   benchmark
+   guide
+   summary
 
 
