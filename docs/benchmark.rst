@@ -28,3 +28,10 @@ Network Intensive Function
 Downloading a large file from its object storage creates network traffic and
 network bandwidth for downloading will be displayed for concurrent executions.
 
+File I/O Intensive Function
+-------------------------------------------------------------------------------
+
+Intermittent files are frequently generated while a set of functions runs and
+writing and reading file speed is a measure to avoid overhead of processing
+logics in functions.
+

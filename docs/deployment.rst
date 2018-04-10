@@ -26,3 +26,13 @@ Integration
 - object storage
 - 10G network
 - SSD vs HDD local disk  
+
+Fn Project (Optional)
+-------------------------------------------------------------------------------
+
+TBD
+
+Kubeless (Optional)
+-------------------------------------------------------------------------------
+
+TBD
