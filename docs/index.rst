@@ -1,8 +1,16 @@
 Experiment: Running Apache OpenWhisk for Heavy Workloads on Public Clouds
 ===============================================================================
 
-OpenWhisk Experiment
--------------------------------------------------------------------------------
+Table of Contents:
+
+.. toctree::
+   :maxdepth: 1
+
+   plan
+   deployment
+   benchmark
+   guide
+   summary
 
 Overview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -52,16 +60,5 @@ Target serverless platform is:
 .. image:: https://signalfx-82c9.kxcdn.com/wp-content/uploads/EC2-logo-full.jpg
    :alt: Amazon EC2
    :width: 100px
-
-Table of Contents:
-
-.. toctree::
-   :maxdepth: 1
-
-   plan
-   deployment
-   benchmark
-   guide
-   summary
 
 
