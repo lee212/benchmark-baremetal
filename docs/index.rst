@@ -3,11 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+*******************************************************************************
 Experiment: Running Apache OpenWhisk for Heavy Workloads on Public Clouds
-===============================================================================
+*******************************************************************************
 
 Overview
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Lightweight dynamic applications on cloud computing have been migrated to
 serverless computing platforms, such as Apache OpenWhisk, recently due to its
@@ -24,7 +25,7 @@ learning, computer vision and genomics typically require multiple and
 complicated libraries along with cpu and data intensive tasks.
 
 Objective
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 We have three objectives to achieve during this experiment:
 
@@ -37,7 +38,7 @@ We have three objectives to achieve during this experiment:
   deploying Apache OpenWhisk. 
 
 Resource
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Target cloud providers are:
 
@@ -56,7 +57,7 @@ Target serverless platform is:
    :width: 100px
 
 Table of Contents
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. toctree::
    :maxdepth: 1
