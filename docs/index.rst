@@ -7,7 +7,7 @@ Experiment: Running Apache OpenWhisk for Heavy Workloads on Public Clouds
 ===============================================================================
 
 Overview
--------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Lightweight dynamic applications on cloud computing have been migrated to
 serverless computing platforms, such as Apache OpenWhisk, recently due to its
@@ -37,7 +37,7 @@ We have three objectives to achieve during this experiment:
   deploying Apache OpenWhisk. 
 
 Resource
--------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Target cloud providers are:
 
@@ -56,7 +56,7 @@ Target serverless platform is:
    :width: 100px
 
 Table of Contents
-*******************************************************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
