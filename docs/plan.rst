@@ -1,4 +1,4 @@
-Development Plan
+Development Schedule
 ===============================================================================
 
 This page shows a list of items to achieve during this experiment with the

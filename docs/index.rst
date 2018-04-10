@@ -1,17 +1,6 @@
 Experiment: Running Apache OpenWhisk for Heavy Workloads on Public Clouds
 ===============================================================================
 
-Table of Contents:
-
-.. toctree::
-   :maxdepth: 1
-
-   plan
-   deployment
-   benchmark
-   guide
-   summary
-
 Overview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
