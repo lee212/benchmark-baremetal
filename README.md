@@ -1,3 +1,3 @@
-# Experiment: Running Apache OpenWhisk for heavy workloads on public clouds
+# Big Data Benchmark: Running Big Data Workloads on Bare Metal Clouds, Oracle and Amazon
 
 
