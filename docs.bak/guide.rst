@@ -69,6 +69,11 @@ Oracle:
 - Python SDK: https://github.com/oracle/oci-python-sdk
 - CLIs:  http://API_URL/tools/Linux/install-IaaS-CLI.sh
 
+AWS:
+
+- Python SDK: https://github.com/boto/boto3
+- CLIs: https://github.com/aws/aws-cli
+
 Comparisons
 -------------------------------------------------------------------------------
 

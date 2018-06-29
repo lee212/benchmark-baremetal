@@ -1,0 +1,7 @@
+Type         Date       Time     Input_data_size      Duration(s)          Throughput(bytes/s)  Throughput/node
+HadoopWordcount 2018-05-23 16:16:14 328498058            38.782               8470374              8470374
+HadoopKmeans 2018-05-23 16:19:23 602462597            137.038              4396317              4396317
+HadoopBayes  2018-05-23 16:52:01 111791826            725.711              154044               154044
+HadoopTerasort 2018-05-23 17:02:08 320000000            35.941               8903480              8903480
+HadoopTerasort 2018-05-23 17:05:20 320000000            37.007               8647012              8647012
+
