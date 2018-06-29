@@ -23,6 +23,12 @@ Server
 - 1 x OCI BM.Standard2.52
 - 1 x AWS i3.metal
 
+VM Image
+^^^^^^^^
+
+- Amazon Linux 2 AMI
+- Oracle Linux 7.5 
+
 Block Storage
 ^^^^^^^^^^^^^^
 
