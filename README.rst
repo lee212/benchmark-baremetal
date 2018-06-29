@@ -14,8 +14,8 @@ Bare Metal Comparison
 Report Data
 ^^^^^^^^^^^^
 
-`AWS <bench/aws.i3.metal/1t32000iops/hibench.report>`_
-`OCI <bench/oci.bm.standard2.52/16t/hibench.report>`_
+- `AWS <bench/aws.i3.metal/1t32000iops/hibench.report>`_
+- `OCI <bench/oci.bm.standard2.52/16t/hibench.report>`_
 
 Server
 ^^^^^^^
@@ -36,16 +36,17 @@ HiBench 7.0
 
 - Hadoop 2.7.5 + CDH using Docker with Centos 7 base image
 
-``docker pull lee212/hibench-docker-cdh``
+  - ``docker pull lee212/hibench-docker-cdh``
 
 - Hadoop 3.0.1 is under development
 
-``docker pull lee212/hadoop:3.0.1``
+  - ``docker pull lee212/hadoop:3.0.1``
 
 Data Size
 """""""""
 
-Small, large in `micro <https://github.com/intel-hadoop/HiBench/tree/master/conf/workloads/micro>`_
+- small
+- large in `micro <https://github.com/intel-hadoop/HiBench/tree/master/conf/workloads/micro>`_
 
 Storage Comparion
 ---------------------
@@ -55,9 +56,9 @@ Storage Comparion
 Report Data
 ^^^^^^^^^^^^
 
-`local NVMe <bench/oci.bm.denseio2.52/local/hibench.report.2>`_
-`50g 3000IOPS <bench/oci.bm.denseio2.52/50g3000iops/hibench.report>`_
-`1T 25000IOPS <bench/oci.bm.standard2.52/1t/hibench.report>`_
+- `local NVMe <bench/oci.bm.denseio2.52/local/hibench.report.2>`_
+- `50g 3000IOPS <bench/oci.bm.denseio2.52/50g3000iops/hibench.report>`_
+- `1T 25000IOPS <bench/oci.bm.standard2.52/1t/hibench.report>`_
 
 Server
 ^^^^^^^
@@ -78,6 +79,6 @@ Storage Options
 Hadoop configuration
 --------------------
 
-`conf <docs/hadoop/conf>`_
+- `conf <docs/hadoop/conf>`_
 
 
