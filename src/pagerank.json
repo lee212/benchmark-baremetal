@@ -1,0 +1,36 @@
+{
+    "cmds": [
+	"hadoop fs -rm -r -skipTrash /Pagerank/Input",
+	"hadoop jar /var/lib/hadoop-hdfs/autogen-7.1-SNAPSHOT-jar-with-dependencies.jar HiBench.DataGen -t pagerank -b /Pagerank -n Input -m %(mappers)s -r %(reducers)s -p %(pages)s -pbalance -pbalance -o text",
+	"hadoop fs -rm -r -skipTrash /Pagerank/Output",
+	"hadoop jar /var/lib/hadoop-hdfs/pegasus-2.0-SNAPSHOT.jar pegasus.PagerankNaive /Pagerank/Input/edges /Pagerank/Output %(pages)s %(mappers)s %(iterations)s nosym new"
+    ], 
+    "size": {
+        "huge": {
+		"mappers": 8, 
+		"reducers": 8,
+		"pages": 5000000,
+		"iterations": 1 
+        }, 
+
+        "large": {
+		"mappers": 8, 
+		"reducers": 8,
+		"pages": 500000,
+		"iterations": 1 
+        }, 
+
+        "small": {
+		"mappers": 8, 
+		"reducers": 8,
+		"pages": 5000,
+		"iterations": 1 
+        }, 
+        "tiny": {
+		"mappers": 8, 
+		"reducers": 8,
+		"pages": 50,
+		"iterations": 1 
+        }
+    }
+}

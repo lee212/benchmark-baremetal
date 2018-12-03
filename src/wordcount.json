@@ -1,0 +1,27 @@
+{
+    "cmds": [
+        "/usr/bin/hadoop fs -rm -r -skipTrash /Wordcount/Input", 
+        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar randomtextwriter -D mapreduce.randomtextwriter.totalbytes=%(option1)s -D mapreduce.randomtextwriter.bytespermap=%(option2)s /Wordcount/Input", 
+        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount /Wordcount/Input /Wordcount/Output"
+    ], 
+    "size": {
+        "huge": {
+		"option1": 32000000000, 
+		"option2": 4000000000
+        }, 
+
+	"large": {
+		"option1": 3200000000, 
+		"option2": 400000000
+        }, 
+
+        "small": {
+		"option1": 320000000, 
+		"option2": 40000000
+        }, 
+        "tiny": {
+		"option1": 32000, 
+		"option2": 4000
+        }
+    }
+}

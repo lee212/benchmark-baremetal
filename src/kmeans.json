@@ -1,0 +1,43 @@
+{
+    "cmds": [
+	"hadoop fs -rm -r -skipTrash /Kmeans/Input",
+	"hadoop jar /var/lib/hadoop-hdfs/autogen-7.1-SNAPSHOT-jar-with-dependencies.jar org.apache.mahout.clustering.kmeans.GenKMeansDataset -D hadoop.job.history.user.location=/Kmeans/Input/samples -sampleDir /Kmeans/Input/samples -clusterDir /Kmeans/Input/cluster -numClusters %(numClusters)s -numSamples %(numSamples)s -samplesPerFile %(samplesPerFile)s -sampleDimension %(sampleDimension)s",
+	"hadoop fs -rm -r -skipTrash /Kmeans/Output",
+	"mahout kmeans --input /Kmeans/Input/samples --output /Kmeans/Output --clusters /Kmeans/Input/cluster --maxIter %(iteration)s --overwrite --clustering --convergenceDelta %(convergedist)s --distanceMeasure  org.apache.mahout.common.distance.EuclideanDistanceMeasure --method mapreduce"
+    ], 
+    "size": {
+        "huge": {
+		"numClusters": 5,
+		"numSamples": 100000000, 
+		"samplesPerFile": 20000000,
+		"sampleDimension": 20,
+		"iteration": 5,
+		"convergedist": 0.5
+        }, 
+        "large": {
+		"numClusters": 5,
+		"numSamples": 20000000, 
+		"samplesPerFile": 4000000,
+		"sampleDimension": 20,
+		"iteration": 5,
+		"convergedist": 0.5
+        }, 
+        "small": {
+		"numClusters": 5,
+		"numSamples": 3000000, 
+		"samplesPerFile": 600000,
+		"sampleDimension": 20,
+		"iteration": 5,
+		"convergedist": 0.5
+        }, 
+        "tiny": {
+		"numClusters": 5,
+		"numSamples": 30000, 
+		"samplesPerFile": 6000,
+		"sampleDimension": 3,
+		"iteration": 5,
+		"convergedist": 0.5
+        }
+    }
+}
+
