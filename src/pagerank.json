@@ -7,22 +7,22 @@
     ], 
     "size": {
         "huge": {
-		"mappers": 8, 
-		"reducers": 8,
+		"mappers": 204, 
+		"reducers": 204,
 		"pages": 5000000,
 		"iterations": 1 
         }, 
 
         "large": {
-		"mappers": 8, 
-		"reducers": 8,
+		"mappers": 204, 
+		"reducers": 204,
 		"pages": 500000,
 		"iterations": 1 
         }, 
 
         "small": {
-		"mappers": 8, 
-		"reducers": 8,
+		"mappers": 204, 
+		"reducers": 204,
 		"pages": 5000,
 		"iterations": 1 
         }, 

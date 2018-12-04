@@ -1,0 +1,26 @@
+Deleted /Pagerank/Input
+curIndex: 3515, total: 3516
+Deleted /Pagerank/Output
+
+-----===[PEGASUS: A Peta-Scale Graph Mining System]===-----
+
+[PEGASUS] Computing PageRank. Max iteration = 1, threshold = 2.0E-8, cur_iteration=1
+
+Creating initial pagerank vectors............
+Iteration = 1, changed reducer = 8
+
+[PEGASUS] PageRank computed.
+[PEGASUS] The final PageRanks are in the HDFS pr_vector.
+Deleted /Pagerank/Input
+curIndex: 3515, total: 3516
+Deleted /Pagerank/Output
+
+-----===[PEGASUS: A Peta-Scale Graph Mining System]===-----
+
+[PEGASUS] Computing PageRank. Max iteration = 1, threshold = 2.0E-8, cur_iteration=1
+
+Creating initial pagerank vectors............
+Iteration = 1, changed reducer = 204
+
+[PEGASUS] PageRank computed.
+[PEGASUS] The final PageRanks are in the HDFS pr_vector.

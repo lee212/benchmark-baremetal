@@ -1,0 +1,5 @@
+Generating Mahout KMeans Input Dataset
+Deleted /Kmeans/Output
+MAHOUT_LOCAL is not set; adding HADOOP_CONF_DIR to classpath.
+Running on hadoop, using /opt/cloudera/parcels/CDH-5.16.1-1.cdh5.16.1.p0.3/lib/hadoop/bin/hadoop and HADOOP_CONF_DIR=/etc/hadoop/conf
+MAHOUT-JOB: /opt/cloudera/parcels/CDH-5.16.1-1.cdh5.16.1.p0.3/lib/mahout/mahout-examples-0.9-cdh5.16.1-job.jar
