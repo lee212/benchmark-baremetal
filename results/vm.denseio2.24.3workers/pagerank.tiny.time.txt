@@ -1,0 +1,286 @@
+rm: `/Pagerank/Input': No such file or directory
+
+real	0m3.325s
+user	0m4.507s
+sys	0m0.291s
+18/12/04 20:02:22 INFO HiBench.PagerankData: Generating pageRank data files...
+18/12/04 20:02:22 INFO HiBench.PagerankData: Initializing PageRank data generator...
+18/12/04 20:02:25 INFO HiBench.Dummy: Creating dummy file /Pagerank/temp/dummy with 8 slots...
+18/12/04 20:02:25 INFO HiBench.PagerankData: Creating PageRank nodes...
+18/12/04 20:02:25 INFO HiBench.PagerankData: Running Job: Create pagerank nodes
+18/12/04 20:02:25 INFO HiBench.PagerankData: Dummy file /Pagerank/temp/dummy as input
+18/12/04 20:02:25 INFO HiBench.PagerankData: Vertices file /Pagerank/Input/vertices as output
+18/12/04 20:02:26 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/12/04 20:02:26 INFO mapred.FileInputFormat: Total input paths to process : 1
+18/12/04 20:02:26 INFO mapreduce.JobSubmitter: number of splits:8
+18/12/04 20:02:26 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543952390930_0012
+18/12/04 20:02:27 INFO impl.YarnClientImpl: Submitted application application_1543952390930_0012
+18/12/04 20:02:27 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1543952390930_0012/
+18/12/04 20:02:27 INFO mapreduce.Job: Running job: job_1543952390930_0012
+18/12/04 20:02:34 INFO mapreduce.Job: Job job_1543952390930_0012 running in uber mode : false
+18/12/04 20:02:34 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/04 20:02:41 INFO mapreduce.Job:  map 25% reduce 0%
+18/12/04 20:02:42 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/04 20:02:49 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/04 20:02:49 INFO mapreduce.Job: Job job_1543952390930_0012 completed successfully
+18/12/04 20:02:49 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=240
+		FILE: Number of bytes written=2504152
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=807
+		HDFS: Number of bytes written=16
+		HDFS: Number of read operations=48
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=16
+	Job Counters 
+		Launched map tasks=8
+		Launched reduce tasks=8
+		Other local map tasks=8
+		Total time spent by all maps in occupied slots (ms)=225240
+		Total time spent by all reduces in occupied slots (ms)=208515
+		Total time spent by all map tasks (ms)=45048
+		Total time spent by all reduce tasks (ms)=41703
+		Total vcore-milliseconds taken by all map tasks=45048
+		Total vcore-milliseconds taken by all reduce tasks=41703
+		Total megabyte-milliseconds taken by all map tasks=230645760
+		Total megabyte-milliseconds taken by all reduce tasks=213519360
+	Map-Reduce Framework
+		Map input records=8
+		Map output records=8
+		Map output bytes=64
+		Map output materialized bytes=1104
+		Input split bytes=728
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=8
+		Reduce shuffle bytes=1104
+		Reduce input records=0
+		Reduce output records=8
+		Spilled Records=16
+		Shuffled Maps =64
+		Failed Shuffles=0
+		Merged Map outputs=64
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=31110
+		Physical memory (bytes) snapshot=15039340544
+		Virtual memory (bytes) snapshot=80386244608
+		Total committed heap usage (bytes)=61958258688
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=79
+	File Output Format Counters 
+		Bytes Written=16
+18/12/04 20:02:49 INFO HiBench.PagerankData: Finished Running Job: Create pagerank nodes
+18/12/04 20:02:49 INFO HiBench.PagerankData: Creating PageRank links
+18/12/04 20:02:49 INFO HiBench.PagerankData: Running Job: Create pagerank links
+18/12/04 20:02:49 INFO HiBench.PagerankData: Dummy file /Pagerank/temp/dummy as input
+18/12/04 20:02:49 INFO HiBench.PagerankData: Edges file /Pagerank/Input/edges as output
+18/12/04 20:02:49 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/12/04 20:02:49 INFO mapred.FileInputFormat: Total input paths to process : 1
+18/12/04 20:02:49 INFO mapreduce.JobSubmitter: number of splits:8
+18/12/04 20:02:49 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543952390930_0013
+18/12/04 20:02:50 INFO impl.YarnClientImpl: Submitted application application_1543952390930_0013
+18/12/04 20:02:50 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1543952390930_0013/
+18/12/04 20:02:50 INFO mapreduce.Job: Running job: job_1543952390930_0013
+18/12/04 20:02:58 INFO mapreduce.Job: Job job_1543952390930_0013 running in uber mode : false
+18/12/04 20:02:58 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/04 20:03:05 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/04 20:03:05 INFO mapreduce.Job: Job job_1543952390930_0013 completed successfully
+18/12/04 20:03:05 INFO mapreduce.Job: Counters: 31
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=1254768
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=807
+		HDFS: Number of bytes written=10807
+		HDFS: Number of read operations=40
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=16
+	Job Counters 
+		Launched map tasks=8
+		Other local map tasks=8
+		Total time spent by all maps in occupied slots (ms)=199940
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=39988
+		Total vcore-milliseconds taken by all map tasks=39988
+		Total megabyte-milliseconds taken by all map tasks=204738560
+	Map-Reduce Framework
+		Map input records=8
+		Map output records=1994
+		Input split bytes=728
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=6690
+		Physical memory (bytes) snapshot=3210018816
+		Virtual memory (bytes) snapshot=40070221824
+		Total committed heap usage (bytes)=30979129344
+	HiBench.Counters
+		BYTES_DATA_GENERATED=19172
+	File Input Format Counters 
+		Bytes Read=79
+	File Output Format Counters 
+		Bytes Written=10807
+18/12/04 20:03:05 INFO HiBench.PagerankData: Finished Running Job: Create pagerank links
+18/12/04 20:03:05 INFO HiBench.PagerankData: Closing pagerank data generator...
+
+real	0m50.886s
+user	0m13.807s
+sys	0m4.040s
+rm: `/Pagerank/Output': No such file or directory
+
+real	0m3.231s
+user	0m4.363s
+sys	0m0.286s
+18/12/04 20:03:14 INFO mapred.FileInputFormat: Total input paths to process : 9
+18/12/04 20:03:14 INFO mapreduce.JobSubmitter: number of splits:9
+18/12/04 20:03:15 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543952390930_0014
+18/12/04 20:03:15 INFO impl.YarnClientImpl: Submitted application application_1543952390930_0014
+18/12/04 20:03:15 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1543952390930_0014/
+18/12/04 20:03:15 INFO mapreduce.Job: Running job: job_1543952390930_0014
+18/12/04 20:03:21 INFO mapreduce.Job: Job job_1543952390930_0014 running in uber mode : false
+18/12/04 20:03:21 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/04 20:03:28 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/04 20:03:35 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/04 20:03:36 INFO mapreduce.Job: Job job_1543952390930_0014 completed successfully
+18/12/04 20:03:36 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=7827
+		FILE: Number of bytes written=2671949
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=12194
+		HDFS: Number of bytes written=45449
+		HDFS: Number of read operations=51
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=16
+	Job Counters 
+		Launched map tasks=9
+		Launched reduce tasks=8
+		Data-local map tasks=9
+		Total time spent by all maps in occupied slots (ms)=246580
+		Total time spent by all reduces in occupied slots (ms)=198075
+		Total time spent by all map tasks (ms)=49316
+		Total time spent by all reduce tasks (ms)=39615
+		Total vcore-milliseconds taken by all map tasks=49316
+		Total vcore-milliseconds taken by all reduce tasks=39615
+		Total megabyte-milliseconds taken by all map tasks=252497920
+		Total megabyte-milliseconds taken by all reduce tasks=202828800
+	Map-Reduce Framework
+		Map input records=2044
+		Map output records=2044
+		Map output bytes=13690
+		Map output materialized bytes=9010
+		Input split bytes=947
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=50
+		Reduce shuffle bytes=9010
+		Reduce input records=2044
+		Reduce output records=2044
+		Spilled Records=4088
+		Shuffled Maps =72
+		Failed Shuffles=0
+		Merged Map outputs=72
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=26550
+		Physical memory (bytes) snapshot=16417202176
+		Virtual memory (bytes) snapshot=85301248000
+		Total committed heap usage (bytes)=65830649856
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=11247
+	File Output Format Counters 
+		Bytes Written=45449
+18/12/04 20:03:37 INFO mapred.FileInputFormat: Total input paths to process : 8
+18/12/04 20:03:37 INFO mapreduce.JobSubmitter: number of splits:8
+18/12/04 20:03:37 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543952390930_0015
+18/12/04 20:03:37 INFO impl.YarnClientImpl: Submitted application application_1543952390930_0015
+18/12/04 20:03:37 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1543952390930_0015/
+18/12/04 20:03:37 INFO mapreduce.Job: Running job: job_1543952390930_0015
+18/12/04 20:03:43 INFO mapreduce.Job: Job job_1543952390930_0015 running in uber mode : false
+18/12/04 20:03:43 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/04 20:03:50 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/04 20:03:57 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/04 20:03:58 INFO mapreduce.Job: Job job_1543952390930_0015 completed successfully
+18/12/04 20:03:58 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=9784
+		FILE: Number of bytes written=2523254
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=46289
+		HDFS: Number of bytes written=1221
+		HDFS: Number of read operations=48
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=16
+	Job Counters 
+		Launched map tasks=8
+		Launched reduce tasks=8
+		Data-local map tasks=8
+		Total time spent by all maps in occupied slots (ms)=218130
+		Total time spent by all reduces in occupied slots (ms)=197755
+		Total time spent by all map tasks (ms)=43626
+		Total time spent by all reduce tasks (ms)=39551
+		Total vcore-milliseconds taken by all map tasks=43626
+		Total vcore-milliseconds taken by all reduce tasks=39551
+		Total megabyte-milliseconds taken by all map tasks=223365120
+		Total megabyte-milliseconds taken by all reduce tasks=202501120
+	Map-Reduce Framework
+		Map input records=2044
+		Map output records=2044
+		Map output bytes=48271
+		Map output materialized bytes=15174
+		Input split bytes=840
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=50
+		Reduce shuffle bytes=15174
+		Reduce input records=2044
+		Reduce output records=50
+		Spilled Records=4088
+		Shuffled Maps =64
+		Failed Shuffles=0
+		Merged Map outputs=64
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=24570
+		Physical memory (bytes) snapshot=14962626560
+		Virtual memory (bytes) snapshot=80258473984
+		Total committed heap usage (bytes)=61958258688
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=45449
+	File Output Format Counters 
+		Bytes Written=1221
+	pegasus.PagerankNaive$PrCounters
+		CONVERGE_CHECK=8
+
+real	0m48.666s
+user	0m8.330s
+sys	0m0.438s

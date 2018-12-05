@@ -1,0 +1,522 @@
+
+real	0m3.379s
+user	0m4.500s
+sys	0m0.297s
+18/12/04 20:30:00 INFO kmeans.GenKMeansDataset: KMeans Clustering Input Dataset : Synthetic
+18/12/04 20:30:00 INFO kmeans.GenKMeansDataset: Successfully generated Sample Generator Seeds
+18/12/04 20:30:00 INFO kmeans.GenKMeansDataset: samples seeds are: 
+18/12/04 20:30:00 INFO kmeans.GenKMeansDataset: mean: (166.36919664698303,640.1676114980751,930.644031393684,270.678512485146,551.5113649782937,192.86353251642052,281.0705400729079,264.0158585212437,310.6485682542758,345.29915498602935,404.16148069846747,185.76823710804325,371.64057428652984,929.9281706417966,352.40449758442384,567.9063742106824,437.29459969868725,30.01731666059215,137.93634664626632,4.393535838395524) std: (-27.11111821590282,-58.72684458509212,16.225562454116442,-28.578055967310917,-77.1859097740529,49.829744732768035,22.897793604662,-41.084766778062345,-3.7665513526591923,73.96731463725652,81.66643304105918,-83.0487747007121,-58.7221435274178,79.51849995735566,69.70892068039856,-5.309031682195126,-61.067687367031695,42.09887299360446,80.85451221711878,-9.593309233490203)
+18/12/04 20:30:00 INFO kmeans.GenKMeansDataset: mean: (598.1228166968348,488.6111957404279,999.8476117538581,681.7877861297859,135.37996062807213,775.7639486569759,526.1454541661192,678.282948328049,904.8037925927661,820.9748223091975,32.54065799608108,39.656358211168865,676.7795462996531,631.4522595630403,203.0006454899145,436.68131309602995,675.2035499151397,532.8994995501529,550.7730812026455,708.0139040235248) std: (-21.814824095846944,-67.4554012469163,4.468399867857272,-73.91620945494657,1.4691020647306487,-92.56654459721206,21.602101241870102,-97.67730771236901,-41.01320109200457,23.693698699645168,-53.20105999298275,77.12437593256291,-53.703204773557346,-51.23047086522901,28.540985093420687,1.0569463888689086,-49.17513479428028,96.27568427995521,-91.39786989930978,47.26257727517543)
+18/12/04 20:30:00 INFO kmeans.GenKMeansDataset: mean: (973.1802605933103,724.4815228076035,191.8973915400214,61.16814916057189,88.0503209447503,519.1227773205109,249.01212248215765,137.3652120334038,843.9970154682661,828.9066652474423,63.76156095722785,369.8473387464993,446.910208241139,897.0653201957496,463.2404601377931,495.4478284628785,576.8434993338982,710.7368565135195,312.37360392669166,765.535007228603) std: (99.09659153201451,-83.27197057246865,-41.42962372969345,10.640899099099713,61.35752111862382,68.6054187372859,47.05010115232483,-3.9065263359937745,66.79463334034978,65.51622796189926,-54.242663392451675,-66.45886549837331,-84.81285136108481,70.88789180141626,-27.47187186435262,73.85748148841472,35.92193035129745,23.41810355720557,95.6417773257156,28.940379861255337)
+18/12/04 20:30:00 INFO kmeans.GenKMeansDataset: mean: (703.8473125815271,392.5334110898693,142.48279329348856,533.0471952720573,33.06038993109428,270.6806283605274,987.0935042004156,641.777578277248,263.4669534137063,722.4562836840004,635.8596782459797,347.8748836628045,778.4692538453002,64.68506092823579,799.349093662958,415.67712197724416,199.08229312809965,205.22377982685026,202.7125595079191,191.42317882467395) std: (6.206949459734588,53.0716994646221,72.38547884225574,-37.96413415785827,49.507346901039824,-74.57538876015477,22.642827974078017,5.403458322786875,7.826105175253687,66.7661837464247,51.3136073793128,-36.23659548179501,42.1217056478813,32.92273745286559,-53.85215785037407,-95.73681913711651,64.39872870942582,-17.60775985688751,-2.112279631592102,-83.18966114856784)
+18/12/04 20:30:00 INFO kmeans.GenKMeansDataset: mean: (27.487281467748925,291.0317277934063,916.092168002025,878.9824524561327,603.4260897693526,808.3061786323269,760.915401523246,899.8351813969506,851.6315695092104,244.04649364794994,274.8285347860174,719.1570470776014,727.7831899649715,571.6945191926171,878.8099414369395,465.64869597255756,836.8094996563718,955.0183678841535,671.2450708210073,685.6073463141513) std: (-77.92104943069953,61.607136847755186,-58.12463291108043,36.414739952904455,-27.046906167189718,-59.901136615640404,-36.262418572005494,-22.386480329787915,81.92546314954853,-0.6077337371687292,-34.07658341306596,-61.23336058683546,-6.92092501797174,-78.38437133856486,-51.85499612317002,4.811951096793379,17.098079480576374,-53.82792956894731,61.37305309336355,-57.642106698331254)
+18/12/04 20:30:01 INFO Configuration.deprecation: mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+18/12/04 20:30:01 INFO Configuration.deprecation: mapred.output.compression.type is deprecated. Instead, use mapreduce.output.fileoutputformat.compress.type
+18/12/04 20:30:01 INFO Configuration.deprecation: mapred.output.compression.codec is deprecated. Instead, use mapreduce.output.fileoutputformat.compress.codec
+18/12/04 20:30:01 INFO kmeans.GenKMeansDataset: mapred.output.compression.codec=org.apache.hadoop.io.compress.DefaultCodec
+18/12/04 20:30:02 INFO kmeans.GenKMeansDataset: Generate K-Means input Dataset : samples = 20000000sample dimension20 cluster num =5
+18/12/04 20:30:02 INFO kmeans.GenKMeansDataset: Start producing samples...
+18/12/04 20:30:02 INFO kmeans.GenKMeansDataset: creating file /Kmeans/Input/samples-seeds/seed0
+18/12/04 20:30:02 INFO kmeans.GenKMeansDataset: creating file /Kmeans/Input/samples-seeds/seed1
+18/12/04 20:30:02 INFO kmeans.GenKMeansDataset: creating file /Kmeans/Input/samples-seeds/seed2
+18/12/04 20:30:02 INFO kmeans.GenKMeansDataset: creating file /Kmeans/Input/samples-seeds/seed3
+18/12/04 20:30:02 INFO kmeans.GenKMeansDataset: creating file /Kmeans/Input/samples-seeds/seed4
+18/12/04 20:30:02 INFO kmeans.GenKMeansDataset: Generating 20000000 of samples
+18/12/04 20:30:03 INFO mapred.FileInputFormat: Total input paths to process : 5
+18/12/04 20:30:03 INFO mapreduce.JobSubmitter: number of splits:5
+18/12/04 20:30:04 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543952390930_0027
+18/12/04 20:30:04 INFO impl.YarnClientImpl: Submitted application application_1543952390930_0027
+18/12/04 20:30:04 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1543952390930_0027/
+18/12/04 20:30:04 INFO mapreduce.Job: Running job: job_1543952390930_0027
+18/12/04 20:30:10 INFO mapreduce.Job: Job job_1543952390930_0027 running in uber mode : false
+18/12/04 20:30:10 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/04 20:30:28 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/04 20:30:50 INFO mapreduce.Job: Job job_1543952390930_0027 completed successfully
+18/12/04 20:30:50 INFO mapreduce.Job: Counters: 31
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=781220
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4733
+		HDFS: Number of bytes written=4016364090
+		HDFS: Number of read operations=30
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=10
+	Job Counters 
+		Launched map tasks=5
+		Rack-local map tasks=5
+		Total time spent by all maps in occupied slots (ms)=924670
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=184934
+		Total vcore-milliseconds taken by all map tasks=184934
+		Total megabyte-milliseconds taken by all map tasks=946862080
+	Map-Reduce Framework
+		Map input records=5
+		Map output records=20000000
+		Input split bytes=520
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=553
+		CPU time spent (ms)=200710
+		Physical memory (bytes) snapshot=7148728320
+		Virtual memory (bytes) snapshot=25062318080
+		Total committed heap usage (bytes)=20103823360
+	HiBench.Counters
+		BYTES_DATA_GENERATED=3360000000
+	File Input Format Counters 
+		Bytes Read=4213
+	File Output Format Counters 
+		Bytes Written=4016364090
+18/12/04 20:30:50 INFO kmeans.GenKMeansDataset: Finished producing samples
+18/12/04 20:30:50 INFO kmeans.GenKMeansDataset: Start generating initial cluster centers ...
+18/12/04 20:30:50 INFO kmeans.GenKMeansDataset: Finished generating initial cluster centers
+
+real	0m57.301s
+user	0m12.470s
+sys	0m3.796s
+
+real	0m3.372s
+user	0m4.517s
+sys	0m0.277s
+18/12/04 20:30:59 WARN driver.MahoutDriver: No kmeans.props found on classpath, will use command-line arguments only
+18/12/04 20:31:00 INFO common.AbstractJob: Command line arguments: {--clustering=null, --clusters=[/Kmeans/Input/cluster], --convergenceDelta=[0.5], --distanceMeasure=[org.apache.mahout.common.distance.EuclideanDistanceMeasure], --endPhase=[2147483647], --input=[/Kmeans/Input/samples], --maxIter=[5], --method=[mapreduce], --output=[/Kmeans/Output], --overwrite=null, --startPhase=[0], --tempDir=[temp]}
+18/12/04 20:31:01 INFO kmeans.KMeansDriver: Input: /Kmeans/Input/samples Clusters In: /Kmeans/Input/cluster Out: /Kmeans/Output
+18/12/04 20:31:01 INFO kmeans.KMeansDriver: convergence: 0.5 max Iterations: 5
+18/12/04 20:31:03 INFO input.FileInputFormat: Total input paths to process : 5
+18/12/04 20:31:03 INFO mapreduce.JobSubmitter: number of splits:30
+18/12/04 20:31:03 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543952390930_0028
+18/12/04 20:31:04 INFO impl.YarnClientImpl: Submitted application application_1543952390930_0028
+18/12/04 20:31:04 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1543952390930_0028/
+18/12/04 20:31:04 INFO mapreduce.Job: Running job: job_1543952390930_0028
+18/12/04 20:31:10 INFO mapreduce.Job: Job job_1543952390930_0028 running in uber mode : false
+18/12/04 20:31:10 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/04 20:31:29 INFO mapreduce.Job:  map 36% reduce 0%
+18/12/04 20:31:30 INFO mapreduce.Job:  map 45% reduce 0%
+18/12/04 20:31:33 INFO mapreduce.Job:  map 59% reduce 0%
+18/12/04 20:31:34 INFO mapreduce.Job:  map 98% reduce 0%
+18/12/04 20:31:35 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/04 20:31:42 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/04 20:31:42 INFO mapreduce.Job: Job job_1543952390930_0028 completed successfully
+18/12/04 20:31:42 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=35059
+		FILE: Number of bytes written=4973727
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4016543809
+		HDFS: Number of bytes written=2723
+		HDFS: Number of read operations=526
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=30
+		Launched reduce tasks=1
+		Rack-local map tasks=30
+		Total time spent by all maps in occupied slots (ms)=3307790
+		Total time spent by all reduces in occupied slots (ms)=26355
+		Total time spent by all map tasks (ms)=661558
+		Total time spent by all reduce tasks (ms)=5271
+		Total vcore-milliseconds taken by all map tasks=661558
+		Total vcore-milliseconds taken by all reduce tasks=5271
+		Total megabyte-milliseconds taken by all map tasks=3387176960
+		Total megabyte-milliseconds taken by all reduce tasks=26987520
+	Map-Reduce Framework
+		Map input records=20000000
+		Map output records=150
+		Map output bytes=103500
+		Map output materialized bytes=77717
+		Input split bytes=3480
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5
+		Reduce shuffle bytes=77717
+		Reduce input records=150
+		Reduce output records=5
+		Spilled Records=300
+		Shuffled Maps =30
+		Failed Shuffles=0
+		Merged Map outputs=30
+		GC time elapsed (ms)=6502
+		CPU time spent (ms)=552770
+		Physical memory (bytes) snapshot=67129581568
+		Virtual memory (bytes) snapshot=155359092736
+		Total committed heap usage (bytes)=120045174784
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=4016408610
+	File Output Format Counters 
+		Bytes Written=2723
+18/12/04 20:31:42 INFO input.FileInputFormat: Total input paths to process : 5
+18/12/04 20:31:43 INFO mapreduce.JobSubmitter: number of splits:30
+18/12/04 20:31:43 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543952390930_0029
+18/12/04 20:31:43 INFO impl.YarnClientImpl: Submitted application application_1543952390930_0029
+18/12/04 20:31:43 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1543952390930_0029/
+18/12/04 20:31:43 INFO mapreduce.Job: Running job: job_1543952390930_0029
+18/12/04 20:31:51 INFO mapreduce.Job: Job job_1543952390930_0029 running in uber mode : false
+18/12/04 20:31:51 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/04 20:32:24 INFO mapreduce.Job:  map 3% reduce 0%
+18/12/04 20:32:25 INFO mapreduce.Job:  map 6% reduce 0%
+18/12/04 20:32:26 INFO mapreduce.Job:  map 17% reduce 0%
+18/12/04 20:32:30 INFO mapreduce.Job:  map 20% reduce 0%
+18/12/04 20:32:31 INFO mapreduce.Job:  map 26% reduce 0%
+18/12/04 20:32:32 INFO mapreduce.Job:  map 44% reduce 0%
+18/12/04 20:32:33 INFO mapreduce.Job:  map 46% reduce 0%
+18/12/04 20:32:34 INFO mapreduce.Job:  map 53% reduce 0%
+18/12/04 20:32:35 INFO mapreduce.Job:  map 78% reduce 0%
+18/12/04 20:32:36 INFO mapreduce.Job:  map 94% reduce 0%
+18/12/04 20:32:37 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/04 20:32:43 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/04 20:32:43 INFO mapreduce.Job: Job job_1543952390930_0029 completed successfully
+18/12/04 20:32:43 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=23830
+		FILE: Number of bytes written=4964834
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4016502517
+		HDFS: Number of bytes written=2723
+		HDFS: Number of read operations=278
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=30
+		Launched reduce tasks=1
+		Rack-local map tasks=30
+		Total time spent by all maps in occupied slots (ms)=6342965
+		Total time spent by all reduces in occupied slots (ms)=18560
+		Total time spent by all map tasks (ms)=1268593
+		Total time spent by all reduce tasks (ms)=3712
+		Total vcore-milliseconds taken by all map tasks=1268593
+		Total vcore-milliseconds taken by all reduce tasks=3712
+		Total megabyte-milliseconds taken by all map tasks=6495196160
+		Total megabyte-milliseconds taken by all reduce tasks=19005440
+	Map-Reduce Framework
+		Map input records=20000000
+		Map output records=150
+		Map output bytes=93780
+		Map output materialized bytes=80053
+		Input split bytes=3480
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5
+		Reduce shuffle bytes=80053
+		Reduce input records=150
+		Reduce output records=5
+		Spilled Records=300
+		Shuffled Maps =30
+		Failed Shuffles=0
+		Merged Map outputs=30
+		GC time elapsed (ms)=9910
+		CPU time spent (ms)=1149960
+		Physical memory (bytes) snapshot=67132866560
+		Virtual memory (bytes) snapshot=155380617216
+		Total committed heap usage (bytes)=120044126208
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=4016408610
+	File Output Format Counters 
+		Bytes Written=2723
+18/12/04 20:32:44 INFO input.FileInputFormat: Total input paths to process : 5
+18/12/04 20:32:44 INFO mapreduce.JobSubmitter: number of splits:30
+18/12/04 20:32:44 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543952390930_0030
+18/12/04 20:32:44 INFO impl.YarnClientImpl: Submitted application application_1543952390930_0030
+18/12/04 20:32:44 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1543952390930_0030/
+18/12/04 20:32:44 INFO mapreduce.Job: Running job: job_1543952390930_0030
+18/12/04 20:32:52 INFO mapreduce.Job: Job job_1543952390930_0030 running in uber mode : false
+18/12/04 20:32:52 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/04 20:33:11 INFO mapreduce.Job:  map 3% reduce 0%
+18/12/04 20:33:12 INFO mapreduce.Job:  map 44% reduce 0%
+18/12/04 20:33:16 INFO mapreduce.Job:  map 83% reduce 0%
+18/12/04 20:33:17 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/04 20:33:24 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/04 20:33:24 INFO mapreduce.Job: Job job_1543952390930_0030 completed successfully
+18/12/04 20:33:24 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=23923
+		FILE: Number of bytes written=4965352
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4016502517
+		HDFS: Number of bytes written=2723
+		HDFS: Number of read operations=278
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=30
+		Launched reduce tasks=1
+		Rack-local map tasks=30
+		Total time spent by all maps in occupied slots (ms)=3325820
+		Total time spent by all reduces in occupied slots (ms)=26205
+		Total time spent by all map tasks (ms)=665164
+		Total time spent by all reduce tasks (ms)=5241
+		Total vcore-milliseconds taken by all map tasks=665164
+		Total vcore-milliseconds taken by all reduce tasks=5241
+		Total megabyte-milliseconds taken by all map tasks=3405639680
+		Total megabyte-milliseconds taken by all reduce tasks=26833920
+	Map-Reduce Framework
+		Map input records=20000000
+		Map output records=150
+		Map output bytes=93780
+		Map output materialized bytes=80478
+		Input split bytes=3480
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5
+		Reduce shuffle bytes=80478
+		Reduce input records=150
+		Reduce output records=5
+		Spilled Records=300
+		Shuffled Maps =30
+		Failed Shuffles=0
+		Merged Map outputs=30
+		GC time elapsed (ms)=5853
+		CPU time spent (ms)=558830
+		Physical memory (bytes) snapshot=67147071488
+		Virtual memory (bytes) snapshot=155407699968
+		Total committed heap usage (bytes)=120044650496
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=4016408610
+	File Output Format Counters 
+		Bytes Written=2723
+18/12/04 20:33:25 INFO input.FileInputFormat: Total input paths to process : 5
+18/12/04 20:33:25 INFO mapreduce.JobSubmitter: number of splits:30
+18/12/04 20:33:25 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543952390930_0031
+18/12/04 20:33:25 INFO impl.YarnClientImpl: Submitted application application_1543952390930_0031
+18/12/04 20:33:25 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1543952390930_0031/
+18/12/04 20:33:25 INFO mapreduce.Job: Running job: job_1543952390930_0031
+18/12/04 20:33:33 INFO mapreduce.Job: Job job_1543952390930_0031 running in uber mode : false
+18/12/04 20:33:33 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/04 20:33:52 INFO mapreduce.Job:  map 1% reduce 0%
+18/12/04 20:33:59 INFO mapreduce.Job:  map 4% reduce 0%
+18/12/04 20:34:01 INFO mapreduce.Job:  map 5% reduce 0%
+18/12/04 20:34:02 INFO mapreduce.Job:  map 8% reduce 0%
+18/12/04 20:34:03 INFO mapreduce.Job:  map 9% reduce 0%
+18/12/04 20:34:04 INFO mapreduce.Job:  map 11% reduce 0%
+18/12/04 20:34:05 INFO mapreduce.Job:  map 17% reduce 0%
+18/12/04 20:34:07 INFO mapreduce.Job:  map 20% reduce 0%
+18/12/04 20:34:08 INFO mapreduce.Job:  map 25% reduce 0%
+18/12/04 20:34:09 INFO mapreduce.Job:  map 29% reduce 0%
+18/12/04 20:34:10 INFO mapreduce.Job:  map 35% reduce 0%
+18/12/04 20:34:11 INFO mapreduce.Job:  map 42% reduce 0%
+18/12/04 20:34:12 INFO mapreduce.Job:  map 44% reduce 0%
+18/12/04 20:34:13 INFO mapreduce.Job:  map 51% reduce 0%
+18/12/04 20:34:14 INFO mapreduce.Job:  map 65% reduce 0%
+18/12/04 20:34:15 INFO mapreduce.Job:  map 91% reduce 0%
+18/12/04 20:34:16 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/04 20:34:22 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/04 20:34:22 INFO mapreduce.Job: Job job_1543952390930_0031 completed successfully
+18/12/04 20:34:22 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=19498
+		FILE: Number of bytes written=4956431
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4016502517
+		HDFS: Number of bytes written=2723
+		HDFS: Number of read operations=278
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=30
+		Launched reduce tasks=1
+		Rack-local map tasks=30
+		Total time spent by all maps in occupied slots (ms)=5867730
+		Total time spent by all reduces in occupied slots (ms)=17640
+		Total time spent by all map tasks (ms)=1173546
+		Total time spent by all reduce tasks (ms)=3528
+		Total vcore-milliseconds taken by all map tasks=1173546
+		Total vcore-milliseconds taken by all reduce tasks=3528
+		Total megabyte-milliseconds taken by all map tasks=6008555520
+		Total megabyte-milliseconds taken by all reduce tasks=18063360
+	Map-Reduce Framework
+		Map input records=20000000
+		Map output records=150
+		Map output bytes=89460
+		Map output materialized bytes=75982
+		Input split bytes=3480
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5
+		Reduce shuffle bytes=75982
+		Reduce input records=150
+		Reduce output records=5
+		Spilled Records=300
+		Shuffled Maps =30
+		Failed Shuffles=0
+		Merged Map outputs=30
+		GC time elapsed (ms)=11225
+		CPU time spent (ms)=1095860
+		Physical memory (bytes) snapshot=67153190912
+		Virtual memory (bytes) snapshot=155405807616
+		Total committed heap usage (bytes)=120048320512
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=4016408610
+	File Output Format Counters 
+		Bytes Written=2723
+18/12/04 20:34:22 INFO input.FileInputFormat: Total input paths to process : 5
+18/12/04 20:34:22 INFO mapreduce.JobSubmitter: number of splits:30
+18/12/04 20:34:22 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543952390930_0032
+18/12/04 20:34:22 INFO impl.YarnClientImpl: Submitted application application_1543952390930_0032
+18/12/04 20:34:22 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1543952390930_0032/
+18/12/04 20:34:22 INFO mapreduce.Job: Running job: job_1543952390930_0032
+18/12/04 20:34:28 INFO mapreduce.Job: Job job_1543952390930_0032 running in uber mode : false
+18/12/04 20:34:28 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/04 20:34:49 INFO mapreduce.Job:  map 6% reduce 0%
+18/12/04 20:34:55 INFO mapreduce.Job:  map 11% reduce 0%
+18/12/04 20:34:56 INFO mapreduce.Job:  map 13% reduce 0%
+18/12/04 20:35:01 INFO mapreduce.Job:  map 24% reduce 0%
+18/12/04 20:35:02 INFO mapreduce.Job:  map 30% reduce 0%
+18/12/04 20:35:05 INFO mapreduce.Job:  map 32% reduce 0%
+18/12/04 20:35:06 INFO mapreduce.Job:  map 41% reduce 0%
+18/12/04 20:35:07 INFO mapreduce.Job:  map 63% reduce 0%
+18/12/04 20:35:08 INFO mapreduce.Job:  map 87% reduce 0%
+18/12/04 20:35:09 INFO mapreduce.Job:  map 98% reduce 0%
+18/12/04 20:35:10 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/04 20:35:15 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/04 20:35:15 INFO mapreduce.Job: Job job_1543952390930_0032 completed successfully
+18/12/04 20:35:15 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=19430
+		FILE: Number of bytes written=4956250
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4016502517
+		HDFS: Number of bytes written=2723
+		HDFS: Number of read operations=278
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=30
+		Launched reduce tasks=1
+		Rack-local map tasks=30
+		Total time spent by all maps in occupied slots (ms)=5597075
+		Total time spent by all reduces in occupied slots (ms)=17525
+		Total time spent by all map tasks (ms)=1119415
+		Total time spent by all reduce tasks (ms)=3505
+		Total vcore-milliseconds taken by all map tasks=1119415
+		Total vcore-milliseconds taken by all reduce tasks=3505
+		Total megabyte-milliseconds taken by all map tasks=5731404800
+		Total megabyte-milliseconds taken by all reduce tasks=17945600
+	Map-Reduce Framework
+		Map input records=20000000
+		Map output records=150
+		Map output bytes=89460
+		Map output materialized bytes=75869
+		Input split bytes=3480
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5
+		Reduce shuffle bytes=75869
+		Reduce input records=150
+		Reduce output records=5
+		Spilled Records=300
+		Shuffled Maps =30
+		Failed Shuffles=0
+		Merged Map outputs=30
+		GC time elapsed (ms)=12762
+		CPU time spent (ms)=1058930
+		Physical memory (bytes) snapshot=67111735296
+		Virtual memory (bytes) snapshot=155348860928
+		Total committed heap usage (bytes)=120053563392
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=4016408610
+	File Output Format Counters 
+		Bytes Written=2723
+18/12/04 20:35:15 INFO kmeans.KMeansDriver: Clustering data
+18/12/04 20:35:15 INFO kmeans.KMeansDriver: Running Clustering
+18/12/04 20:35:15 INFO kmeans.KMeansDriver: Input: /Kmeans/Input/samples Clusters In: /Kmeans/Output Out: /Kmeans/Output
+18/12/04 20:35:15 INFO input.FileInputFormat: Total input paths to process : 5
+18/12/04 20:35:15 INFO mapreduce.JobSubmitter: number of splits:30
+18/12/04 20:35:15 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543952390930_0033
+18/12/04 20:35:16 INFO impl.YarnClientImpl: Submitted application application_1543952390930_0033
+18/12/04 20:35:16 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1543952390930_0033/
+18/12/04 20:35:16 INFO mapreduce.Job: Running job: job_1543952390930_0033
+18/12/04 20:35:24 INFO mapreduce.Job: Job job_1543952390930_0033 running in uber mode : false
+18/12/04 20:35:24 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/04 20:35:44 INFO mapreduce.Job:  map 62% reduce 0%
+18/12/04 20:35:48 INFO mapreduce.Job:  map 65% reduce 0%
+18/12/04 20:35:49 INFO mapreduce.Job:  map 81% reduce 0%
+18/12/04 20:35:50 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/04 20:35:51 INFO mapreduce.Job: Job job_1543952390930_0033 completed successfully
+18/12/04 20:35:51 INFO mapreduce.Job: Counters: 30
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=4694870
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4016499600
+		HDFS: Number of bytes written=4776546522
+		HDFS: Number of read operations=390
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=60
+	Job Counters 
+		Launched map tasks=30
+		Rack-local map tasks=30
+		Total time spent by all maps in occupied slots (ms)=3455985
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=691197
+		Total vcore-milliseconds taken by all map tasks=691197
+		Total megabyte-milliseconds taken by all map tasks=3538928640
+	Map-Reduce Framework
+		Map input records=20000000
+		Map output records=20000000
+		Input split bytes=3480
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=8232
+		CPU time spent (ms)=625060
+		Physical memory (bytes) snapshot=34576805888
+		Virtual memory (bytes) snapshot=150279942144
+		Total committed heap usage (bytes)=116185366528
+	File Input Format Counters 
+		Bytes Read=4016408610
+	File Output Format Counters 
+		Bytes Written=4776546522
+18/12/04 20:35:51 INFO driver.MahoutDriver: Program took 291668 ms (Minutes: 4.861133333333333)
+
+real	4m57.301s
+user	0m15.617s
+sys	0m2.903s
