@@ -6,6 +6,14 @@
         "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar terasort /Terasort/Output"
     ], 
     "size": {
+        "bigdata": {
+		"num_rows": 6000000000
+        }, 
+
+        "gigantic": {
+		"num_rows": 3200000000
+        }, 
+
         "huge": {
 		"num_rows": 320000000
         }, 

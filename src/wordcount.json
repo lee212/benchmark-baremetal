@@ -6,16 +6,22 @@
         "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount /Wordcount/Input /Wordcount/Output"
     ], 
     "size": {
+        "bigdata": {
+		"option1": 1600000000000, 
+		"option2": 200000000000
+        }, 
+        "gigantic": {
+		"option1": 320000000000, 
+		"option2": 40000000000 
+        }, 
         "huge": {
 		"option1": 32000000000, 
 		"option2": 4000000000
         }, 
-
 	"large": {
 		"option1": 3200000000, 
 		"option2": 400000000
         }, 
-
         "small": {
 		"option1": 320000000, 
 		"option2": 40000000

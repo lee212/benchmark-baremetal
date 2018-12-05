@@ -6,6 +6,22 @@
 	"mahout kmeans --input /Kmeans/Input/samples --output /Kmeans/Output --clusters /Kmeans/Input/cluster --maxIter %(iteration)s --overwrite --clustering --convergenceDelta %(convergedist)s --distanceMeasure  org.apache.mahout.common.distance.EuclideanDistanceMeasure --method mapreduce"
     ], 
     "size": {
+        "bigdata": {
+		"numClusters": 5,
+		"numSamples": 1200000000, 
+		"samplesPerFile": 40000000,
+		"sampleDimension": 20,
+		"iteration": 10,
+		"convergedist": 0.5
+        }, 
+        "gigantic": {
+		"numClusters": 5,
+		"numSamples": 200000000, 
+		"samplesPerFile": 40000000,
+		"sampleDimension": 20,
+		"iteration": 5,
+		"convergedist": 0.5
+        }, 
         "huge": {
 		"numClusters": 5,
 		"numSamples": 100000000, 

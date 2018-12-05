@@ -6,6 +6,19 @@
 	"hadoop jar /var/lib/hadoop-hdfs/pegasus-2.0-SNAPSHOT.jar pegasus.PagerankNaive /Pagerank/Input/edges /Pagerank/Output %(pages)s %(mappers)s %(iterations)s nosym new"
     ], 
     "size": {
+        "bigdata": {
+		"mappers": 204, 
+		"reducers": 204,
+		"pages": 50000000,
+		"iterations": 1 
+        }, 
+        "gigantic": {
+		"mappers": 204, 
+		"reducers": 204,
+		"pages": 30000000,
+		"iterations": 1 
+        }, 
+
         "huge": {
 		"mappers": 204, 
 		"reducers": 204,
