@@ -1,0 +1,11 @@
+curIndex: 10, total: 11
+
+-----===[PEGASUS: A Peta-Scale Graph Mining System]===-----
+
+[PEGASUS] Computing PageRank. Max iteration = 1, threshold = 0.002, cur_iteration=1
+
+Creating initial pagerank vectors...........
+Iteration = 1, changed reducer = 8
+
+[PEGASUS] PageRank computed.
+[PEGASUS] The final PageRanks are in the HDFS pr_vector.
