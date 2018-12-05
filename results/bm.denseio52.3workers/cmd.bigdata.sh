@@ -1,0 +1,36 @@
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-cdh5.16.1-tests.jar TestDFSIO -write -nrFiles 512 -fileSize 400 -resFile logs/dfsio.512.400 -bufferSize 4096; } 2>> dfsio.gigantic.time.txt 1>> dfsio.gigantic.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-cdh5.16.1-tests.jar TestDFSIO -read -nrFiles 512 -fileSize 400 -resFile logs/dfsio.512.400 -bufferSize 4096; } 2>> dfsio.gigantic.time.txt 1>> dfsio.gigantic.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-cdh5.16.1-tests.jar TestDFSIO -write -nrFiles 2048 -fileSize 1000 -resFile logs/dfsio.2048.1000 -bufferSize 4096; } 2>> dfsio.bigdata.time.txt 1>> dfsio.bigdata.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-cdh5.16.1-tests.jar TestDFSIO -read -nrFiles 2048 -fileSize 1000 -resFile logs/dfsio.2048.1000 -bufferSize 4096; } 2>> dfsio.bigdata.time.txt 1>> dfsio.bigdata.out.txt
+{ time hadoop fs -rm -r -skipTrash /Kmeans/Input; } 2>> kmeans.gigantic.time.txt 1>> kmeans.gigantic.out.txt
+{ time hadoop jar /var/lib/hadoop-hdfs/autogen-7.1-SNAPSHOT-jar-with-dependencies.jar org.apache.mahout.clustering.kmeans.GenKMeansDataset -D hadoop.job.history.user.location=/Kmeans/Input/samples -sampleDir /Kmeans/Input/samples -clusterDir /Kmeans/Input/cluster -numClusters 5 -numSamples 200000000 -samplesPerFile 40000000 -sampleDimension 20; } 2>> kmeans.gigantic.time.txt 1>> kmeans.gigantic.out.txt
+{ time hadoop fs -rm -r -skipTrash /Kmeans/Output; } 2>> kmeans.gigantic.time.txt 1>> kmeans.gigantic.out.txt
+{ time mahout kmeans --input /Kmeans/Input/samples --output /Kmeans/Output --clusters /Kmeans/Input/cluster --maxIter 5 --overwrite --clustering --convergenceDelta 0.5 --distanceMeasure  org.apache.mahout.common.distance.EuclideanDistanceMeasure --method mapreduce; } 2>> kmeans.gigantic.time.txt 1>> kmeans.gigantic.out.txt
+{ time hadoop fs -rm -r -skipTrash /Kmeans/Input; } 2>> kmeans.bigdata.time.txt 1>> kmeans.bigdata.out.txt
+{ time hadoop jar /var/lib/hadoop-hdfs/autogen-7.1-SNAPSHOT-jar-with-dependencies.jar org.apache.mahout.clustering.kmeans.GenKMeansDataset -D hadoop.job.history.user.location=/Kmeans/Input/samples -sampleDir /Kmeans/Input/samples -clusterDir /Kmeans/Input/cluster -numClusters 5 -numSamples 1200000000 -samplesPerFile 40000000 -sampleDimension 20; } 2>> kmeans.bigdata.time.txt 1>> kmeans.bigdata.out.txt
+{ time hadoop fs -rm -r -skipTrash /Kmeans/Output; } 2>> kmeans.bigdata.time.txt 1>> kmeans.bigdata.out.txt
+{ time mahout kmeans --input /Kmeans/Input/samples --output /Kmeans/Output --clusters /Kmeans/Input/cluster --maxIter 10 --overwrite --clustering --convergenceDelta 0.5 --distanceMeasure  org.apache.mahout.common.distance.EuclideanDistanceMeasure --method mapreduce; } 2>> kmeans.bigdata.time.txt 1>> kmeans.bigdata.out.txt
+{ time hadoop fs -rm -r -skipTrash /Pagerank/Input; } 2>> pagerank.gigantic.time.txt 1>> pagerank.gigantic.out.txt
+{ time hadoop jar /var/lib/hadoop-hdfs/autogen-7.1-SNAPSHOT-jar-with-dependencies.jar HiBench.DataGen -t pagerank -b /Pagerank -n Input -m 204 -r 204 -p 30000000 -pbalance -pbalance -o text; } 2>> pagerank.gigantic.time.txt 1>> pagerank.gigantic.out.txt
+{ time hadoop fs -rm -r -skipTrash /Pagerank/Output; } 2>> pagerank.gigantic.time.txt 1>> pagerank.gigantic.out.txt
+{ time hadoop jar /var/lib/hadoop-hdfs/pegasus-2.0-SNAPSHOT.jar pegasus.PagerankNaive /Pagerank/Input/edges /Pagerank/Output 30000000 204 1 nosym new; } 2>> pagerank.gigantic.time.txt 1>> pagerank.gigantic.out.txt
+{ time hadoop fs -rm -r -skipTrash /Pagerank/Input; } 2>> pagerank.bigdata.time.txt 1>> pagerank.bigdata.out.txt
+{ time hadoop jar /var/lib/hadoop-hdfs/autogen-7.1-SNAPSHOT-jar-with-dependencies.jar HiBench.DataGen -t pagerank -b /Pagerank -n Input -m 204 -r 204 -p 50000000 -pbalance -pbalance -o text; } 2>> pagerank.bigdata.time.txt 1>> pagerank.bigdata.out.txt
+{ time hadoop fs -rm -r -skipTrash /Pagerank/Output; } 2>> pagerank.bigdata.time.txt 1>> pagerank.bigdata.out.txt
+{ time hadoop jar /var/lib/hadoop-hdfs/pegasus-2.0-SNAPSHOT.jar pegasus.PagerankNaive /Pagerank/Input/edges /Pagerank/Output 50000000 204 1 nosym new; } 2>> pagerank.bigdata.time.txt 1>> pagerank.bigdata.out.txt
+{ time /usr/bin/hadoop fs -rm -r -skipTrash /Terasort/Input; } 2>> terasort.gigantic.time.txt 1>> terasort.gigantic.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen 3200000000 /Terasort/Input; } 2>> terasort.gigantic.time.txt 1>> terasort.gigantic.out.txt
+{ time /usr/bin/hadoop fs -rm -r -skipTrash /Terasort/Output; } 2>> terasort.gigantic.time.txt 1>> terasort.gigantic.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar terasort /Terasort/Output; } 2>> terasort.gigantic.time.txt 1>> terasort.gigantic.out.txt
+{ time /usr/bin/hadoop fs -rm -r -skipTrash /Terasort/Input; } 2>> terasort.bigdata.time.txt 1>> terasort.bigdata.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen 6000000000 /Terasort/Input; } 2>> terasort.bigdata.time.txt 1>> terasort.bigdata.out.txt
+{ time /usr/bin/hadoop fs -rm -r -skipTrash /Terasort/Output; } 2>> terasort.bigdata.time.txt 1>> terasort.bigdata.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar terasort /Terasort/Output; } 2>> terasort.bigdata.time.txt 1>> terasort.bigdata.out.txt
+{ time /usr/bin/hadoop fs -rm -r -skipTrash /Wordcount/Input; } 2>> wordcount.gigantic.time.txt 1>> wordcount.gigantic.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar randomtextwriter -D mapreduce.randomtextwriter.totalbytes=320000000000 -D mapreduce.randomtextwriter.bytespermap=40000000000 /Wordcount/Input; } 2>> wordcount.gigantic.time.txt 1>> wordcount.gigantic.out.txt
+{ time /usr/bin/hadoop fs -rm -r -skipTrash /Wordcount/Output; } 2>> wordcount.gigantic.time.txt 1>> wordcount.gigantic.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount /Wordcount/Input /Wordcount/Output; } 2>> wordcount.gigantic.time.txt 1>> wordcount.gigantic.out.txt
+{ time /usr/bin/hadoop fs -rm -r -skipTrash /Wordcount/Input; } 2>> wordcount.bigdata.time.txt 1>> wordcount.bigdata.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar randomtextwriter -D mapreduce.randomtextwriter.totalbytes=1600000000000 -D mapreduce.randomtextwriter.bytespermap=200000000000 /Wordcount/Input; } 2>> wordcount.bigdata.time.txt 1>> wordcount.bigdata.out.txt
+{ time /usr/bin/hadoop fs -rm -r -skipTrash /Wordcount/Output; } 2>> wordcount.bigdata.time.txt 1>> wordcount.bigdata.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount /Wordcount/Input /Wordcount/Output; } 2>> wordcount.bigdata.time.txt 1>> wordcount.bigdata.out.txt
