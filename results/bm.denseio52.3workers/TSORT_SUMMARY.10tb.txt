@@ -1,0 +1,11 @@
+--- TERASORT SUMMARY  10TB ---
+- 100000000000 SORT SIZE
+- 612 Mappers
+- 3814 Mapmem
+- 612 Reducers
+- 3814 Reducemem
+- 3048 Java Map Xms/Xmx
+- 3048 Java Reduce Xms/Xmx
+-- TeraGen took 00:18:49
+-- TeraSort took 02:10:11
+-- TeraValidate took 00:12:51

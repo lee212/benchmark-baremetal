@@ -3,7 +3,7 @@
         "/usr/bin/hadoop fs -rm -r -skipTrash /Terasort/Input", 
         "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen %(num_rows)s /Terasort/Input",
         "/usr/bin/hadoop fs -rm -r -skipTrash /Terasort/Output", 
-        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar terasort /Terasort/Output"
+        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar terasort /Terasort/Input /Terasort/Output"
     ], 
     "size": {
         "bigdata": {
