@@ -1,0 +1,212 @@
+18/12/06 06:48:15 INFO fs.TestDFSIO: TestDFSIO.1.7
+18/12/06 06:48:15 INFO fs.TestDFSIO: nrFiles = 512
+18/12/06 06:48:15 INFO fs.TestDFSIO: nrBytes (MB) = 400.0
+18/12/06 06:48:15 INFO fs.TestDFSIO: bufferSize = 4096
+18/12/06 06:48:15 INFO fs.TestDFSIO: baseDir = /benchmarks/TestDFSIO
+18/12/06 06:48:16 INFO fs.TestDFSIO: creating control file: 419430400 bytes, 512 files
+18/12/06 06:48:30 INFO fs.TestDFSIO: created control files for: 512 files
+18/12/06 06:48:31 INFO mapred.FileInputFormat: Total input paths to process : 512
+18/12/06 06:48:31 INFO mapreduce.JobSubmitter: number of splits:512
+18/12/06 06:48:31 INFO Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+18/12/06 06:48:31 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1544078611321_0009
+18/12/06 06:48:31 INFO impl.YarnClientImpl: Submitted application application_1544078611321_0009
+18/12/06 06:48:31 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1544078611321_0009/
+18/12/06 06:48:31 INFO mapreduce.Job: Running job: job_1544078611321_0009
+18/12/06 06:48:39 INFO mapreduce.Job: Job job_1544078611321_0009 running in uber mode : false
+18/12/06 06:48:39 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/06 06:49:04 INFO mapreduce.Job:  map 1% reduce 0%
+18/12/06 06:49:05 INFO mapreduce.Job:  map 8% reduce 0%
+18/12/06 06:49:06 INFO mapreduce.Job:  map 27% reduce 0%
+18/12/06 06:49:07 INFO mapreduce.Job:  map 47% reduce 0%
+18/12/06 06:49:08 INFO mapreduce.Job:  map 56% reduce 0%
+18/12/06 06:49:09 INFO mapreduce.Job:  map 62% reduce 0%
+18/12/06 06:49:10 INFO mapreduce.Job:  map 66% reduce 0%
+18/12/06 06:49:11 INFO mapreduce.Job:  map 67% reduce 0%
+18/12/06 06:50:01 INFO mapreduce.Job:  map 69% reduce 0%
+18/12/06 06:50:10 INFO mapreduce.Job:  map 70% reduce 0%
+18/12/06 06:50:22 INFO mapreduce.Job:  map 71% reduce 0%
+18/12/06 06:50:25 INFO mapreduce.Job:  map 72% reduce 0%
+18/12/06 06:50:30 INFO mapreduce.Job:  map 73% reduce 0%
+18/12/06 06:50:34 INFO mapreduce.Job:  map 76% reduce 0%
+18/12/06 06:50:35 INFO mapreduce.Job:  map 77% reduce 0%
+18/12/06 06:50:36 INFO mapreduce.Job:  map 80% reduce 0%
+18/12/06 06:50:38 INFO mapreduce.Job:  map 82% reduce 0%
+18/12/06 06:50:39 INFO mapreduce.Job:  map 83% reduce 0%
+18/12/06 06:50:40 INFO mapreduce.Job:  map 86% reduce 0%
+18/12/06 06:50:41 INFO mapreduce.Job:  map 89% reduce 0%
+18/12/06 06:50:43 INFO mapreduce.Job:  map 90% reduce 0%
+18/12/06 06:50:46 INFO mapreduce.Job:  map 92% reduce 0%
+18/12/06 06:50:47 INFO mapreduce.Job:  map 94% reduce 0%
+18/12/06 06:50:49 INFO mapreduce.Job:  map 95% reduce 0%
+18/12/06 06:50:50 INFO mapreduce.Job:  map 98% reduce 0%
+18/12/06 06:50:52 INFO mapreduce.Job:  map 99% reduce 0%
+18/12/06 06:50:53 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/06 06:50:56 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/06 06:50:58 INFO mapreduce.Job: Job job_1544078611321_0009 completed successfully
+18/12/06 06:50:58 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=13919
+		FILE: Number of bytes written=80245467
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=121124
+		HDFS: Number of bytes written=214748364884
+		HDFS: Number of read operations=2051
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=514
+	Job Counters 
+		Launched map tasks=512
+		Launched reduce tasks=1
+		Data-local map tasks=512
+		Total time spent by all maps in occupied slots (ms)=176734635
+		Total time spent by all reduces in occupied slots (ms)=22413
+		Total time spent by all map tasks (ms)=58911545
+		Total time spent by all reduce tasks (ms)=7471
+		Total vcore-milliseconds taken by all map tasks=58911545
+		Total vcore-milliseconds taken by all reduce tasks=7471
+		Total megabyte-milliseconds taken by all map tasks=180976266240
+		Total megabyte-milliseconds taken by all reduce tasks=22950912
+	Map-Reduce Framework
+		Map input records=512
+		Map output records=2560
+		Map output bytes=38855
+		Map output materialized bytes=51354
+		Input split bytes=62866
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5
+		Reduce shuffle bytes=51354
+		Reduce input records=2560
+		Reduce output records=5
+		Spilled Records=5120
+		Shuffled Maps =512
+		Failed Shuffles=0
+		Merged Map outputs=512
+		GC time elapsed (ms)=159334
+		CPU time spent (ms)=9165200
+		Physical memory (bytes) snapshot=905283858432
+		Virtual memory (bytes) snapshot=1660149067776
+		Total committed heap usage (bytes)=1072611459072
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=58258
+	File Output Format Counters 
+		Bytes Written=84
+18/12/06 06:50:58 INFO fs.TestDFSIO: ----- TestDFSIO ----- : write
+18/12/06 06:50:58 INFO fs.TestDFSIO:            Date & time: Thu Dec 06 06:50:58 GMT 2018
+18/12/06 06:50:58 INFO fs.TestDFSIO:        Number of files: 512
+18/12/06 06:50:58 INFO fs.TestDFSIO: Total MBytes processed: 204800.0
+18/12/06 06:50:58 INFO fs.TestDFSIO:      Throughput mb/sec: 4.1195441837004525
+18/12/06 06:50:58 INFO fs.TestDFSIO: Average IO rate mb/sec: 4.220072269439697
+18/12/06 06:50:58 INFO fs.TestDFSIO:  IO rate std deviation: 0.7529401832086416
+18/12/06 06:50:58 INFO fs.TestDFSIO:     Test exec time sec: 148.32
+18/12/06 06:50:58 INFO fs.TestDFSIO: 
+
+real	2m44.781s
+user	0m9.433s
+sys	0m0.976s
+18/12/06 06:51:00 INFO fs.TestDFSIO: TestDFSIO.1.7
+18/12/06 06:51:00 INFO fs.TestDFSIO: nrFiles = 512
+18/12/06 06:51:00 INFO fs.TestDFSIO: nrBytes (MB) = 400.0
+18/12/06 06:51:00 INFO fs.TestDFSIO: bufferSize = 4096
+18/12/06 06:51:00 INFO fs.TestDFSIO: baseDir = /benchmarks/TestDFSIO
+18/12/06 06:51:01 INFO fs.TestDFSIO: creating control file: 419430400 bytes, 512 files
+18/12/06 06:51:36 INFO fs.TestDFSIO: created control files for: 512 files
+18/12/06 06:51:36 INFO mapred.FileInputFormat: Total input paths to process : 512
+18/12/06 06:51:37 INFO mapreduce.JobSubmitter: number of splits:512
+18/12/06 06:51:37 INFO Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+18/12/06 06:51:37 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1544078611321_0010
+18/12/06 06:51:37 INFO impl.YarnClientImpl: Submitted application application_1544078611321_0010
+18/12/06 06:51:37 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1544078611321_0010/
+18/12/06 06:51:37 INFO mapreduce.Job: Running job: job_1544078611321_0010
+18/12/06 06:51:45 INFO mapreduce.Job: Job job_1544078611321_0010 running in uber mode : false
+18/12/06 06:51:45 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/06 06:52:06 INFO mapreduce.Job:  map 2% reduce 0%
+18/12/06 06:52:07 INFO mapreduce.Job:  map 4% reduce 0%
+18/12/06 06:52:08 INFO mapreduce.Job:  map 7% reduce 0%
+18/12/06 06:52:09 INFO mapreduce.Job:  map 13% reduce 0%
+18/12/06 06:52:10 INFO mapreduce.Job:  map 20% reduce 0%
+18/12/06 06:52:11 INFO mapreduce.Job:  map 29% reduce 0%
+18/12/06 06:52:12 INFO mapreduce.Job:  map 44% reduce 0%
+18/12/06 06:52:13 INFO mapreduce.Job:  map 57% reduce 0%
+18/12/06 06:52:14 INFO mapreduce.Job:  map 82% reduce 0%
+18/12/06 06:52:15 INFO mapreduce.Job:  map 89% reduce 0%
+18/12/06 06:52:16 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/06 06:52:24 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/06 06:52:25 INFO mapreduce.Job: Job job_1544078611321_0010 completed successfully
+18/12/06 06:52:25 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=12852
+		FILE: Number of bytes written=80243081
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=214748485924
+		HDFS: Number of bytes written=86
+		HDFS: Number of read operations=2563
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=512
+		Launched reduce tasks=1
+		Data-local map tasks=512
+		Total time spent by all maps in occupied slots (ms)=36714891
+		Total time spent by all reduces in occupied slots (ms)=16074
+		Total time spent by all map tasks (ms)=12238297
+		Total time spent by all reduce tasks (ms)=5358
+		Total vcore-milliseconds taken by all map tasks=12238297
+		Total vcore-milliseconds taken by all reduce tasks=5358
+		Total megabyte-milliseconds taken by all map tasks=37596048384
+		Total megabyte-milliseconds taken by all reduce tasks=16459776
+	Map-Reduce Framework
+		Map input records=512
+		Map output records=2560
+		Map output bytes=38363
+		Map output materialized bytes=51061
+		Input split bytes=62866
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5
+		Reduce shuffle bytes=51061
+		Reduce input records=2560
+		Reduce output records=5
+		Spilled Records=5120
+		Shuffled Maps =512
+		Failed Shuffles=0
+		Merged Map outputs=512
+		GC time elapsed (ms)=145020
+		CPU time spent (ms)=3391480
+		Physical memory (bytes) snapshot=834659983360
+		Virtual memory (bytes) snapshot=1658624643072
+		Total committed heap usage (bytes)=1072611459072
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=58258
+	File Output Format Counters 
+		Bytes Written=86
+18/12/06 06:52:25 INFO fs.TestDFSIO: ----- TestDFSIO ----- : read
+18/12/06 06:52:25 INFO fs.TestDFSIO:            Date & time: Thu Dec 06 06:52:25 GMT 2018
+18/12/06 06:52:25 INFO fs.TestDFSIO:        Number of files: 512
+18/12/06 06:52:25 INFO fs.TestDFSIO: Total MBytes processed: 204800.0
+18/12/06 06:52:25 INFO fs.TestDFSIO:      Throughput mb/sec: 89.6213018631866
+18/12/06 06:52:25 INFO fs.TestDFSIO: Average IO rate mb/sec: 92.50640869140625
+18/12/06 06:52:25 INFO fs.TestDFSIO:  IO rate std deviation: 17.70576286180627
+18/12/06 06:52:25 INFO fs.TestDFSIO:     Test exec time sec: 49.399
+18/12/06 06:52:25 INFO fs.TestDFSIO: 
+
+real	1m26.933s
+user	0m8.739s
+sys	0m0.942s

@@ -1,0 +1,6 @@
+Deleted /Wordcount/Input
+Running 8 maps.
+Job started: Thu Dec 06 08:11:52 GMT 2018
+Job ended: Thu Dec 06 09:08:27 GMT 2018
+The job took 3394 seconds.
+Deleted /Wordcount/Output

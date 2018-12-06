@@ -1,0 +1,20 @@
+rm: `/Pagerank/Input': No such file or directory
+
+real	0m2.286s
+user	0m2.853s
+sys	0m0.250s
+Not a valid JAR: /var/lib/hadoop-hdfs/autogen-7.1-SNAPSHOT-jar-with-dependencies.jar
+
+real	0m0.192s
+user	0m0.209s
+sys	0m0.070s
+rm: `/Pagerank/Output': No such file or directory
+
+real	0m2.265s
+user	0m2.803s
+sys	0m0.266s
+Not a valid JAR: /var/lib/hadoop-hdfs/pegasus-2.0-SNAPSHOT.jar
+
+real	0m0.188s
+user	0m0.207s
+sys	0m0.061s

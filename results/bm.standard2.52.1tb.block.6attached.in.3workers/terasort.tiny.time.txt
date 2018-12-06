@@ -1,0 +1,21 @@
+rm: `/Terasort/Input': No such file or directory
+
+real	0m2.278s
+user	0m2.828s
+sys	0m0.266s
+teragen <num rows> <output dir>
+
+real	0m1.048s
+user	0m1.761s
+sys	0m0.192s
+rm: `/Terasort/Output': No such file or directory
+
+real	0m2.374s
+user	0m2.962s
+sys	0m0.280s
+18/12/06 07:27:33 INFO terasort.TeraSort: starting
+18/12/06 07:27:34 ERROR terasort.TeraSort: Input path does not exist: hdfs://nameservice1/user/hdfs/-Xmx3048m
+
+real	0m2.394s
+user	0m3.097s
+sys	0m0.280s

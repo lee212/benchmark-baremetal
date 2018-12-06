@@ -1,0 +1,57 @@
+rm: `/Kmeans/Input': No such file or directory
+
+real	0m2.313s
+user	0m2.892s
+sys	0m0.247s
+Not a valid JAR: /var/lib/hadoop-hdfs/autogen-7.1-SNAPSHOT-jar-with-dependencies.jar
+
+real	0m0.176s
+user	0m0.182s
+sys	0m0.066s
+rm: `/Kmeans/Output': No such file or directory
+
+real	0m2.307s
+user	0m2.901s
+sys	0m0.243s
+18/12/06 07:26:21 WARN driver.MahoutDriver: No kmeans.props found on classpath, will use command-line arguments only
+18/12/06 07:26:21 INFO common.AbstractJob: Command line arguments: {--clustering=null, --clusters=[/Kmeans/Input/cluster], --convergenceDelta=[0.5], --distanceMeasure=[org.apache.mahout.common.distance.EuclideanDistanceMeasure], --endPhase=[2147483647], --input=[/Kmeans/Input/samples], --maxIter=[5], --method=[mapreduce], --output=[/Kmeans/Output], --overwrite=null, --startPhase=[0], --tempDir=[temp]}
+18/12/06 07:26:23 INFO kmeans.KMeansDriver: Input: /Kmeans/Input/samples Clusters In: /Kmeans/Input/cluster Out: /Kmeans/Output
+18/12/06 07:26:23 INFO kmeans.KMeansDriver: convergence: 0.5 max Iterations: 5
+Exception in thread "main" java.lang.IllegalStateException: /Kmeans/Input/cluster
+	at org.apache.mahout.common.iterator.sequencefile.SequenceFileDirValueIterable.iterator(SequenceFileDirValueIterable.java:78)
+	at org.apache.mahout.clustering.kmeans.KMeansUtil.configureWithClusterInfo(KMeansUtil.java:51)
+	at org.apache.mahout.clustering.kmeans.KMeansDriver.buildClusters(KMeansDriver.java:203)
+	at org.apache.mahout.clustering.kmeans.KMeansDriver.run(KMeansDriver.java:140)
+	at org.apache.mahout.clustering.kmeans.KMeansDriver.run(KMeansDriver.java:103)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.mahout.clustering.kmeans.KMeansDriver.main(KMeansDriver.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.ProgramDriver$ProgramDescription.invoke(ProgramDriver.java:71)
+	at org.apache.hadoop.util.ProgramDriver.run(ProgramDriver.java:144)
+	at org.apache.hadoop.util.ProgramDriver.driver(ProgramDriver.java:152)
+	at org.apache.mahout.driver.MahoutDriver.main(MahoutDriver.java:195)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:226)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:141)
+Caused by: java.io.FileNotFoundException: File /Kmeans/Input/cluster does not exist.
+	at org.apache.hadoop.hdfs.DistributedFileSystem.listStatusInternal(DistributedFileSystem.java:748)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.access$600(DistributedFileSystem.java:114)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$16.doCall(DistributedFileSystem.java:809)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$16.doCall(DistributedFileSystem.java:805)
+	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.listStatus(DistributedFileSystem.java:805)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:1566)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:1609)
+	at org.apache.mahout.common.iterator.sequencefile.SequenceFileDirValueIterator.<init>(SequenceFileDirValueIterator.java:70)
+	at org.apache.mahout.common.iterator.sequencefile.SequenceFileDirValueIterable.iterator(SequenceFileDirValueIterable.java:76)
+	... 20 more
+
+real	0m5.993s
+user	0m6.115s
+sys	0m2.114s
