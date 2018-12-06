@@ -7,35 +7,35 @@
     ], 
     "size": {
         "bigdata": {
-		"mappers": 204, 
-		"reducers": 204,
+		"mappers": 612, 
+		"reducers": 612,
 		"pages": 50000000,
 		"iterations": 1 
         }, 
         "gigantic": {
-		"mappers": 204, 
-		"reducers": 204,
+		"mappers": 612, 
+		"reducers": 612,
 		"pages": 30000000,
 		"iterations": 1 
         }, 
 
         "huge": {
-		"mappers": 204, 
-		"reducers": 204,
+		"mappers": 612, 
+		"reducers": 612,
 		"pages": 5000000,
 		"iterations": 1 
         }, 
 
         "large": {
-		"mappers": 204, 
-		"reducers": 204,
+		"mappers": 612, 
+		"reducers": 612,
 		"pages": 500000,
 		"iterations": 1 
         }, 
 
         "small": {
-		"mappers": 204, 
-		"reducers": 204,
+		"mappers": 612, 
+		"reducers": 612,
 		"pages": 5000,
 		"iterations": 1 
         }, 

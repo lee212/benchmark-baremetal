@@ -1,34 +1,34 @@
 {
     "cmds": [
         "/usr/bin/hadoop fs -rm -r -skipTrash /Wordcount/Input", 
-        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar randomtextwriter -D mapreduce.randomtextwriter.totalbytes=%(option1)s -D mapreduce.randomtextwriter.bytespermap=%(option2)s /Wordcount/Input", 
+        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar randomtextwriter -D mapreduce.randomtextwriter.totalbytes=%(option1)s -D mapreduce.randomtextwriter.bytespermap=`expr %(option1)s / %(vcpus)s` -D mapreduce.job.maps=%(vcpus)s -Dmapreduce.job.reduces=%(vcpus)s /Wordcount/Input", 
 	"/usr/bin/hadoop fs -rm -r -skipTrash /Wordcount/Output", 
-        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount /Wordcount/Input /Wordcount/Output"
+        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount -D mapreduce.job.maps=%(vcpus)s -Dmapreduce.job.reduces=%(vcpus)s /Wordcount/Input /Wordcount/Output"
     ], 
     "size": {
         "bigdata": {
 		"option1": 1600000000000, 
-		"option2": 200000000000
+		"vcpus": 612
         }, 
         "gigantic": {
 		"option1": 320000000000, 
-		"option2": 40000000000 
+		"vcpus": 612
         }, 
         "huge": {
 		"option1": 32000000000, 
-		"option2": 4000000000
+		"vcpus": 612
         }, 
 	"large": {
 		"option1": 3200000000, 
-		"option2": 400000000
+		"vcpus": 612
         }, 
         "small": {
 		"option1": 320000000, 
-		"option2": 40000000
+		"vcpus": 612
         }, 
         "tiny": {
 		"option1": 32000, 
-		"option2": 4000
+		"vcpus": 612
         }
     }
 }
