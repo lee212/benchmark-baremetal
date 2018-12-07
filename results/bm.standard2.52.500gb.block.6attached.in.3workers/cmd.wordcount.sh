@@ -1,0 +1,4 @@
+{ time /usr/bin/hadoop fs -rm -r -skipTrash /Wordcount/Input; } 2>> wordcount.bigdata.time.txt 1>> wordcount.bigdata.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar randomtextwriter -D mapreduce.randomtextwriter.totalbytes=1600000000000 -D mapreduce.randomtextwriter.bytespermap=`expr 1600000000000 / 612` -D mapreduce.job.maps=612 -Dmapreduce.job.reduces=612 /Wordcount/Input; } 2>> wordcount.bigdata.time.txt 1>> wordcount.bigdata.out.txt
+{ time /usr/bin/hadoop fs -rm -r -skipTrash /Wordcount/Output; } 2>> wordcount.bigdata.time.txt 1>> wordcount.bigdata.out.txt
+{ time /usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount -D mapreduce.job.maps=612 -Dmapreduce.job.reduces=612 /Wordcount/Input /Wordcount/Output; } 2>> wordcount.bigdata.time.txt 1>> wordcount.bigdata.out.txt
