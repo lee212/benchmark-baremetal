@@ -1,0 +1,4 @@
+Running 432 maps.
+Job started: Sat Dec 08 05:35:03 GMT 2018
+Job ended: Sat Dec 08 05:41:08 GMT 2018
+The job took 365 seconds.
