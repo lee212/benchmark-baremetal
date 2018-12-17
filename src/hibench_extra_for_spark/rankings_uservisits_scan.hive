@@ -1,0 +1,17 @@
+USE DEFAULT;
+set hive.input.format=org.apache.hadoop.hive.ql.io.HiveInputFormat;
+set mapreduce.job.maps=612;
+set mapreduce.job.reduces=612;
+set hive.stats.autogather=false;
+
+
+DROP TABLE IF EXISTS uservisits;
+CREATE EXTERNAL TABLE uservisits (sourceIP STRING,destURL STRING,visitDate STRING,adRevenue DOUBLE,userAgent STRING,countryCode STRING,languageCode STRING,se
+archWord STRING,duration INT ) ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' STORED AS  SEQUENCEFILE LOCATION '/Scan/Input/uservisits';
+DROP TABLE IF EXISTS uservisits_copy;
+CREATE EXTERNAL TABLE uservisits_copy (sourceIP STRING,destURL STRING,visitDate STRING,adRevenue DOUBLE,userAgent STRING,countryCode STRING,languageCode STRI
+NG,searchWord STRING,duration INT ) ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' STORED AS  SEQUENCEFILE LOCATION '/Scan/Output/uservisits_c
+opy';
+INSERT OVERWRITE TABLE uservisits_copy SELECT * FROM uservisits;
+
+
