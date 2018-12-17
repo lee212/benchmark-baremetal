@@ -1,0 +1,10 @@
+{
+	"bm.denseio2.52.noblocks.3nodes.throughput": {
+		"TF_VAR": {
+			"WorkerInstanceShape" : "BM.DenseIO2.52",
+			"nodecount": 3
+			},
+		"_block": {
+		}
+	}
+}
