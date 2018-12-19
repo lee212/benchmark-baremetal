@@ -1,0 +1,17 @@
+----- TestDFSIO ----- : write
+           Date & time: Mon Dec 17 17:28:41 GMT 2018
+       Number of files: 64
+Total MBytes processed: 640
+     Throughput mb/sec: 38.302711113771025
+Average IO rate mb/sec: 39.685665130615234
+ IO rate std deviation: 5.670864212279079
+    Test exec time sec: 25.393
+
+-- Extended Metrics --   : write
+Result file name         : logs/throughput_write.csv
+Sampling overhead        : 1.0832486%
+Reference Start Time     : 1545067696122
+Aggregated throughput results are unavailable, because the concurrency of Mappers is too low and consequently the aggregated throughput measurement is not very meaningful
+Please adjust your test workload and try again.
+
+-- Result Analyse -- : 24s

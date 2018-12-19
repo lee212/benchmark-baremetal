@@ -1,0 +1,4 @@
+Model Path: /var/lib/hadoop-hdfs/nweight-user-features
+Output Path: /NWeight/Input
+Total Records: 4250000000
+Deleted /NWeight/Output

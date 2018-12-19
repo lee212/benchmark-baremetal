@@ -1,0 +1,4 @@
+Output Path: /Linear/Input
+Num of Examples: 1000000
+Num of Features: 100000
+Training Mean Squared Error = 2739.3229136281407

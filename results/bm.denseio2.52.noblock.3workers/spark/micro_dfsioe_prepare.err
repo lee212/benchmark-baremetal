@@ -1,0 +1,413 @@
+18/12/17 17:26:32 INFO dfsioe.TestDFSIOEnh: nrFiles = 64
+18/12/17 17:26:32 INFO dfsioe.TestDFSIOEnh: fileSize (MB) = 10
+18/12/17 17:26:32 INFO dfsioe.TestDFSIOEnh: bufferSize = 4096
+18/12/17 17:26:33 INFO Configuration.deprecation: mapred.tasktracker.reduce.tasks.maximum is deprecated. Instead, use mapreduce.tasktracker.reduce.tasks.maximum
+18/12/17 17:26:33 INFO Configuration.deprecation: mapred.tasktracker.map.tasks.maximum is deprecated. Instead, use mapreduce.tasktracker.map.tasks.maximum
+18/12/17 17:26:33 INFO dfsioe.TestDFSIOEnh: maximum concurrent maps = 6
+18/12/17 17:26:33 INFO dfsioe.TestDFSIOEnh: creating control file: 10 mega bytes, 64 files
+18/12/17 17:26:33 INFO dfsioe.DfsioeConfig: Found 'test.build.data' in Hadoop configuration, value is '/Dfsioe/Input'
+18/12/17 17:26:33 INFO dfsioe.DfsioeConfig: Setting testRootDir to '/Dfsioe/Input'
+18/12/17 17:26:35 INFO dfsioe.TestDFSIOEnh: created control files for: 64 files
+18/12/17 17:26:35 INFO mapred.FileInputFormat: Total input paths to process : 64
+18/12/17 17:26:35 INFO mapreduce.JobSubmitter: number of splits:64
+18/12/17 17:26:36 INFO Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+18/12/17 17:26:36 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1545055483525_0033
+18/12/17 17:26:36 INFO impl.YarnClientImpl: Submitted application application_1545055483525_0033
+18/12/17 17:26:36 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1545055483525_0033/
+18/12/17 17:26:36 INFO mapreduce.Job: Running job: job_1545055483525_0033
+18/12/17 17:26:43 INFO mapreduce.Job: Job job_1545055483525_0033 running in uber mode : false
+18/12/17 17:26:43 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/17 17:26:50 INFO mapreduce.Job:  map 13% reduce 0%
+18/12/17 17:26:51 INFO mapreduce.Job:  map 19% reduce 0%
+18/12/17 17:26:52 INFO mapreduce.Job:  map 34% reduce 0%
+18/12/17 17:26:53 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/17 17:27:00 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/17 17:27:00 INFO mapreduce.Job: Job job_1545055483525_0033 completed successfully
+18/12/17 17:27:00 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1171466
+		FILE: Number of bytes written=12521522
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=14508
+		HDFS: Number of bytes written=674803273
+		HDFS: Number of read operations=259
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=66
+	Job Counters 
+		Launched map tasks=64
+		Launched reduce tasks=1
+		Data-local map tasks=64
+		Total time spent by all maps in occupied slots (ms)=3608720
+		Total time spent by all reduces in occupied slots (ms)=42040
+		Total time spent by all map tasks (ms)=451090
+		Total time spent by all reduce tasks (ms)=5255
+		Total vcore-milliseconds taken by all map tasks=451090
+		Total vcore-milliseconds taken by all reduce tasks=5255
+		Total megabyte-milliseconds taken by all map tasks=3464371200
+		Total megabyte-milliseconds taken by all reduce tasks=40358400
+	Map-Reduce Framework
+		Map input records=64
+		Map output records=3840
+		Map output bytes=3723456
+		Map output materialized bytes=1180742
+		Input split bytes=7286
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=3462
+		Reduce shuffle bytes=1180742
+		Reduce input records=3840
+		Reduce output records=3462
+		Spilled Records=7680
+		Shuffled Maps =64
+		Failed Shuffles=0
+		Merged Map outputs=64
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=161160
+		Physical memory (bytes) snapshot=99881316352
+		Virtual memory (bytes) snapshot=486349205504
+		Total committed heap usage (bytes)=390916997120
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7222
+	File Output Format Counters 
+		Bytes Written=3714633
+rm: `/Dfsioe/Input/io_read': No such file or directory
+rm: `/Dfsioe/Input/_*': No such file or directory
+18/12/17 17:27:11 INFO dfsioe.TestDFSIOEnh: nrFiles = 64
+18/12/17 17:27:11 INFO dfsioe.TestDFSIOEnh: fileSize (MB) = 10
+18/12/17 17:27:11 INFO dfsioe.TestDFSIOEnh: bufferSize = 131072
+18/12/17 17:27:13 INFO Configuration.deprecation: mapred.tasktracker.reduce.tasks.maximum is deprecated. Instead, use mapreduce.tasktracker.reduce.tasks.maximum
+18/12/17 17:27:13 INFO Configuration.deprecation: mapred.tasktracker.map.tasks.maximum is deprecated. Instead, use mapreduce.tasktracker.map.tasks.maximum
+18/12/17 17:27:13 INFO dfsioe.TestDFSIOEnh: maximum concurrent maps = 6
+18/12/17 17:27:13 INFO dfsioe.TestDFSIOEnh: creating control file: 10 mega bytes, 64 files
+18/12/17 17:27:13 INFO dfsioe.DfsioeConfig: Found 'test.build.data' in Hadoop configuration, value is '/Dfsioe/Input'
+18/12/17 17:27:13 INFO dfsioe.DfsioeConfig: Setting testRootDir to '/Dfsioe/Input'
+18/12/17 17:27:14 INFO dfsioe.TestDFSIOEnh: created control files for: 64 files
+18/12/17 17:27:15 INFO mapred.FileInputFormat: Total input paths to process : 64
+18/12/17 17:27:15 INFO mapreduce.JobSubmitter: number of splits:64
+18/12/17 17:27:15 INFO Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+18/12/17 17:27:15 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1545055483525_0034
+18/12/17 17:27:15 INFO impl.YarnClientImpl: Submitted application application_1545055483525_0034
+18/12/17 17:27:15 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1545055483525_0034/
+18/12/17 17:27:15 INFO mapreduce.Job: Running job: job_1545055483525_0034
+18/12/17 17:27:23 INFO mapreduce.Job: Job job_1545055483525_0034 running in uber mode : false
+18/12/17 17:27:23 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/17 17:27:31 INFO mapreduce.Job:  map 19% reduce 0%
+18/12/17 17:27:32 INFO mapreduce.Job:  map 42% reduce 0%
+18/12/17 17:27:33 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/17 17:27:40 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/17 17:27:41 INFO mapreduce.Job: Job job_1545055483525_0034 completed successfully
+18/12/17 17:27:41 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1162020
+		FILE: Number of bytes written=12501891
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=671103148
+		HDFS: Number of bytes written=3715079
+		HDFS: Number of read operations=323
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=64
+		Launched reduce tasks=1
+		Data-local map tasks=64
+		Total time spent by all maps in occupied slots (ms)=3374800
+		Total time spent by all reduces in occupied slots (ms)=40120
+		Total time spent by all map tasks (ms)=421850
+		Total time spent by all reduce tasks (ms)=5015
+		Total vcore-milliseconds taken by all map tasks=421850
+		Total vcore-milliseconds taken by all reduce tasks=5015
+		Total megabyte-milliseconds taken by all map tasks=3239808000
+		Total megabyte-milliseconds taken by all reduce tasks=38515200
+	Map-Reduce Framework
+		Map input records=64
+		Map output records=3840
+		Map output bytes=3723928
+		Map output materialized bytes=1170492
+		Input split bytes=7286
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=3462
+		Reduce shuffle bytes=1170492
+		Reduce input records=3840
+		Reduce output records=3462
+		Spilled Records=7680
+		Shuffled Maps =64
+		Failed Shuffles=0
+		Merged Map outputs=64
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=138640
+		Physical memory (bytes) snapshot=98020556800
+		Virtual memory (bytes) snapshot=486301155328
+		Total committed heap usage (bytes)=390916997120
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7222
+	File Output Format Counters 
+		Bytes Written=3715079
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh: ----- TestDFSIO ----- : read
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh:            Date & time: Mon Dec 17 17:27:41 GMT 2018
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh:        Number of files: 64
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh: Total MBytes processed: 640
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh:      Throughput mb/sec: 98.1143645561858
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh: Average IO rate mb/sec: 102.29767608642578
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh:  IO rate std deviation: 21.128811567483176
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh:     Test exec time sec: 26.492
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh: 
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh: -- Extended Metrics --   : read
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh: Result file name         : logs/throughput_read.csv
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh: Sampling overhead        : 2.4221985%
+18/12/17 17:27:41 INFO dfsioe.TestDFSIOEnh: Reference Start Time     : 1545067634815
+18/12/17 17:27:41 INFO input.FileInputFormat: Total input paths to process : 1
+18/12/17 17:27:41 INFO mapreduce.JobSubmitter: number of splits:1
+18/12/17 17:27:41 INFO Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+18/12/17 17:27:41 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1545055483525_0035
+18/12/17 17:27:41 INFO impl.YarnClientImpl: Submitted application application_1545055483525_0035
+18/12/17 17:27:41 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1545055483525_0035/
+18/12/17 17:27:41 INFO mapreduce.Job: Running job: job_1545055483525_0035
+18/12/17 17:27:49 INFO mapreduce.Job: Job job_1545055483525_0035 running in uber mode : false
+18/12/17 17:27:49 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/17 17:27:56 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/17 17:28:03 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/17 17:28:04 INFO mapreduce.Job: Job job_1545055483525_0035 completed successfully
+18/12/17 17:28:04 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1201407
+		FILE: Number of bytes written=2716673
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3715195
+		HDFS: Number of bytes written=45604
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=43384
+		Total time spent by all reduces in occupied slots (ms)=38216
+		Total time spent by all map tasks (ms)=5423
+		Total time spent by all reduce tasks (ms)=4777
+		Total vcore-milliseconds taken by all map tasks=5423
+		Total vcore-milliseconds taken by all reduce tasks=4777
+		Total megabyte-milliseconds taken by all map tasks=41648640
+		Total megabyte-milliseconds taken by all reduce tasks=36687360
+	Map-Reduce Framework
+		Map input records=3462
+		Map output records=163968
+		Map output bytes=5375340
+		Map output materialized bytes=1201403
+		Input split bytes=116
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=64
+		Reduce shuffle bytes=1201403
+		Reduce input records=163968
+		Reduce output records=1792
+		Spilled Records=327936
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=5700
+		Physical memory (bytes) snapshot=2186780672
+		Virtual memory (bytes) snapshot=14993379328
+		Total committed heap usage (bytes)=12028215296
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=3715079
+	File Output Format Counters 
+		Bytes Written=45604
+18/12/17 17:28:04 INFO dfsioe.TestDFSIOEnh: remote report file /Dfsioe/Input/_merged_reports.txt merged.
+18/12/17 17:28:04 INFO dfsioe.TestDFSIOEnh: Aggregated throughput results are unavailable, because the concurrency of Mappers is too low and consequently the aggregated throughput measurement is not very meaningful
+18/12/17 17:28:04 INFO dfsioe.TestDFSIOEnh: Please adjust your test workload and try again.
+rm: `/Dfsioe/Output': No such file or directory
+18/12/17 17:28:13 INFO dfsioe.TestDFSIOEnh: nrFiles = 64
+18/12/17 17:28:13 INFO dfsioe.TestDFSIOEnh: fileSize (MB) = 10
+18/12/17 17:28:13 INFO dfsioe.TestDFSIOEnh: bufferSize = 4096
+18/12/17 17:28:14 INFO Configuration.deprecation: mapred.tasktracker.reduce.tasks.maximum is deprecated. Instead, use mapreduce.tasktracker.reduce.tasks.maximum
+18/12/17 17:28:14 INFO Configuration.deprecation: mapred.tasktracker.map.tasks.maximum is deprecated. Instead, use mapreduce.tasktracker.map.tasks.maximum
+18/12/17 17:28:14 INFO dfsioe.TestDFSIOEnh: maximum concurrent maps = 6
+18/12/17 17:28:14 INFO dfsioe.TestDFSIOEnh: creating control file: 10 mega bytes, 64 files
+18/12/17 17:28:14 INFO dfsioe.DfsioeConfig: Found 'test.build.data' in Hadoop configuration, value is '/Dfsioe/Input'
+18/12/17 17:28:14 INFO dfsioe.DfsioeConfig: Setting testRootDir to '/Dfsioe/Input'
+18/12/17 17:28:16 INFO dfsioe.TestDFSIOEnh: created control files for: 64 files
+18/12/17 17:28:16 INFO mapred.FileInputFormat: Total input paths to process : 64
+18/12/17 17:28:16 INFO mapreduce.JobSubmitter: number of splits:64
+18/12/17 17:28:16 INFO Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+18/12/17 17:28:16 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1545055483525_0036
+18/12/17 17:28:16 INFO impl.YarnClientImpl: Submitted application application_1545055483525_0036
+18/12/17 17:28:17 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1545055483525_0036/
+18/12/17 17:28:17 INFO mapreduce.Job: Running job: job_1545055483525_0036
+18/12/17 17:28:24 INFO mapreduce.Job: Job job_1545055483525_0036 running in uber mode : false
+18/12/17 17:28:24 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/17 17:28:31 INFO mapreduce.Job:  map 14% reduce 0%
+18/12/17 17:28:32 INFO mapreduce.Job:  map 20% reduce 0%
+18/12/17 17:28:33 INFO mapreduce.Job:  map 75% reduce 0%
+18/12/17 17:28:34 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/17 17:28:41 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/17 17:28:41 INFO mapreduce.Job: Job job_1545055483525_0036 completed successfully
+18/12/17 17:28:41 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1170934
+		FILE: Number of bytes written=12520301
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=14508
+		HDFS: Number of bytes written=674803273
+		HDFS: Number of read operations=259
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=66
+	Job Counters 
+		Launched map tasks=64
+		Launched reduce tasks=1
+		Data-local map tasks=64
+		Total time spent by all maps in occupied slots (ms)=3402256
+		Total time spent by all reduces in occupied slots (ms)=37360
+		Total time spent by all map tasks (ms)=425282
+		Total time spent by all reduce tasks (ms)=4670
+		Total vcore-milliseconds taken by all map tasks=425282
+		Total vcore-milliseconds taken by all reduce tasks=4670
+		Total megabyte-milliseconds taken by all map tasks=3266165760
+		Total megabyte-milliseconds taken by all reduce tasks=35865600
+	Map-Reduce Framework
+		Map input records=64
+		Map output records=3840
+		Map output bytes=3723460
+		Map output materialized bytes=1179988
+		Input split bytes=7286
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=3462
+		Reduce shuffle bytes=1179988
+		Reduce input records=3840
+		Reduce output records=3462
+		Spilled Records=7680
+		Shuffled Maps =64
+		Failed Shuffles=0
+		Merged Map outputs=64
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=156990
+		Physical memory (bytes) snapshot=99853172736
+		Virtual memory (bytes) snapshot=486620577792
+		Total committed heap usage (bytes)=390916997120
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7222
+	File Output Format Counters 
+		Bytes Written=3714633
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh: ----- TestDFSIO ----- : write
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh:            Date & time: Mon Dec 17 17:28:41 GMT 2018
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh:        Number of files: 64
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh: Total MBytes processed: 640
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh:      Throughput mb/sec: 38.302711113771025
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh: Average IO rate mb/sec: 39.685665130615234
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh:  IO rate std deviation: 5.670864212279079
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh:     Test exec time sec: 25.393
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh: 
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh: -- Extended Metrics --   : write
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh: Result file name         : logs/throughput_write.csv
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh: Sampling overhead        : 1.0832486%
+18/12/17 17:28:41 INFO dfsioe.TestDFSIOEnh: Reference Start Time     : 1545067696122
+18/12/17 17:28:41 INFO input.FileInputFormat: Total input paths to process : 1
+18/12/17 17:28:41 INFO mapreduce.JobSubmitter: number of splits:1
+18/12/17 17:28:41 INFO Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+18/12/17 17:28:41 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1545055483525_0037
+18/12/17 17:28:42 INFO impl.YarnClientImpl: Submitted application application_1545055483525_0037
+18/12/17 17:28:42 INFO mapreduce.Job: The url to track the job: http://cdh-master-1.private1.cdhvcn.oraclevcn.com:8088/proxy/application_1545055483525_0037/
+18/12/17 17:28:42 INFO mapreduce.Job: Running job: job_1545055483525_0037
+18/12/17 17:28:49 INFO mapreduce.Job: Job job_1545055483525_0037 running in uber mode : false
+18/12/17 17:28:49 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/17 17:28:57 INFO mapreduce.Job:  map 100% reduce 0%
+18/12/17 17:29:04 INFO mapreduce.Job:  map 100% reduce 100%
+18/12/17 17:29:05 INFO mapreduce.Job: Job job_1545055483525_0037 completed successfully
+18/12/17 17:29:05 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1203331
+		FILE: Number of bytes written=2720519
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3714750
+		HDFS: Number of bytes written=38211
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=45200
+		Total time spent by all reduces in occupied slots (ms)=41784
+		Total time spent by all map tasks (ms)=5650
+		Total time spent by all reduce tasks (ms)=5223
+		Total vcore-milliseconds taken by all map tasks=5650
+		Total vcore-milliseconds taken by all reduce tasks=5223
+		Total megabyte-milliseconds taken by all map tasks=43392000
+		Total megabyte-milliseconds taken by all reduce tasks=40112640
+	Map-Reduce Framework
+		Map input records=3462
+		Map output records=163968
+		Map output bytes=5374892
+		Map output materialized bytes=1203327
+		Input split bytes=117
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=64
+		Reduce shuffle bytes=1203327
+		Reduce input records=163968
+		Reduce output records=1728
+		Spilled Records=327936
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=5660
+		Physical memory (bytes) snapshot=2176798720
+		Virtual memory (bytes) snapshot=14955024384
+		Total committed heap usage (bytes)=12028215296
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=3714633
+	File Output Format Counters 
+		Bytes Written=38211
+18/12/17 17:29:05 INFO dfsioe.TestDFSIOEnh: remote report file /Dfsioe/Input/_merged_reports.txt merged.
+18/12/17 17:29:05 INFO dfsioe.TestDFSIOEnh: Aggregated throughput results are unavailable, because the concurrency of Mappers is too low and consequently the aggregated throughput measurement is not very meaningful
+18/12/17 17:29:05 INFO dfsioe.TestDFSIOEnh: Please adjust your test workload and try again.

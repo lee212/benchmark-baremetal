@@ -1,0 +1,15 @@
+Output Path: /ALS/Input
+Num of Users: 50000
+Num of Products: 60000
+Sparsity: 0.05
+Implicit Prefs: true
+Num of Training: 104972958, Num of Test: 44984322.
+Test RMSE = 1.000042648463325.
+Deleted /ALS/Input
+Output Path: /ALS/Input
+Num of Users: 50000
+Num of Products: 60000
+Sparsity: 0.05
+Implicit Prefs: true
+Num of Training: 104873900, Num of Test: 44946548.
+Test RMSE = 1.0000594533837388.
