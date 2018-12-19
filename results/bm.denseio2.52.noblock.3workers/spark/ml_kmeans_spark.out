@@ -1,3 +1,5 @@
+Deleted /Kmeans/Input
 Generating Mahout KMeans Input Dataset
+Deleted /Kmeans/Output
 numExamples = 1200000000.
-Total cost = 6.8010785414442195E13.
+Total cost = 7.973508420208162E13.

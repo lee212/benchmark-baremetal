@@ -1,8 +1,4 @@
-Deleted /GBT/Input
 Output Path: /GBT/Input
 Num of Examples: 1000
 Num of Features: 12000
-Deleted /GBT/Input
-Output Path: /GBT/Input
-Num of Examples: 1000
-Num of Features: 12000
+Test Error = 0.36879432624113473
