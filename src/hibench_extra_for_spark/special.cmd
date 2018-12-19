@@ -3,14 +3,6 @@ hadoop fs -rm -r -skipTrash /NWeight/Input
 spark-submit  --class com.intel.hibench.sparkbench.graph.nweight.NWeightDataGenerator --master yarn-client --num-executors 300 --executor-cores 1 --executor-memory 7G /var/lib/hadoop-hdfs/sparkbench-assembly-7.1-SNAPSHOT-dist.jar ~/nweight-user-features /NWeight/Input 4250000000
 hadoop fs -rm -r -skipTrash /NWeight/Output
 spark-submit  --class com.intel.hibench.sparkbench.graph.nweight.NWeight --master yarn-client --num-executors 300 --executor-cores 1 --executor-memory 7G /var/lib/hadoop-hdfs/sparkbench-assembly-7.1-SNAPSHOT-dist.jar /NWeight/Input /NWeight/Output 3 30 156 7 false graphx
-# micro/, dfsioe/, prepare/
-hadoop fs -rm -r -skipTrash /Dfsioe/Input
-hadoop jar /var/lib/hadoop-hdfs/autogen-7.1-SNAPSHOT-jar-with-dependencies.jar org.apache.hadoop.fs.dfsioe.TestDFSIOEnh -Dmapreduce.map.java.opts="-Dtest.build.data=/Dfsioe/Input -Xms5984m -Xmx5984m" -Dmapreduce.reduce.java.opts="-Dtest.build.data=/Dfsioe/Input -Xms5984m -Xmx5984m" -Dtest.build.data=/Dfsioe/Input -write -skipAnalyze -nrFiles 64 -fileSize 10 -bufferSize 4096
-hadoop fs -rm -r -skipTrash /Dfsioe/Input/io_read
-hadoop fs -rm -r -skipTrash /Dfsioe/Input/_*
-hadoop jar /var/lib/hadoop-hdfs/autogen-7.1-SNAPSHOT-jar-with-dependencies.jar org.apache.hadoop.fs.dfsioe.TestDFSIOEnh -Dmapreduce.map.java.opts="-Dtest.build.data=/Dfsioe/Input -Xms5984m -Xmx5984m" -Dmapreduce.reduce.java.opts="-Dtest.build.data=/Dfsioe/Input -Xms5984m -Xmx5984m" -Dtest.build.data=/Dfsioe/Input -read -nrFiles 64 -fileSize 10 -bufferSize 131072 -plotInteval 1000 -sampleUnit m -sampleInteval 200 -sumThreshold 0.5 -tputReportTotal -resFile logs/result_read.txt -tputFile logs/throughput_read.csv
-hadoop fs -rm -r -skipTrash /Dfsioe/Output
-hadoop jar /var/lib/hadoop-hdfs/autogen-7.1-SNAPSHOT-jar-with-dependencies.jar org.apache.hadoop.fs.dfsioe.TestDFSIOEnh -Dmapreduce.map.java.opts="-Dtest.build.data=/Dfsioe/Input -Xms5984m -Xmx5984m" -Dmapreduce.reduce.java.opts="-Dtest.build.data=/Dfsioe/Input -Xms5984m -Xmx5984m" -Dtest.build.data=/Dfsioe/Input -write -nrFiles 64 -fileSize 10 -bufferSize 4096 -plotInteval 1000 -sampleUnit m -sampleInteval 200 -sumThreshold 0.5 -tputReportTotal -resFile logs/result_write.txt -tputFile logs/throughput_write.csv
 # micro/, terasort/, spark/
 hadoop fs -rm -r -skipTrash /Terasort/Input
 hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen -D mapreduce.job.maps=156 -D mapreduce.job.reduces=156 6000000000 /Terasort/Input
