@@ -1,0 +1,18 @@
+----- TestDFSIO ----- : write
+           Date & time: Thu Dec 13 19:06:51 GMT 2018
+       Number of files: 120
+Total MBytes processed: 120000.0
+     Throughput mb/sec: 21.891358659811022
+Average IO rate mb/sec: 22.489465713500977
+ IO rate std deviation: 4.340368657767046
+    Test exec time sec: 86.955
+
+----- TestDFSIO ----- : read
+           Date & time: Thu Dec 13 19:07:46 GMT 2018
+       Number of files: 120
+Total MBytes processed: 120000.0
+     Throughput mb/sec: 77.17210537079268
+Average IO rate mb/sec: 123.5817642211914
+ IO rate std deviation: 138.01841438093635
+    Test exec time sec: 47.343
+
