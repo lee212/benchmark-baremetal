@@ -1,1 +1,7 @@
-Deleted /Terasort/Input
+Spent 372ms computing base-splits.
+Spent 7ms computing TeraScheduler splits.
+Computing input splits took 380ms
+Sampling 10 splits of 1224
+Making 612 from 100000 sampled records
+Computing parititions took 476ms
+Spent 859ms computing partitions.

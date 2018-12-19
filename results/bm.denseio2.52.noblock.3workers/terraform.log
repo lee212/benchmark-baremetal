@@ -1,0 +1,143 @@
+[0m[1mdata.oci_identity_availability_domains.ADs: Refreshing state...[0m
+[0m[1moci_core_virtual_network.cloudera_vcn: Refreshing state... (ID: ocid1.vcn.oc1.phx.aaaaaaaakbncx47vpppsanhdge53o773um3tn5nxkazchqcn4oaro6g5cpfa)[0m
+[0m[1moci_core_security_list.PublicSubnet: Refreshing state... (ID: ocid1.securitylist.oc1.phx.aaaaaaaag4nv...drfaq5hq7k6xjwjmnyqi5degz5uxyf3xvrsktq)[0m
+[0m[1moci_core_security_list.PrivateSubnet: Refreshing state... (ID: ocid1.securitylist.oc1.phx.aaaaaaaa7bhn...my7hnlhmewgu45wai3rme4vtrhgp2fpfnl6n2a)[0m
+[0m[1moci_core_security_list.BastionSubnet: Refreshing state... (ID: ocid1.securitylist.oc1.phx.aaaaaaaamppt...oheagk5iqphe5uyt5stl22up7appx6n3ewlnva)[0m
+[0m[1moci_core_internet_gateway.cloudera_internet_gateway: Refreshing state... (ID: ocid1.internetgateway.oc1.phx.aaaaaaaa6...uwvkiyqiyawrhfywm2pd5uox6ofpbk6qid2pkq)[0m
+[0m[1moci_core_route_table.RouteForComplete: Refreshing state... (ID: ocid1.routetable.oc1.phx.aaaaaaaabzvwce...4x7cnubkvsz5oqksys2thy43ow7zz6itlp3tta)[0m
+[0m[1moci_core_subnet.bastion[0]: Refreshing state... (ID: ocid1.subnet.oc1.phx.aaaaaaaasvqt6fmpei...uwauxeo6bmdxexuzomhxftlcxeazwfu4muvtca)[0m
+[0m[1moci_core_subnet.bastion[1]: Refreshing state... (ID: ocid1.subnet.oc1.phx.aaaaaaaamhbvhoxahl...w5uez5nvai2cvybuvoqwfq5efl2epxyqdf23dq)[0m
+[0m[1moci_core_subnet.bastion[2]: Refreshing state... (ID: ocid1.subnet.oc1.phx.aaaaaaaavqnvimhdg4...dl4db2nqtmfyxihbsqn6fdcsltf3i6ace46vyq)[0m
+[0m[1moci_core_subnet.public[1]: Refreshing state... (ID: ocid1.subnet.oc1.phx.aaaaaaaasdwbwf6czh...rvsmbvz4l5e7qjrizcjcf25klmfvqgwaesm5rq)[0m
+[0m[1moci_core_subnet.public[2]: Refreshing state... (ID: ocid1.subnet.oc1.phx.aaaaaaaahvwp3uatm6...l3ijjf4kfh4ixc3qycpz564qm6fqdtrhsl773q)[0m
+[0m[1moci_core_subnet.public[0]: Refreshing state... (ID: ocid1.subnet.oc1.phx.aaaaaaaa6dp45ufgpw...a7oliyh4refmq53c5p7svwwkpdajxbgxkcxiia)[0m
+[0m[1moci_core_instance.UtilityNode: Refreshing state... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q)[0m
+[0m[1moci_core_instance.Bastion: Refreshing state... (ID: ocid1.instance.oc1.phx.abyhqljtl5v2i245...ypw5uffh5yhbs4fpphhb7q33x5l3vatt3pqpgq)[0m
+[0m[1mdata.oci_core_vnic_attachments.utility_node_vnics: Refreshing state...[0m
+[0m[1mdata.oci_core_vnic.utility_node_vnic: Refreshing state...[0m
+[0m[1mdata.oci_core_vnic_attachments.bastion_vnics: Refreshing state...[0m
+[0m[1moci_core_private_ip.bastion_private_ip: Refreshing state... (ID: ocid1.privateip.oc1.phx.abyhqljt55btfm2...oyterpmuej4seuwm3edlitndjsnumsprnnz6ga)[0m
+[0m[1mdata.oci_core_vnic.bastion_vnic: Refreshing state...[0m
+[0m[1moci_core_route_table.PrivateRouteTable: Refreshing state... (ID: ocid1.routetable.oc1.phx.aaaaaaaafcfsje...6spum54l2vv5bb44y4efqwiezhsmt6cmvj5iha)[0m
+[0m[1moci_core_subnet.private[1]: Refreshing state... (ID: ocid1.subnet.oc1.phx.aaaaaaaahqrg7ek4lm...liyzowq6lpuqotl2qtmc4dgbbckafcy6kpu5mq)[0m
+[0m[1moci_core_subnet.private[0]: Refreshing state... (ID: ocid1.subnet.oc1.phx.aaaaaaaavnwa7iaaor...kesnenxpjminla6ij6zhialj77qi33w2xdlbeq)[0m
+[0m[1moci_core_subnet.private[2]: Refreshing state... (ID: ocid1.subnet.oc1.phx.aaaaaaaa7ne47cfkfd...pfh22m25aaavzqm4owaudltkg2omdyyjxfrrra)[0m
+[0m[1moci_core_instance.WorkerNode[0]: Refreshing state... (ID: ocid1.instance.oc1.phx.abyhqljt22iuu4o4...tfstrnuc2bhvwyovrmsfmdomurpvkpwqk2khdq)[0m
+[0m[1moci_core_instance.WorkerNode[2]: Refreshing state... (ID: ocid1.instance.oc1.phx.abyhqljstif7k2yu...ifzbp6476dydpjw7un7gpwozxkt4ve7wgt5laq)[0m
+[0m[1moci_core_instance.WorkerNode[1]: Refreshing state... (ID: ocid1.instance.oc1.phx.abyhqljrwymnivud...4gc7omri7dhcxvxfzfjcviftuorynhqbvuof3a)[0m
+[0m[1moci_core_instance.MasterNode[1]: Refreshing state... (ID: ocid1.instance.oc1.phx.abyhqljrsf4ju337...qz2sqyf7i7a2i56wl4d3rmlqccykon4j2o4zfa)[0m
+[0m[1moci_core_instance.MasterNode[0]: Refreshing state... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq)[0m
+[0m[1mnull_resource.cdh-setup: Refreshing state... (ID: 8550794168810701103)[0m
+[0m[1mnull_resource.cdh-setup: Destroying... (ID: 8550794168810701103)[0m[0m
+[0m[1mnull_resource.cdh-setup: Destruction complete after 0s[0m[0m
+[0m[1moci_core_instance.WorkerNode[0]: Destroying... (ID: ocid1.instance.oc1.phx.abyhqljt22iuu4o4...tfstrnuc2bhvwyovrmsfmdomurpvkpwqk2khdq)[0m[0m
+[0m[1moci_core_instance.WorkerNode[1]: Destroying... (ID: ocid1.instance.oc1.phx.abyhqljrwymnivud...4gc7omri7dhcxvxfzfjcviftuorynhqbvuof3a)[0m[0m
+[0m[1moci_core_instance.MasterNode[0]: Destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq)[0m[0m
+[0m[1moci_core_instance.MasterNode[1]: Destroying... (ID: ocid1.instance.oc1.phx.abyhqljrsf4ju337...qz2sqyf7i7a2i56wl4d3rmlqccykon4j2o4zfa)[0m[0m
+[0m[1moci_core_instance.WorkerNode[2]: Destroying... (ID: ocid1.instance.oc1.phx.abyhqljstif7k2yu...ifzbp6476dydpjw7un7gpwozxkt4ve7wgt5laq)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q)[0m[0m
+[0m[1moci_core_instance.WorkerNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljt22iuu4o4...tfstrnuc2bhvwyovrmsfmdomurpvkpwqk2khdq, 10s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrwymnivud...4gc7omri7dhcxvxfzfjcviftuorynhqbvuof3a, 10s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 10s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrsf4ju337...qz2sqyf7i7a2i56wl4d3rmlqccykon4j2o4zfa, 10s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.2: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljstif7k2yu...ifzbp6476dydpjw7un7gpwozxkt4ve7wgt5laq, 10s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 10s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljt22iuu4o4...tfstrnuc2bhvwyovrmsfmdomurpvkpwqk2khdq, 20s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrwymnivud...4gc7omri7dhcxvxfzfjcviftuorynhqbvuof3a, 20s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 20s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrsf4ju337...qz2sqyf7i7a2i56wl4d3rmlqccykon4j2o4zfa, 20s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.2: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljstif7k2yu...ifzbp6476dydpjw7un7gpwozxkt4ve7wgt5laq, 20s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 20s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljt22iuu4o4...tfstrnuc2bhvwyovrmsfmdomurpvkpwqk2khdq, 30s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrwymnivud...4gc7omri7dhcxvxfzfjcviftuorynhqbvuof3a, 30s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 30s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrsf4ju337...qz2sqyf7i7a2i56wl4d3rmlqccykon4j2o4zfa, 30s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.2: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljstif7k2yu...ifzbp6476dydpjw7un7gpwozxkt4ve7wgt5laq, 30s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 30s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrwymnivud...4gc7omri7dhcxvxfzfjcviftuorynhqbvuof3a, 40s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljt22iuu4o4...tfstrnuc2bhvwyovrmsfmdomurpvkpwqk2khdq, 40s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 40s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrsf4ju337...qz2sqyf7i7a2i56wl4d3rmlqccykon4j2o4zfa, 40s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.2: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljstif7k2yu...ifzbp6476dydpjw7un7gpwozxkt4ve7wgt5laq, 40s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 40s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljt22iuu4o4...tfstrnuc2bhvwyovrmsfmdomurpvkpwqk2khdq, 50s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrwymnivud...4gc7omri7dhcxvxfzfjcviftuorynhqbvuof3a, 50s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 50s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrsf4ju337...qz2sqyf7i7a2i56wl4d3rmlqccykon4j2o4zfa, 50s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.2: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljstif7k2yu...ifzbp6476dydpjw7un7gpwozxkt4ve7wgt5laq, 50s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 50s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode[2]: Destruction complete after 56s[0m[0m
+[0m[1moci_core_instance.WorkerNode[1]: Destruction complete after 56s[0m[0m
+[0m[1moci_core_instance.WorkerNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljt22iuu4o4...tfstrnuc2bhvwyovrmsfmdomurpvkpwqk2khdq, 1m0s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 1m0s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrsf4ju337...qz2sqyf7i7a2i56wl4d3rmlqccykon4j2o4zfa, 1m0s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 1m0s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljt22iuu4o4...tfstrnuc2bhvwyovrmsfmdomurpvkpwqk2khdq, 1m10s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 1m10s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrsf4ju337...qz2sqyf7i7a2i56wl4d3rmlqccykon4j2o4zfa, 1m10s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 1m10s elapsed)[0m[0m
+[0m[1moci_core_instance.WorkerNode[0]: Destruction complete after 1m20s[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 1m20s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrsf4ju337...qz2sqyf7i7a2i56wl4d3rmlqccykon4j2o4zfa, 1m20s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 1m20s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 1m30s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.1: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljrsf4ju337...qz2sqyf7i7a2i56wl4d3rmlqccykon4j2o4zfa, 1m30s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 1m30s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode[1]: Destruction complete after 1m35s[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 1m40s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 1m40s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 1m50s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 1m50s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 2m0s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 2m0s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode.0: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtbm2w6tws...lfk2hwn7oziyamlm3sd2xst4fykzgkkiyztonq, 2m10s elapsed)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtpgkat4g2...5bdbnj6626u75ph6rmr3nm2vcmx2ktlutz4z2q, 2m10s elapsed)[0m[0m
+[0m[1moci_core_instance.MasterNode[0]: Destruction complete after 2m16s[0m[0m
+[0m[1moci_core_subnet.private[0]: Destroying... (ID: ocid1.subnet.oc1.phx.aaaaaaaavnwa7iaaor...kesnenxpjminla6ij6zhialj77qi33w2xdlbeq)[0m[0m
+[0m[1moci_core_subnet.private[2]: Destroying... (ID: ocid1.subnet.oc1.phx.aaaaaaaa7ne47cfkfd...pfh22m25aaavzqm4owaudltkg2omdyyjxfrrra)[0m[0m
+[0m[1moci_core_subnet.private[1]: Destroying... (ID: ocid1.subnet.oc1.phx.aaaaaaaahqrg7ek4lm...liyzowq6lpuqotl2qtmc4dgbbckafcy6kpu5mq)[0m[0m
+[0m[1moci_core_instance.UtilityNode: Destruction complete after 2m16s[0m[0m
+[0m[1moci_core_subnet.public[2]: Destroying... (ID: ocid1.subnet.oc1.phx.aaaaaaaahvwp3uatm6...l3ijjf4kfh4ixc3qycpz564qm6fqdtrhsl773q)[0m[0m
+[0m[1moci_core_subnet.public[0]: Destroying... (ID: ocid1.subnet.oc1.phx.aaaaaaaa6dp45ufgpw...a7oliyh4refmq53c5p7svwwkpdajxbgxkcxiia)[0m[0m
+[0m[1moci_core_subnet.public[1]: Destroying... (ID: ocid1.subnet.oc1.phx.aaaaaaaasdwbwf6czh...rvsmbvz4l5e7qjrizcjcf25klmfvqgwaesm5rq)[0m[0m
+[0m[1moci_core_subnet.public[2]: Destruction complete after 1s[0m[0m
+[0m[1moci_core_subnet.private[2]: Destruction complete after 2s[0m[0m
+[0m[1moci_core_subnet.private[0]: Destruction complete after 4s[0m[0m
+[0m[1moci_core_subnet.public[0]: Destruction complete after 3s[0m[0m
+[0m[1moci_core_subnet.public[1]: Destruction complete after 5s[0m[0m
+[0m[1moci_core_security_list.PublicSubnet: Destroying... (ID: ocid1.securitylist.oc1.phx.aaaaaaaag4nv...drfaq5hq7k6xjwjmnyqi5degz5uxyf3xvrsktq)[0m[0m
+[0m[1moci_core_security_list.PublicSubnet: Destruction complete after 1s[0m[0m
+[0m[1moci_core_subnet.private[1]: Destruction complete after 8s[0m[0m
+[0m[1moci_core_security_list.PrivateSubnet: Destroying... (ID: ocid1.securitylist.oc1.phx.aaaaaaaa7bhn...my7hnlhmewgu45wai3rme4vtrhgp2fpfnl6n2a)[0m[0m
+[0m[1moci_core_route_table.PrivateRouteTable: Destroying... (ID: ocid1.routetable.oc1.phx.aaaaaaaafcfsje...6spum54l2vv5bb44y4efqwiezhsmt6cmvj5iha)[0m[0m
+[0m[1moci_core_security_list.PrivateSubnet: Destruction complete after 1s[0m[0m
+[0m[1moci_core_route_table.PrivateRouteTable: Destruction complete after 2s[0m[0m
+[0m[1moci_core_private_ip.bastion_private_ip: Destroying... (ID: ocid1.privateip.oc1.phx.abyhqljt55btfm2...oyterpmuej4seuwm3edlitndjsnumsprnnz6ga)[0m[0m
+[0m[1moci_core_private_ip.bastion_private_ip: Destruction complete after 1s[0m[0m
+[0m[1moci_core_instance.Bastion: Destroying... (ID: ocid1.instance.oc1.phx.abyhqljtl5v2i245...ypw5uffh5yhbs4fpphhb7q33x5l3vatt3pqpgq)[0m[0m
+[0m[1moci_core_instance.Bastion: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtl5v2i245...ypw5uffh5yhbs4fpphhb7q33x5l3vatt3pqpgq, 10s elapsed)[0m[0m
+[0m[1moci_core_instance.Bastion: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtl5v2i245...ypw5uffh5yhbs4fpphhb7q33x5l3vatt3pqpgq, 20s elapsed)[0m[0m
+[0m[1moci_core_instance.Bastion: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtl5v2i245...ypw5uffh5yhbs4fpphhb7q33x5l3vatt3pqpgq, 30s elapsed)[0m[0m
+[0m[1moci_core_instance.Bastion: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtl5v2i245...ypw5uffh5yhbs4fpphhb7q33x5l3vatt3pqpgq, 40s elapsed)[0m[0m
+[0m[1moci_core_instance.Bastion: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtl5v2i245...ypw5uffh5yhbs4fpphhb7q33x5l3vatt3pqpgq, 50s elapsed)[0m[0m
+[0m[1moci_core_instance.Bastion: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtl5v2i245...ypw5uffh5yhbs4fpphhb7q33x5l3vatt3pqpgq, 1m0s elapsed)[0m[0m
+[0m[1moci_core_instance.Bastion: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtl5v2i245...ypw5uffh5yhbs4fpphhb7q33x5l3vatt3pqpgq, 1m10s elapsed)[0m[0m
+[0m[1moci_core_instance.Bastion: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtl5v2i245...ypw5uffh5yhbs4fpphhb7q33x5l3vatt3pqpgq, 1m20s elapsed)[0m[0m
+[0m[1moci_core_instance.Bastion: Still destroying... (ID: ocid1.instance.oc1.phx.abyhqljtl5v2i245...ypw5uffh5yhbs4fpphhb7q33x5l3vatt3pqpgq, 1m30s elapsed)[0m[0m
+[0m[1moci_core_instance.Bastion: Destruction complete after 1m35s[0m[0m
+[0m[1moci_core_subnet.bastion[2]: Destroying... (ID: ocid1.subnet.oc1.phx.aaaaaaaavqnvimhdg4...dl4db2nqtmfyxihbsqn6fdcsltf3i6ace46vyq)[0m[0m
+[0m[1moci_core_subnet.bastion[0]: Destroying... (ID: ocid1.subnet.oc1.phx.aaaaaaaasvqt6fmpei...uwauxeo6bmdxexuzomhxftlcxeazwfu4muvtca)[0m[0m
+[0m[1moci_core_subnet.bastion[1]: Destroying... (ID: ocid1.subnet.oc1.phx.aaaaaaaamhbvhoxahl...w5uez5nvai2cvybuvoqwfq5efl2epxyqdf23dq)[0m[0m
+[0m[1moci_core_subnet.bastion[2]: Destruction complete after 1s[0m[0m
+[0m[1moci_core_subnet.bastion[0]: Destruction complete after 1s[0m[0m
+[0m[1moci_core_subnet.bastion[1]: Destruction complete after 1s[0m[0m
+[0m[1moci_core_security_list.BastionSubnet: Destroying... (ID: ocid1.securitylist.oc1.phx.aaaaaaaamppt...oheagk5iqphe5uyt5stl22up7appx6n3ewlnva)[0m[0m
+[0m[1moci_core_route_table.RouteForComplete: Destroying... (ID: ocid1.routetable.oc1.phx.aaaaaaaabzvwce...4x7cnubkvsz5oqksys2thy43ow7zz6itlp3tta)[0m[0m
+[0m[1moci_core_route_table.RouteForComplete: Destruction complete after 1s[0m[0m
+[0m[1moci_core_internet_gateway.cloudera_internet_gateway: Destroying... (ID: ocid1.internetgateway.oc1.phx.aaaaaaaa6...uwvkiyqiyawrhfywm2pd5uox6ofpbk6qid2pkq)[0m[0m
+[0m[1moci_core_security_list.BastionSubnet: Destruction complete after 2s[0m[0m
+[0m[1moci_core_internet_gateway.cloudera_internet_gateway: Destruction complete after 1s[0m[0m
+[0m[1moci_core_virtual_network.cloudera_vcn: Destroying... (ID: ocid1.vcn.oc1.phx.aaaaaaaakbncx47vpppsanhdge53o773um3tn5nxkazchqcn4oaro6g5cpfa)[0m[0m
+[0m[1moci_core_virtual_network.cloudera_vcn: Destruction complete after 1s[0m[0m
+[0m[1m[32m
+Destroy complete! Resources: 25 destroyed.[0m
