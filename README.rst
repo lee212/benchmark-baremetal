@@ -1,6 +1,8 @@
 Big Data Benchmark: Running Big Data Workloads on Bare Metal Clouds, Oracle and Amazon
 ======================================================================================
 
+* Updated experiments (IPython Notebook): http://nbviewer.jupyter.org/github/lee212/benchmark-baremetal/blob/dev/oci%20baremetal%20benchmark%20v1.ipynb
+
 Preprint: DOI: 10.13140/RG.2.2.12204.36486 `researchgate <https://www.researchgate.net/publication/325498880_Big_Data_Benchmarks_on_Bare_Metal_Cloud>`_
 
 Bare Metal Comparison
