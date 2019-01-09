@@ -16,10 +16,12 @@ with open(args.file) as f:
 	data = json.load(f)
 	for k1, v1 in data.items():
 		print ("source env-vars")
+		print ("> .worker_info")
 		for k2, v2 in v1.items():
 			if k2 == "TF_VAR":
-				print gen_vars(v2, "TF_VAR_")
-
+				print (gen_vars(v2, "TF_VAR_"))
+			elif k2 == "B_VAR":
+				print ("printf '{}' >> .worker_info".format(gen_vars(v2, "B_VAR_")))
 			elif k2 == "_block":
 				print ("if [ -L \"block.tf\" ]; then rm block.tf; fi")
 				if 'linked_filename' in v2:

@@ -15,6 +15,7 @@ with open("terraform.tfstate") as f:
 	print ("ssh -o StrictHostKeyChecking=no root@{0} cp .ssh/authorized_keys /var/lib/hadoop-hdfs/.ssh".format(cdh_utility_1))
 	print ("ssh -o StrictHostKeyChecking=no root@{0} chown -R hdfs: /var/lib/hadoop-hdfs/.ssh".format(cdh_utility_1))
 	print ("scp -o StrictHostKeyChecking=no benchmark_trigger_cmd.txt hdfs@{0}:.".format(cdh_utility_1))
+	print ("scp -o StrictHostKeyChecking=no .worker_info hdfs@{0}:.".format(cdh_utility_1))
 	print ("ssh -o BatchMode=yes -o StrictHostKeyChecking=no -o ConnectTimeout=7200 hdfs@{0} bash benchmark_trigger_cmd.txt".format(cdh_utility_1))
 	print ("scp hdfs@{0}:results.tar.gz {1}/".format(cdh_utility_1, args.title))
 

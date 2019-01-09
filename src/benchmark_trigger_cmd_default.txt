@@ -1,8 +1,11 @@
+. .worker_info 2> /dev/null
 git clone https://github.com/lee212/benchmark-baremetal.git
 cd ~/benchmark-baremetal/
 git checkout dev
 cd src
 cp *.jar ~/
+cp hibench_extra_for_spark/*.hive ~/
+cp hibench_extra_for_spark/sparkbench.conf ~/
 mkdir logs
 python batch.py -w dfsio,kmeans,pagerank,terasort,wordcount -s bigdata > cmd.sh
 bash cmd.sh

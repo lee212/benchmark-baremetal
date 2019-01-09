@@ -1,0 +1,20 @@
+{
+    "cmds": [
+        "/usr/bin/hadoop fs -rm -r -skipTrash /Join/Input", 
+        "/usr/bin/hadoop jar /var/lib/hadoop-hdfs/autogen-7.1-SNAPSHOT-jar-with-dependencies.jar HiBench.DataGen -t hive -b /Join -n Input -m %(mappers)s -r %(reducers)s -p %(pages)s -v %(uservisits)s -o sequence",
+	"/usr/bin/hadoop fs -rm -r -skipTrash /Join/Output", 
+	"hive -f ~/rankings_uservisits_join.hive",
+	"spark-submit --class com.intel.hibench.sparkbench.sql.ScalaSparkSQLBench --master yarn-client --num-executors %(executors)s --executor-cores %(e_cores)s --executor-memory %(e_mem)s /var/lib/hadoop-hdfs/sparkbench-assembly-7.1-SNAPSHOT-dist.jar ScalaJoin ~/rankings_uservisits_join.hive"
+    ], 
+    "size": {
+        "bigdata": {
+		"mappers": "{{os.environ['B_VAR_VCORES']}}",
+		"reducers": "{{os.environ['B_VAR_VCORES']}}",
+		"pages": 120000000,
+		"uservisits": 5000000000,
+		"executors": "{{int(os.environ['B_VAR_VCORES']) * int(os.environ['B_VAR_WORKERS']) / 5.3 // 1}}",
+		"e_cores": 5,
+		"e_mem": "{{float(os.environ['B_VAR_MEM']) / int(os.environ['B_VAR_VCORES']) * 4.8 // 1}}g"
+        }
+    }
+}

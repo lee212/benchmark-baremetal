@@ -4,6 +4,11 @@
 			"WorkerInstanceShape" : "BM.DenseIO2.52",
 			"nodecount": 3
 			},
+		"B_VAR": {
+			"VCORES": 104,
+			"MEM": 768,
+			"WORKERS": 3
+		},
 		"_block": {
 		}
 	}
