@@ -8,13 +8,13 @@
     ], 
     "size": {
         "bigdata": {
-		"mappers": "{{int(os.environ['B_VAR_VCORES']) * int(os.environ['B_VAR_WORKERS'])}}",
-		"reducers": "{{int(os.environ['B_VAR_VCORES']) * int(os.environ['B_VAR_WORKERS'])}}",
+		"mappers": "{{(os.environ['B_VAR_MAPPERS'])}}",
+		"reducers": "{{os.environ['B_VAR_REDUCERS'])}}",
 		"pages": 120000000,
 		"uservisits": 5000000000,
-		"executors": "{{int(os.environ['B_VAR_VCORES']) * int(os.environ['B_VAR_WORKERS']) / 5.3 // 1}}",
+		"executors": "{{int(int(os.environ['B_VAR_VCORES']) * int(os.environ['B_VAR_WORKERS']) / 5.3)}}",
 		"e_cores": 5,
-		"e_mem": "{{float(os.environ['B_VAR_MEM']) / int(os.environ['B_VAR_VCORES']) * 4.8 // 1}}g"
+		"e_mem": "{{int(float(os.environ['B_VAR_MEM']) / int(os.environ['B_VAR_VCORES']) * 4.8)}}g"
         }
     }
 }

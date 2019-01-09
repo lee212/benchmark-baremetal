@@ -4,6 +4,7 @@ cd ~/benchmark-baremetal/
 git checkout dev
 cd src
 cp *.jar ~/
+curl -sL https://objectstorage.us-phoenix-1.oraclecloud.com/n/univerity_indiana_poc/b/bigdata-benchmark-jars/o/sparkbench-assembly-7.1-SNAPSHOT-dist.jar > ~/sparkbench-assembly-7.1-SNAPSHOT-dist.jar
 cp hibench_extra_for_spark/*.hive ~/
 cp hibench_extra_for_spark/sparkbench.conf ~/
 mkdir logs

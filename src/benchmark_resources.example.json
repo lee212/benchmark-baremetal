@@ -7,7 +7,9 @@
 		"B_VAR": {
 			"VCORES": 104,
 			"MEM": 768,
-			"WORKERS": 3
+			"WORKERS": 3,
+			"MAPPERS": "$(expr $B_VAR_VCORES \\* $B_VAR_WORKERS)",
+			"REDUCERS": "$(expr $B_VAR_VCORES \\* $B_VAR_WORKERS)"
 		},
 		"_block": {
 		}
