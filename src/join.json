@@ -8,8 +8,8 @@
     ], 
     "size": {
         "bigdata": {
-		"mappers": "{{os.environ['B_VAR_VCORES']}}",
-		"reducers": "{{os.environ['B_VAR_VCORES']}}",
+		"mappers": "{{int(os.environ['B_VAR_VCORES']) * int(os.environ['B_VAR_WORKERS'])}}",
+		"reducers": "{{int(os.environ['B_VAR_VCORES']) * int(os.environ['B_VAR_WORKERS'])}}",
 		"pages": 120000000,
 		"uservisits": 5000000000,
 		"executors": "{{int(os.environ['B_VAR_VCORES']) * int(os.environ['B_VAR_WORKERS']) / 5.3 // 1}}",
