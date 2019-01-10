@@ -1,7 +1,7 @@
 USE DEFAULT;
 set hive.input.format=org.apache.hadoop.hive.ql.io.HiveInputFormat;
-set mapreduce.job.maps=612;
-set mapreduce.job.reduces=612;
+set mapreduce.job.maps=$B_VAR_MAPPERS;
+set mapreduce.job.reduces=$B_VAR_REDUCERS;
 set hive.stats.autogather=false;
 
 
