@@ -8,8 +8,8 @@
     ], 
     "size": {
         "bigdata": {
-		"mappers": "{{(os.environ['B_VAR_MAPPERS'])}}",
-		"reducers": "{{os.environ['B_VAR_REDUCERS'])}}",
+		"mappers": "{{os.environ['B_VAR_MAPPERS']}}",
+		"reducers": "{{os.environ['B_VAR_REDUCERS']}}",
 		"pages": 10000000,
 		"uservisits": 2000000000,
 		"executors": "{{int(int(os.environ['B_VAR_VCORES']) * int(os.environ['B_VAR_WORKERS']) / 5.3)}}",
@@ -17,8 +17,8 @@
 		"e_mem": "{{int(float(os.environ['B_VAR_MEM']) / int(os.environ['B_VAR_VCORES']) * 4.8)}}g"
         },
         "bigdata5x": {
-		"mappers": "{{(os.environ['B_VAR_MAPPERS'])}}",
-		"reducers": "{{os.environ['B_VAR_REDUCERS'])}}",
+		"mappers": "{{os.environ['B_VAR_MAPPERS']}}",
+		"reducers": "{{os.environ['B_VAR_REDUCERS']}}",
 		"pages": 50000000,
 		"uservisits": 10000000000,
 		"executors": "{{int(int(os.environ['B_VAR_VCORES']) * int(os.environ['B_VAR_WORKERS']) / 5.3)}}",
