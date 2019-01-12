@@ -1,56 +1,56 @@
 {
     "cmds": [
         "/usr/bin/hadoop fs -rm -r -skipTrash /Terasort/Input", 
-        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen -Ddfs.replication=1 -Ddfs.client.block.write.locateFollowingBlock.retries=15 -Dyarn.app.mapreduce.am.job.cbd-mode.enable=false -Ddfs.blocksize=%(dfsblock)s -Dmapreduce.map.java.opts=\"-Xms`expr %(n_nodes)s \\* %(ram)s / %(vcpus)s / 10 \\* 8`m -Xmx`expr %(n_nodes)s \\* %(ram)s / %(vcpus)s / 10 \\* 8`m\" -Dyarn.app.mapreduce.am.job.map.pushdown=false -Dmapreduce.job.maps=%(vcpus)s -Dmapreduce.map.memory.mb=`expr %(n_nodes)s \\* %(ram)s / %(vcpus)s` %(num_rows)s /Terasort/Input",
+        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen -Ddfs.replication=1 -Ddfs.client.block.write.locateFollowingBlock.retries=15 -Dyarn.app.mapreduce.am.job.cbd-mode.enable=false -Ddfs.blocksize=%(dfsblock)s -Dmapreduce.map.java.opts=\"-Xms`expr %(n_nodes)s \\* %(ram)s / %(mappers)s / 10 \\* 8`m -Xmx`expr %(n_nodes)s \\* %(ram)s / %(mappers)s / 10 \\* 8`m\" -Dyarn.app.mapreduce.am.job.map.pushdown=false -Dmapreduce.job.maps=%(mappers)s -Dmapreduce.map.memory.mb=`expr %(n_nodes)s \\* %(ram)s / %(mappers)s` %(num_rows)s /Terasort/Input",
         "/usr/bin/hadoop fs -rm -r -skipTrash /Terasort/Output", 
-        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar terasort -Dmapreduce.job.reduce.shuffle.consumer.plugin.class=org.apache.hadoop.mapreduce.task.reduce.Shuffle -Ddfs.client.block_write.locateFollowingBlock.retries=30 -Dmapred.reduce.child.log.level=WARN -Ddfs.replication=1 -Ddfs.blocksize=%(dfsblock)s -Dmapreduce.map.java.opts=\"-Xms`expr %(n_nodes)s \\* %(ram)s / %(vcpus)s / 10 \\* 8`m -Xmx`expr %(n_nodes)s \\* %(ram)s / %(vcpus)s / 10 \\* 8`m\" -Dmapreduce.reduce.java.opts=\"-Xms`expr %(n_nodes)s \\* %(ram)s / %(vcpus)s / 10 \\* 8`m -Xmx`expr %(n_nodes)s \\* %(ram)s / %(vcpus)s / 10 \\* 8`m\" -Dyarn.app.mapreduce.am.job.cbd-mode.enable=false -Dyarn.app.mapreduce.am.job.map.pushdown=false -Dmapreduce.job.maps=%(vcpus)s -Dmapreduce.job.reduces=%(vcpus)s -Dmapreduce.reduce.memory.mb=3814 /Terasort/Input /Terasort/Output"
+        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar terasort -Dmapreduce.job.reduce.shuffle.consumer.plugin.class=org.apache.hadoop.mapreduce.task.reduce.Shuffle -Ddfs.client.block_write.locateFollowingBlock.retries=30 -Dmapred.reduce.child.log.level=WARN -Ddfs.replication=1 -Ddfs.blocksize=%(dfsblock)s -Dmapreduce.map.java.opts=\"-Xms`expr %(n_nodes)s \\* %(ram)s / %(mappers)s / 10 \\* 8`m -Xmx`expr %(n_nodes)s \\* %(ram)s / %(mappers)s / 10 \\* 8`m\" -Dmapreduce.reduce.java.opts=\"-Xms`expr %(n_nodes)s \\* %(ram)s / %(mappers)s / 10 \\* 8`m -Xmx`expr %(n_nodes)s \\* %(ram)s / %(mappers)s / 10 \\* 8`m\" -Dyarn.app.mapreduce.am.job.cbd-mode.enable=false -Dyarn.app.mapreduce.am.job.map.pushdown=false -Dmapreduce.job.maps=%(mappers)s -Dmapreduce.job.reduces=%(mappers)s -Dmapreduce.reduce.memory.mb=3814 /Terasort/Input /Terasort/Output"
     ], 
     "size": {
         "bigdata": {
 		"num_rows": 6000000000,
 		"dfsblock": 536870912,
-		"vcpus": 612,
-		"ram": 778240,
-		"n_nodes": 3
+		"mappers": "{{os.environ['B_VAR_MAPPERS']}}",
+		"ram": "{{os.environ['B_VAR_MEM']}}",
+		"n_nodes": "{{os.environ['B_VAR_WORKERS']}}"
         }, 
 
         "gigantic": {
 		"num_rows": 3200000000,
 		"dfsblock": 536870912,
-		"vcpus": 612,
-		"ram": 778240,
-		"n_nodes": 3
+		"mappers": "{{os.environ['B_VAR_MAPPERS']}}",
+		"ram": "{{os.environ['B_VAR_MEM']}}",
+		"n_nodes": "{{os.environ['B_VAR_WORKERS']}}"
         }, 
 
         "huge": {
 		"num_rows": 320000000,
 		"dfsblock": 536870912,
-		"vcpus": 612,
-		"ram": 778240,
-		"n_nodes": 3
+		"mappers": "{{os.environ['B_VAR_MAPPERS']}}",
+		"ram": "{{os.environ['B_VAR_MEM']}}",
+		"n_nodes": "{{os.environ['B_VAR_WORKERS']}}"
         }, 
 
 	"large": {
 		"num_rows": 32000000,
 		"dfsblock": 536870912,
-		"vcpus": 612,
-		"ram": 778240,
-		"n_nodes": 3
+		"mappers": "{{os.environ['B_VAR_MAPPERS']}}",
+		"ram": "{{os.environ['B_VAR_MEM']}}",
+		"n_nodes": "{{os.environ['B_VAR_WORKERS']}}"
         }, 
 
         "small": {
 		"num_rows": 3200000,
 		"dfsblock": 536870912,
-		"vcpus": 612,
-		"ram": 778240,
-		"n_nodes": 3
+		"mappers": "{{os.environ['B_VAR_MAPPERS']}}",
+		"ram": "{{os.environ['B_VAR_MEM']}}",
+		"n_nodes": "{{os.environ['B_VAR_WORKERS']}}"
         }, 
         "tiny": {
 		"num_rows": 32000,
 		"dfsblock": 536870912,
-		"vcpus": 612,
-		"ram": 778240,
-		"n_nodes": 3
+		"mappers": "{{os.environ['B_VAR_MAPPERS']}}",
+		"ram": "{{os.environ['B_VAR_MEM']}}",
+		"n_nodes": "{{os.environ['B_VAR_WORKERS']}}"
         }
     }
 }

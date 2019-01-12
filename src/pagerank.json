@@ -7,43 +7,43 @@
     ], 
     "size": {
         "bigdata": {
-		"mappers": 612, 
-		"reducers": 612,
 		"pages": 50000000,
-		"iterations": 1 
+		"iterations": 1,
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }, 
         "gigantic": {
-		"mappers": 612, 
-		"reducers": 612,
 		"pages": 30000000,
-		"iterations": 1 
+		"iterations": 1,
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }, 
 
         "huge": {
-		"mappers": 612, 
-		"reducers": 612,
 		"pages": 5000000,
-		"iterations": 1 
+		"iterations": 1,
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }, 
 
         "large": {
-		"mappers": 612, 
-		"reducers": 612,
 		"pages": 500000,
-		"iterations": 1 
+		"iterations": 1,
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }, 
 
         "small": {
-		"mappers": 612, 
-		"reducers": 612,
 		"pages": 5000,
-		"iterations": 1 
+		"iterations": 1,
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }, 
         "tiny": {
-		"mappers": 8, 
-		"reducers": 8,
 		"pages": 50,
-		"iterations": 1 
+		"iterations": 1,
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }
     }
 }

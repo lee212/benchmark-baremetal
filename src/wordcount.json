@@ -1,34 +1,46 @@
 {
     "cmds": [
         "/usr/bin/hadoop fs -rm -r -skipTrash /Wordcount/Input", 
-        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar randomtextwriter -D mapreduce.randomtextwriter.totalbytes=%(option1)s -D mapreduce.randomtextwriter.bytespermap=`expr %(option1)s / %(vcpus)s` -D mapreduce.job.maps=%(vcpus)s -Dmapreduce.job.reduces=%(vcpus)s /Wordcount/Input", 
+        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar randomtextwriter -D mapreduce.randomtextwriter.totalbytes=%(total_bytes)s -D mapreduce.randomtextwriter.bytespermap=`expr %(total_bytes)s / %(total_vcores)s` -D mapreduce.job.maps=%(mappers)s -Dmapreduce.job.reduces=%(reducers)s /Wordcount/Input", 
 	"/usr/bin/hadoop fs -rm -r -skipTrash /Wordcount/Output", 
-        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount -D mapreduce.job.maps=%(vcpus)s -Dmapreduce.job.reduces=%(vcpus)s /Wordcount/Input /Wordcount/Output"
+        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount -D mapreduce.job.maps=%(mappers)s -Dmapreduce.job.reduces=%(reducers)s /Wordcount/Input /Wordcount/Output"
     ], 
     "size": {
         "bigdata": {
-		"option1": 1600000000000, 
-		"vcpus": 612
+		"total_bytes": 1600000000000, 
+		"total_vcores": "{{int(os.environ(\"B_VAR_VCORES\")) * int(os.environ(\"B_VAR_WORKERS\"))}}",
+		"mappers": "{{os.environ(\"B_VAR_MAPPERS\")}}",
+		"reducers": "{{os.environ(\"B_VAR_REDUCERS\")}}"
         }, 
         "gigantic": {
-		"option1": 320000000000, 
-		"vcpus": 612
+		"total_bytes": 320000000000, 
+		"total_vcores": "{{int(os.environ(\"B_VAR_VCORES\")) * int(os.environ(\"B_VAR_WORKERS\"))}}",
+		"mappers": "{{os.environ(\"B_VAR_MAPPERS\")}}",
+		"reducers": "{{os.environ(\"B_VAR_REDUCERS\")}}"
         }, 
         "huge": {
-		"option1": 32000000000, 
-		"vcpus": 612
+		"total_bytes": 32000000000, 
+		"total_vcores": "{{int(os.environ(\"B_VAR_VCORES\")) * int(os.environ(\"B_VAR_WORKERS\"))}}",
+		"mappers": "{{os.environ(\"B_VAR_MAPPERS\")}}",
+		"reducers": "{{os.environ(\"B_VAR_REDUCERS\")}}"
         }, 
 	"large": {
-		"option1": 3200000000, 
-		"vcpus": 612
+		"total_bytes": 3200000000, 
+		"total_vcores": "{{int(os.environ(\"B_VAR_VCORES\")) * int(os.environ(\"B_VAR_WORKERS\"))}}",
+		"mappers": "{{os.environ(\"B_VAR_MAPPERS\")}}",
+		"reducers": "{{os.environ(\"B_VAR_REDUCERS\")}}"
         }, 
         "small": {
-		"option1": 320000000, 
-		"vcpus": 612
+		"total_bytes": 320000000, 
+		"total_vcores": "{{int(os.environ(\"B_VAR_VCORES\")) * int(os.environ(\"B_VAR_WORKERS\"))}}",
+		"mappers": "{{os.environ(\"B_VAR_MAPPERS\")}}",
+		"reducers": "{{os.environ(\"B_VAR_REDUCERS\")}}"
         }, 
         "tiny": {
-		"option1": 32000, 
-		"vcpus": 612
+		"total_bytes": 32000, 
+		"total_vcores": "{{int(os.environ(\"B_VAR_VCORES\")) * int(os.environ(\"B_VAR_WORKERS\"))}}",
+		"mappers": "{{os.environ(\"B_VAR_MAPPERS\")}}",
+		"reducers": "{{os.environ(\"B_VAR_REDUCERS\")}}"
         }
     }
 }
