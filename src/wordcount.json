@@ -8,39 +8,39 @@
     "size": {
         "bigdata": {
 		"total_bytes": 1600000000000, 
-		"total_vcores": "{{int(os.environ(\"B_VAR_VCORES\")) * int(os.environ(\"B_VAR_WORKERS\"))}}",
-		"mappers": "{{os.environ(\"B_VAR_MAPPERS\")}}",
-		"reducers": "{{os.environ(\"B_VAR_REDUCERS\")}}"
+		"total_vcores": "{{int(os.environ[\"B_VAR_VCORES\"]) * int(os.environ[\"B_VAR_WORKERS\"])}}",
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }, 
         "gigantic": {
 		"total_bytes": 320000000000, 
-		"total_vcores": "{{int(os.environ(\"B_VAR_VCORES\")) * int(os.environ(\"B_VAR_WORKERS\"))}}",
-		"mappers": "{{os.environ(\"B_VAR_MAPPERS\")}}",
-		"reducers": "{{os.environ(\"B_VAR_REDUCERS\")}}"
+		"total_vcores": "{{int(os.environ[\"B_VAR_VCORES\"]) * int(os.environ[\"B_VAR_WORKERS\"])}}",
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }, 
         "huge": {
 		"total_bytes": 32000000000, 
-		"total_vcores": "{{int(os.environ(\"B_VAR_VCORES\")) * int(os.environ(\"B_VAR_WORKERS\"))}}",
-		"mappers": "{{os.environ(\"B_VAR_MAPPERS\")}}",
-		"reducers": "{{os.environ(\"B_VAR_REDUCERS\")}}"
+		"total_vcores": "{{int(os.environ[\"B_VAR_VCORES\"]) * int(os.environ[\"B_VAR_WORKERS\"])}}",
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }, 
 	"large": {
 		"total_bytes": 3200000000, 
-		"total_vcores": "{{int(os.environ(\"B_VAR_VCORES\")) * int(os.environ(\"B_VAR_WORKERS\"))}}",
-		"mappers": "{{os.environ(\"B_VAR_MAPPERS\")}}",
-		"reducers": "{{os.environ(\"B_VAR_REDUCERS\")}}"
+		"total_vcores": "{{int(os.environ[\"B_VAR_VCORES\"]) * int(os.environ[\"B_VAR_WORKERS\"])}}",
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }, 
         "small": {
 		"total_bytes": 320000000, 
-		"total_vcores": "{{int(os.environ(\"B_VAR_VCORES\")) * int(os.environ(\"B_VAR_WORKERS\"))}}",
-		"mappers": "{{os.environ(\"B_VAR_MAPPERS\")}}",
-		"reducers": "{{os.environ(\"B_VAR_REDUCERS\")}}"
+		"total_vcores": "{{int(os.environ[\"B_VAR_VCORES\"]) * int(os.environ[\"B_VAR_WORKERS\"])}}",
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }, 
         "tiny": {
 		"total_bytes": 32000, 
-		"total_vcores": "{{int(os.environ(\"B_VAR_VCORES\")) * int(os.environ(\"B_VAR_WORKERS\"))}}",
-		"mappers": "{{os.environ(\"B_VAR_MAPPERS\")}}",
-		"reducers": "{{os.environ(\"B_VAR_REDUCERS\")}}"
+		"total_vcores": "{{int(os.environ[\"B_VAR_VCORES\"]) * int(os.environ[\"B_VAR_WORKERS\"])}}",
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }
     }
 }

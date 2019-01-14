@@ -3,6 +3,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--file", help="json to import resource infomation", default="benchmark_resources.json")
+parser.add_argument("--no-auto-terminate", action="store_true", help="no terraform terminate after job completion")
 args = parser.parse_args()
 
 def gen_vars(data, prefix):
@@ -37,6 +38,7 @@ with open(args.file) as f:
 		print ("python benchmark_trigger.py --title {0} > {0}/trigger.sh".format(k1))
 		print ("bash {0}/trigger.sh 2>> {0}/error.log 1> {0}/trigger.log".format(k1))
 		print ("while [ 1 ]; do if [ -e \"{0}/results.tar.gz\" ] ; then break; else sleep 60; fi; done".format(k1))
-		print ("echo \"terraform destroy====================\"")
-		print ("terraform destroy -auto-approve >> {0}/terraform.log".format(k1))
+		if args.no_auto_terminate == False:
+			print ("echo \"terraform destroy====================\"")
+			print ("terraform destroy -auto-approve >> {0}/terraform.log".format(k1))
 
