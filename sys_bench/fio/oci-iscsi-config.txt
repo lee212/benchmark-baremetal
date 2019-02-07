@@ -1,0 +1,292 @@
+Currently attached iSCSI devices:
+
+Target iqn.2015-12.com.oracleiaas:1a9f35e3-c5b8-4b43-8fff-4c274153358b
+   Persistent portal:    169.254.2.14:3260
+      Current portal:    169.254.2.14:3260
+               State:    LOGGED_IN
+     Attached device:    sdn
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data13
+
+Target iqn.2015-12.com.oracleiaas:0a8b28cc-10f2-449b-89b2-72a2654ad711
+   Persistent portal:    169.254.2.17:3260
+      Current portal:    169.254.2.17:3260
+               State:    LOGGED_IN
+     Attached device:    sdq
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data16
+
+Target iqn.2015-12.com.oracleiaas:0ae4dc1e-e749-49ad-b812-5d49857d3bf0
+   Persistent portal:    169.254.2.16:3260
+      Current portal:    169.254.2.16:3260
+               State:    LOGGED_IN
+     Attached device:    sdp
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data15
+
+Target iqn.2015-12.com.oracleiaas:e4835a72-db8c-429b-bf3d-29b01c0f7042
+   Persistent portal:    169.254.2.33:3260
+      Current portal:    169.254.2.33:3260
+               State:    LOGGED_IN
+     Attached device:    sdaf
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data31
+
+Target iqn.2015-12.com.oracleiaas:b01ff05e-11d1-4cb8-82c8-54aec33e04af
+   Persistent portal:    169.254.2.11:3260
+      Current portal:    169.254.2.11:3260
+               State:    LOGGED_IN
+     Attached device:    sdk
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data10
+
+Target iqn.2015-12.com.oracleiaas:03c8cee4-152e-4865-907b-5aa81ae2c132
+   Persistent portal:    169.254.2.13:3260
+      Current portal:    169.254.2.13:3260
+               State:    LOGGED_IN
+     Attached device:    sdm
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data12
+
+Target iqn.2015-12.com.oracleiaas:1fe3d6c4-bc8c-4f84-b743-b09f07918640
+   Persistent portal:    169.254.2.2:3260
+      Current portal:    169.254.2.2:3260
+               State:    LOGGED_IN
+     Attached device:    sdb
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data1
+
+Target iqn.2015-12.com.oracleiaas:063d756d-4fa9-43d0-95d0-58fb2be9190d
+   Persistent portal:    169.254.2.29:3260
+      Current portal:    169.254.2.29:3260
+               State:    LOGGED_IN
+     Attached device:    sdab
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data27
+
+Target iqn.2015-12.com.oracleiaas:d0e9e8e2-ff99-4ee4-90b1-487f37daf5c2
+   Persistent portal:    169.254.2.32:3260
+      Current portal:    169.254.2.32:3260
+               State:    LOGGED_IN
+     Attached device:    sdae
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data30
+
+Target iqn.2015-12.com.oracleiaas:a6f2f311-2fe8-4e33-a1f4-8a14e3b0eee5
+   Persistent portal:    169.254.2.12:3260
+      Current portal:    169.254.2.12:3260
+               State:    LOGGED_IN
+     Attached device:    sdl
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data11
+
+Target iqn.2015-12.com.oracleiaas:03238743-bb38-42c2-ae04-63d0e3e4c77b
+   Persistent portal:    169.254.2.19:3260
+      Current portal:    169.254.2.19:3260
+               State:    LOGGED_IN
+     Attached device:    sds
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data18
+
+Target iqn.2015-12.com.oracleiaas:d85febc2-4982-4495-b336-90919aab5c7d
+   Persistent portal:    169.254.2.15:3260
+      Current portal:    169.254.2.15:3260
+               State:    LOGGED_IN
+     Attached device:    sdo
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data14
+
+Target iqn.2015-12.com.oracleiaas:222d6f53-c742-4648-9904-1a3410cf4961
+   Persistent portal:    169.254.2.30:3260
+      Current portal:    169.254.2.30:3260
+               State:    LOGGED_IN
+     Attached device:    sdac
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data28
+
+Target iqn.2015-12.com.oracleiaas:3ac6780d-70c0-417c-8bb4-2770f23f696b
+   Persistent portal:    169.254.2.28:3260
+      Current portal:    169.254.2.28:3260
+               State:    LOGGED_IN
+     Attached device:    sdaa
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data26
+
+Target iqn.2015-12.com.oracleiaas:3956591b-2f4e-43e4-b0e1-dca79ed4d208
+   Persistent portal:    169.254.2.27:3260
+      Current portal:    169.254.2.27:3260
+               State:    LOGGED_IN
+     Attached device:    sdz
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data25
+
+Target iqn.2015-12.com.oracleiaas:b7d9c658-d31d-4200-8060-3b428a0a3a5e
+   Persistent portal:    169.254.2.7:3260
+      Current portal:    169.254.2.7:3260
+               State:    LOGGED_IN
+     Attached device:    sdg
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data6
+
+Target iqn.2015-12.com.oracleiaas:c00d98fe-cd0b-44ce-a9d8-0228b8f585e1
+   Persistent portal:    169.254.2.22:3260
+      Current portal:    169.254.2.22:3260
+               State:    LOGGED_IN
+     Attached device:    sdv
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data21
+
+Target iqn.2015-12.com.oracleiaas:0553125d-83b9-45d0-91b5-423b6b2039bd
+   Persistent portal:    169.254.2.5:3260
+      Current portal:    169.254.2.5:3260
+               State:    LOGGED_IN
+     Attached device:    sde
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data4
+
+Target iqn.2015-12.com.oracleiaas:88c7d13d-ac85-4bd8-8b61-2032711ff9da
+   Persistent portal:    169.254.2.21:3260
+      Current portal:    169.254.2.21:3260
+               State:    LOGGED_IN
+     Attached device:    sdu
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data20
+
+Target iqn.2015-12.com.oracleiaas:ef3f51d0-d073-48f9-a9d2-612398fcae44
+   Persistent portal:    169.254.2.3:3260
+      Current portal:    169.254.2.3:3260
+               State:    LOGGED_IN
+     Attached device:    sdc
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data2
+
+Target iqn.2015-12.com.oracleiaas:c4da104d-38d8-4371-ba81-cd10b5c57d32
+   Persistent portal:    169.254.2.10:3260
+      Current portal:    169.254.2.10:3260
+               State:    LOGGED_IN
+     Attached device:    sdj
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data9
+
+Target iqn.2015-12.com.oracleiaas:90e0b7e8-4b86-4d8f-a377-b8a2514ae706
+   Persistent portal:    169.254.2.23:3260
+      Current portal:    169.254.2.23:3260
+               State:    LOGGED_IN
+     Attached device:    sdw
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data22
+
+Target iqn.2015-12.com.oracleiaas:bd2857eb-8a2f-45de-add1-9a15c47e3e36
+   Persistent portal:    169.254.2.25:3260
+      Current portal:    169.254.2.25:3260
+               State:    LOGGED_IN
+     Attached device:    sdx
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data23
+
+Target iqn.2015-12.com.oracleiaas:7c4ca537-2ef2-49f4-af0c-7985635cddbd
+   Persistent portal:    169.254.2.20:3260
+      Current portal:    169.254.2.20:3260
+               State:    LOGGED_IN
+     Attached device:    sdt
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data19
+
+Target iqn.2015-12.com.oracleiaas:64b1ecb4-fed5-4ff7-8ee9-35b736878b84
+   Persistent portal:    169.254.2.9:3260
+      Current portal:    169.254.2.9:3260
+               State:    LOGGED_IN
+     Attached device:    sdi
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data8
+
+Target iqn.2015-12.com.oracleiaas:7e8d1fff-18eb-4610-bd2c-8f8e1bad084a
+   Persistent portal:    169.254.2.4:3260
+      Current portal:    169.254.2.4:3260
+               State:    LOGGED_IN
+     Attached device:    sdd
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data3
+
+Target iqn.2015-12.com.oracleiaas:d1b19296-0d7f-43b2-b7d2-52e657394107
+   Persistent portal:    169.254.2.8:3260
+      Current portal:    169.254.2.8:3260
+               State:    LOGGED_IN
+     Attached device:    sdh
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data7
+
+Target iqn.2015-12.com.oracleiaas:310e6188-ad9f-455c-a92f-b3202e69424b
+   Persistent portal:    169.254.2.6:3260
+      Current portal:    169.254.2.6:3260
+               State:    LOGGED_IN
+     Attached device:    sdf
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data5
+
+Target iqn.2015-02.oracle.boot:uefi
+   Persistent portal:    169.254.0.2:3260
+      Current portal:    169.254.0.2:3260
+               State:    LOGGED_IN
+     Attached device:    sda
+                Size:    46.6G
+          Partitions:    Device    Size  Filesystem   Mountpoint
+                         sda1      200M        vfat   /boot/efi
+                         sda2        8G        swap   [SWAP]
+                         sda3     38.4G         xfs   /
+
+Target iqn.2015-12.com.oracleiaas:5225b264-4536-4b18-96d7-9c6e284b9540
+   Persistent portal:    169.254.2.18:3260
+      Current portal:    169.254.2.18:3260
+               State:    LOGGED_IN
+     Attached device:    sdr
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data17
+
+Target iqn.2015-12.com.oracleiaas:a81ddd93-2b5a-4062-885e-02f2ce52a15a
+   Persistent portal:    169.254.2.31:3260
+      Current portal:    169.254.2.31:3260
+               State:    LOGGED_IN
+     Attached device:    sdad
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data29
+
+Target iqn.2015-12.com.oracleiaas:e4c90468-6096-45ef-961b-700e1fd03723
+   Persistent portal:    169.254.2.26:3260
+      Current portal:    169.254.2.26:3260
+               State:    LOGGED_IN
+     Attached device:    sdy
+                Size:    667G
+    File system type:    xfs
+          Mountpoint:    /data24
+
