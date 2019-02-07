@@ -1,0 +1,93 @@
+job1: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job2: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job3: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job4: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job5: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job6: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job7: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job8: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job9: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job10: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job11: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job12: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job13: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job14: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job15: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job16: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job17: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job18: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job19: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job20: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job21: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job22: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job23: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job24: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job25: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job26: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job27: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job28: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job29: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job30: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job31: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+job32: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=200
+fio-3.1
+Starting 32 processes
+
+job1: (groupid=0, jobs=32): err= 0: pid=41954: Thu Feb  7 19:43:35 2019
+   read: IOPS=188k, BW=2938MiB/s (3080MB/s)(172GiB/60025msec)
+    slat (usec): min=2, max=210347, avg=166.14, stdev=920.73
+    clat (msec): min=5, max=698, avg=33.87, stdev=14.33
+     lat (msec): min=5, max=698, avg=34.04, stdev=14.36
+    clat percentiles (msec):
+     |  1.00th=[   16],  5.00th=[   17], 10.00th=[   18], 20.00th=[   23],
+     | 30.00th=[   27], 40.00th=[   29], 50.00th=[   33], 60.00th=[   37],
+     | 70.00th=[   40], 80.00th=[   44], 90.00th=[   48], 95.00th=[   52],
+     | 99.00th=[   82], 99.50th=[  106], 99.90th=[  157], 99.95th=[  178],
+     | 99.99th=[  224]
+   bw (  KiB/s): min= 6104, max=111712, per=3.14%, avg=94425.23, stdev=4168.17, samples=3840
+   iops        : min=  381, max= 6982, avg=5901.12, stdev=260.53, samples=3840
+  lat (msec)   : 10=0.05%, 20=11.99%, 50=80.84%, 100=6.53%, 250=0.58%
+  lat (msec)   : 500=0.01%, 750=0.01%
+  cpu          : usr=0.92%, sys=3.07%, ctx=406245, majf=0, minf=14232
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwt: total=11285775,0,0, short=0,0,0, dropped=0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=200
+
+Run status group 0 (all jobs):
+   READ: bw=2938MiB/s (3080MB/s), 2938MiB/s-2938MiB/s (3080MB/s-3080MB/s), io=172GiB (185GB), run=60025-60025msec
+
+Disk stats (read/write):
+  sdb: ios=358998/113, merge=9527/10, ticks=8525804/3254, in_queue=8531388, util=99.11%
+  sdc: ios=337681/113, merge=8644/11, ticks=8562131/3352, in_queue=8566059, util=99.16%
+  sdd: ios=350297/113, merge=9392/10, ticks=8512613/3429, in_queue=8518099, util=99.18%
+  sde: ios=353972/115, merge=8952/12, ticks=8534183/3244, in_queue=8539743, util=99.20%
+  sdf: ios=346301/115, merge=9063/11, ticks=8520906/3476, in_queue=8526799, util=99.23%
+  sdg: ios=356445/115, merge=9143/11, ticks=8517739/3296, in_queue=8523446, util=99.24%
+  sdh: ios=356471/116, merge=9274/11, ticks=8524827/3249, in_queue=8531282, util=99.29%
+  sdi: ios=330819/113, merge=8876/11, ticks=8562620/3492, in_queue=8566656, util=99.32%
+  sdj: ios=335623/113, merge=8929/12, ticks=8511118/3464, in_queue=8516731, util=99.36%
+  sdk: ios=331194/114, merge=8904/12, ticks=8538738/3436, in_queue=8544681, util=99.40%
+  sdl: ios=330226/113, merge=8835/11, ticks=8544337/3592, in_queue=8550298, util=99.43%
+  sdm: ios=330724/113, merge=8969/11, ticks=8525455/3584, in_queue=8531287, util=99.43%
+  sdn: ios=329077/113, merge=8822/11, ticks=8501087/3699, in_queue=8507160, util=99.50%
+  sdo: ios=359164/113, merge=9177/11, ticks=8529643/3194, in_queue=8534703, util=99.49%
+  sdp: ios=353738/111, merge=9536/9, ticks=8517697/3705, in_queue=8523925, util=99.55%
+  sdq: ios=355127/112, merge=9240/11, ticks=8534976/3201, in_queue=8540669, util=99.57%
+  sdr: ios=355923/109, merge=9158/11, ticks=8531349/3218, in_queue=8536756, util=99.62%
+  sds: ios=328306/109, merge=8883/10, ticks=8531285/3664, in_queue=8537459, util=99.65%
+  sdt: ios=333288/109, merge=9006/10, ticks=8518981/3421, in_queue=8525225, util=99.69%
+  sdu: ios=334930/110, merge=9016/11, ticks=8547127/3385, in_queue=8552699, util=99.70%
+  sdv: ios=359489/109, merge=8974/11, ticks=8535011/3190, in_queue=8540541, util=99.75%
+  sdw: ios=328029/110, merge=8776/11, ticks=8554215/3545, in_queue=8560177, util=99.76%
+  sdx: ios=333790/110, merge=8992/11, ticks=8543977/3450, in_queue=8549782, util=99.79%
+  sdy: ios=331219/109, merge=8481/11, ticks=8491699/3499, in_queue=8498696, util=99.80%
+  sdz: ios=335313/110, merge=9083/11, ticks=8517836/3368, in_queue=8523497, util=99.82%
+  sdaa: ios=349090/111, merge=8991/9, ticks=8569991/3411, in_queue=8574064, util=99.87%
+  sdab: ios=352631/110, merge=9081/11, ticks=8536355/3287, in_queue=8542195, util=99.86%
+  sdac: ios=333150/107, merge=8818/9, ticks=8538664/3331, in_queue=8544716, util=99.89%
+  sdad: ios=326776/106, merge=8742/10, ticks=8527728/3497, in_queue=8533715, util=99.96%
+  sdae: ios=357825/109, merge=9345/11, ticks=8563016/3288, in_queue=8566466, util=100.00%
+  sdaf: ios=335221/108, merge=8838/10, ticks=8496266/3339, in_queue=8501764, util=100.00%
+  sdag: ios=345581/110, merge=8740/9, ticks=8506607/3482, in_queue=8512266, util=100.00%

@@ -1,0 +1,299 @@
+Currently attached iSCSI devices:
+
+Target iqn.2015-12.com.oracleiaas:0c228bbb-eb90-4703-9d2d-79ecd6405165
+   Persistent portal:    169.254.2.11:3260
+      Current portal:    169.254.2.11:3260
+               State:    LOGGED_IN
+     Attached device:    sdk
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data10
+
+Target iqn.2015-12.com.oracleiaas:29ad9122-d011-44b7-9a1e-d96995cf4ce6
+   Persistent portal:    169.254.2.28:3260
+      Current portal:    169.254.2.28:3260
+               State:    LOGGED_IN
+     Attached device:    sdab
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data27
+
+Target iqn.2015-12.com.oracleiaas:0acb1b25-7a28-40ff-888c-7e1542e66917
+   Persistent portal:    169.254.2.17:3260
+      Current portal:    169.254.2.17:3260
+               State:    LOGGED_IN
+     Attached device:    sdq
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data16
+
+Target iqn.2015-12.com.oracleiaas:9386cdee-239c-4d60-9f62-2dbf8a36c7db
+   Persistent portal:    169.254.2.12:3260
+      Current portal:    169.254.2.12:3260
+               State:    LOGGED_IN
+     Attached device:    sdl
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data11
+
+Target iqn.2015-12.com.oracleiaas:8bb85684-f637-4c08-bc9e-8d54ea3c6cf1
+   Persistent portal:    169.254.2.8:3260
+      Current portal:    169.254.2.8:3260
+               State:    LOGGED_IN
+     Attached device:    sdh
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data7
+
+Target iqn.2015-12.com.oracleiaas:42b8df73-e124-47e4-ac2a-24c88ff22296
+   Persistent portal:    169.254.2.3:3260
+      Current portal:    169.254.2.3:3260
+               State:    LOGGED_IN
+     Attached device:    sdc
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data2
+
+Target iqn.2015-12.com.oracleiaas:b69b805d-aca0-4c9d-a0ec-2013f36fb409
+   Persistent portal:    169.254.2.27:3260
+      Current portal:    169.254.2.27:3260
+               State:    LOGGED_IN
+     Attached device:    sdaa
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data26
+
+Target iqn.2015-12.com.oracleiaas:e4b723bd-93af-4437-80f4-b7023533ccb4
+   Persistent portal:    169.254.2.33:3260
+      Current portal:    169.254.2.33:3260
+               State:    LOGGED_IN
+     Attached device:    sdag
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data32
+
+Target iqn.2015-12.com.oracleiaas:a7fa206e-50a0-402d-b399-02e0c29373ef
+   Persistent portal:    169.254.2.18:3260
+      Current portal:    169.254.2.18:3260
+               State:    LOGGED_IN
+     Attached device:    sdr
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data17
+
+Target iqn.2015-12.com.oracleiaas:75a0b65f-8ae6-4f6b-b989-b466f1e7c2d9
+   Persistent portal:    169.254.2.23:3260
+      Current portal:    169.254.2.23:3260
+               State:    LOGGED_IN
+     Attached device:    sdw
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data22
+
+Target iqn.2015-12.com.oracleiaas:6d7faafc-5709-4717-9041-aa3917a9256c
+   Persistent portal:    169.254.2.19:3260
+      Current portal:    169.254.2.19:3260
+               State:    LOGGED_IN
+     Attached device:    sds
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data18
+
+Target iqn.2015-12.com.oracleiaas:c30668a7-25fd-4af1-b261-274dbb43c327
+   Persistent portal:    169.254.2.13:3260
+      Current portal:    169.254.2.13:3260
+               State:    LOGGED_IN
+     Attached device:    sdm
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data12
+
+Target iqn.2015-12.com.oracleiaas:d1cf07e4-fdab-40ed-a152-ce61eba2cf79
+   Persistent portal:    169.254.2.7:3260
+      Current portal:    169.254.2.7:3260
+               State:    LOGGED_IN
+     Attached device:    sdg
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data6
+
+Target iqn.2015-12.com.oracleiaas:e46828da-ad3b-4597-9a06-43b339fe096c
+   Persistent portal:    169.254.2.25:3260
+      Current portal:    169.254.2.25:3260
+               State:    LOGGED_IN
+     Attached device:    sdy
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data24
+
+Target iqn.2015-12.com.oracleiaas:d31465d8-fa2d-4db8-85a2-eb065cf8a460
+   Persistent portal:    169.254.2.2:3260
+      Current portal:    169.254.2.2:3260
+               State:    LOGGED_IN
+     Attached device:    sdb
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data1
+
+Target iqn.2015-12.com.oracleiaas:7ffd4e27-b3a5-4a66-b24b-0cb5df842069
+   Persistent portal:    169.254.2.29:3260
+      Current portal:    169.254.2.29:3260
+               State:    LOGGED_IN
+     Attached device:    sdac
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data28
+
+Target iqn.2015-12.com.oracleiaas:c008ce67-8e18-46c8-bc31-1ac28c886029
+   Persistent portal:    169.254.2.10:3260
+      Current portal:    169.254.2.10:3260
+               State:    LOGGED_IN
+     Attached device:    sdj
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data9
+
+Target iqn.2015-12.com.oracleiaas:53cdd9fe-e5c0-4972-bc04-2f7fb408c41a
+   Persistent portal:    169.254.2.15:3260
+      Current portal:    169.254.2.15:3260
+               State:    LOGGED_IN
+     Attached device:    sdo
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data14
+
+Target iqn.2015-12.com.oracleiaas:43844fec-204c-47c9-97fa-2db21e70f2e7
+   Persistent portal:    169.254.2.20:3260
+      Current portal:    169.254.2.20:3260
+               State:    LOGGED_IN
+     Attached device:    sdt
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data19
+
+Target iqn.2015-12.com.oracleiaas:6fbd8054-b57a-46d7-9d38-3aa0380126a0
+   Persistent portal:    169.254.2.6:3260
+      Current portal:    169.254.2.6:3260
+               State:    LOGGED_IN
+     Attached device:    sdf
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data5
+
+Target iqn.2015-12.com.oracleiaas:6bc992fb-75f3-4035-ad7e-a504388bc46b
+   Persistent portal:    169.254.2.9:3260
+      Current portal:    169.254.2.9:3260
+               State:    LOGGED_IN
+     Attached device:    sdi
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data8
+
+Target iqn.2015-12.com.oracleiaas:192014da-ed78-4bf3-919d-25f3b793881b
+   Persistent portal:    169.254.2.5:3260
+      Current portal:    169.254.2.5:3260
+               State:    LOGGED_IN
+     Attached device:    sde
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data4
+
+Target iqn.2015-12.com.oracleiaas:6205db2b-db1d-4fe2-a84b-5e836a9a8908
+   Persistent portal:    169.254.2.32:3260
+      Current portal:    169.254.2.32:3260
+               State:    LOGGED_IN
+     Attached device:    sdaf
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data31
+
+Target iqn.2015-12.com.oracleiaas:32c7ced9-8ade-409c-9bb2-4f4a72c7c56a
+   Persistent portal:    169.254.2.21:3260
+      Current portal:    169.254.2.21:3260
+               State:    LOGGED_IN
+     Attached device:    sdu
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data20
+
+Target iqn.2015-12.com.oracleiaas:382461c9-1ec2-4404-bf79-f676733a56a7
+   Persistent portal:    169.254.2.31:3260
+      Current portal:    169.254.2.31:3260
+               State:    LOGGED_IN
+     Attached device:    sdae
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data30
+
+Target iqn.2015-12.com.oracleiaas:180d58a5-3e16-4aa4-b816-69e3b5441e00
+   Persistent portal:    169.254.2.24:3260
+      Current portal:    169.254.2.24:3260
+               State:    LOGGED_IN
+     Attached device:    sdx
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data23
+
+Target iqn.2015-12.com.oracleiaas:7512a16d-027a-40a3-962f-75ffc2a2e054
+   Persistent portal:    169.254.2.22:3260
+      Current portal:    169.254.2.22:3260
+               State:    LOGGED_IN
+     Attached device:    sdv
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data21
+
+Target iqn.2015-12.com.oracleiaas:806e7d12-8cfb-4bec-b804-4761474a8612
+   Persistent portal:    169.254.2.4:3260
+      Current portal:    169.254.2.4:3260
+               State:    LOGGED_IN
+     Attached device:    sdd
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data3
+
+Target iqn.2015-12.com.oracleiaas:16cb9156-edac-42a1-934f-b4b55e5d40e0
+   Persistent portal:    169.254.2.26:3260
+      Current portal:    169.254.2.26:3260
+               State:    LOGGED_IN
+     Attached device:    sdz
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data25
+
+Target iqn.2015-12.com.oracleiaas:75d04167-e911-496a-a101-a1bdcc9dee48
+   Persistent portal:    169.254.2.16:3260
+      Current portal:    169.254.2.16:3260
+               State:    LOGGED_IN
+     Attached device:    sdp
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data15
+
+Target iqn.2015-12.com.oracleiaas:0c6935cc-40e2-4d40-bba5-380ac2a33879
+   Persistent portal:    169.254.2.30:3260
+      Current portal:    169.254.2.30:3260
+               State:    LOGGED_IN
+     Attached device:    sdad
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data29
+
+Target iqn.2015-12.com.oracleiaas:ea77c190-1b39-449a-9772-d5e176a86a38
+   Persistent portal:    169.254.2.14:3260
+      Current portal:    169.254.2.14:3260
+               State:    LOGGED_IN
+     Attached device:    sdn
+                Size:    1000G
+    File system type:    ext4
+          Mountpoint:    /data13
+
+Target iqn.2015-02.oracle.boot:uefi
+   Persistent portal:    169.254.0.2:3260
+      Current portal:    169.254.0.2:3260
+               State:    LOGGED_IN
+     Attached device:    sda
+                Size:    46.6G
+    File system type:    Unknown
+          Mountpoint:    Not mounted
+

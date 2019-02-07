@@ -1,0 +1,94 @@
+job1: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job2: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job3: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job4: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job5: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job6: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job7: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job8: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job9: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job10: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job11: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job12: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job13: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job14: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job15: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job16: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job17: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job18: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job19: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job20: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job21: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job22: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job23: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job24: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job25: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job26: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job27: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job28: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job29: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job30: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job31: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job32: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+fio-3.1
+Starting 32 processes
+
+job1: (groupid=0, jobs=32): err= 0: pid=42893: Thu Feb  7 19:49:43 2019
+   read: IOPS=652k, BW=2547MiB/s (2671MB/s)(149GiB/60018msec)
+    slat (usec): min=2, max=41830, avg=46.75, stdev=264.03
+    clat (usec): min=691, max=250481, avg=9764.69, stdev=5634.85
+     lat (usec): min=694, max=250484, avg=9811.53, stdev=5652.47
+    clat percentiles (usec):
+     |  1.00th=[ 3458],  5.00th=[ 3949], 10.00th=[ 4752], 20.00th=[ 5800],
+     | 30.00th=[ 6718], 40.00th=[ 7635], 50.00th=[ 8586], 60.00th=[ 9634],
+     | 70.00th=[10683], 80.00th=[12125], 90.00th=[16057], 95.00th=[20317],
+     | 99.00th=[30802], 99.50th=[34341], 99.90th=[50594], 99.95th=[61080],
+     | 99.99th=[88605]
+   bw (  KiB/s): min=29362, max=131573, per=3.14%, avg=82009.58, stdev=24535.24, samples=3840
+   iops        : min= 7340, max=32893, avg=20502.01, stdev=6133.81, samples=3840
+  lat (usec)   : 750=0.01%, 1000=0.01%
+  lat (msec)   : 2=0.02%, 4=5.24%, 10=59.31%, 20=30.17%, 50=5.15%
+  lat (msec)   : 100=0.10%, 250=0.01%, 500=0.01%
+  cpu          : usr=3.46%, sys=12.70%, ctx=1263309, majf=0, minf=12001
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwt: total=39136644,0,0, short=0,0,0, dropped=0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=200
+
+Run status group 0 (all jobs):
+   READ: bw=2547MiB/s (2671MB/s), 2547MiB/s-2547MiB/s (2671MB/s-2671MB/s), io=149GiB (160GB), run=60018-60018msec
+
+Disk stats (read/write):
+  sdb: ios=1521654/240, merge=18947/13, ticks=8270096/2902, in_queue=8276531, util=99.10%
+  sdc: ios=1478903/240, merge=17469/12, ticks=8384389/2616, in_queue=8388691, util=99.14%
+  sdd: ios=1515974/240, merge=18463/13, ticks=8343881/2742, in_queue=8350636, util=99.20%
+  sde: ios=1092635/238, merge=16003/12, ticks=8424588/3190, in_queue=8429805, util=99.18%
+  sdf: ios=539060/239, merge=8039/12, ticks=8524962/5392, in_queue=8532907, util=99.22%
+  sdg: ios=824542/238, merge=8442/13, ticks=8466525/4295, in_queue=8473023, util=99.22%
+  sdh: ios=1419036/238, merge=16624/12, ticks=8387184/2960, in_queue=8392926, util=99.30%
+  sdi: ios=1515033/238, merge=18204/11, ticks=8284812/2932, in_queue=8294872, util=99.31%
+  sdj: ios=1047041/238, merge=16251/12, ticks=8438161/3139, in_queue=8444449, util=99.36%
+  sdk: ios=552661/238, merge=7747/12, ticks=8503025/5235, in_queue=8512205, util=99.40%
+  sdl: ios=1521659/240, merge=18459/12, ticks=8393911/3075, in_queue=8399418, util=99.42%
+  sdm: ios=1515731/240, merge=18460/12, ticks=8297356/2634, in_queue=8301879, util=99.43%
+  sdn: ios=1355645/238, merge=16689/11, ticks=8392285/3038, in_queue=8398132, util=99.50%
+  sdo: ios=1263091/238, merge=16310/12, ticks=8406126/2647, in_queue=8412283, util=99.49%
+  sdp: ios=944098/238, merge=8779/12, ticks=8439808/3185, in_queue=8445229, util=99.54%
+  sdq: ios=1380876/238, merge=16348/12, ticks=8383437/2927, in_queue=8389132, util=99.61%
+  sdr: ios=1213690/238, merge=16277/13, ticks=8422645/3372, in_queue=8428520, util=99.64%
+  sds: ios=1161395/238, merge=16312/13, ticks=8428574/3142, in_queue=8435152, util=99.70%
+  sdt: ios=1521302/238, merge=18486/13, ticks=8361682/3001, in_queue=8366545, util=99.70%
+  sdu: ios=1518104/238, merge=18555/12, ticks=8318871/2872, in_queue=8324678, util=99.62%
+  sdv: ios=1477701/238, merge=16656/12, ticks=7951828/2815, in_queue=7956352, util=99.47%
+  sdw: ios=1449201/236, merge=16905/12, ticks=8382627/2934, in_queue=8388234, util=99.78%
+  sdx: ios=953146/236, merge=8942/12, ticks=8449606/3870, in_queue=8454444, util=99.79%
+  sdy: ios=1519100/236, merge=18403/13, ticks=8348658/2890, in_queue=8355110, util=99.81%
+  sdz: ios=1436366/236, merge=16821/12, ticks=8361745/2818, in_queue=8366252, util=99.80%
+  sdaa: ios=779570/237, merge=8629/12, ticks=8468208/4548, in_queue=8474745, util=99.87%
+  sdab: ios=606877/237, merge=8089/13, ticks=8497522/4615, in_queue=8504915, util=99.88%
+  sdac: ios=1358281/236, merge=17119/13, ticks=8399468/2734, in_queue=8405668, util=99.92%
+  sdad: ios=1363267/237, merge=16889/13, ticks=8364860/3006, in_queue=8370407, util=99.98%
+  sdae: ios=701836/236, merge=8461/13, ticks=8489691/4395, in_queue=8495154, util=99.99%
+  sdaf: ios=1473055/235, merge=17333/13, ticks=8313929/2715, in_queue=8318183, util=100.00%
+  sdag: ios=496326/234, merge=3373/13, ticks=8514824/6857, in_queue=8523336, util=100.00%
