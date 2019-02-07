@@ -71,10 +71,10 @@ Run
 
 To avoid reaching instance limit e.g. 2900MiB/s throughput, single run was
 completed towards 8 mountpoints, in total finishing 4 runs.
-1st: /data1, /data2, /data3, /data4, /data5, /data6, /data7, /data8
-2nd: /data9, /data10, /data11, /data12, /data13, /data14, /data15, /data16
-3rd: /data17, /data18, /data19, /data20, /data21, /data22, /data23, /data24
-4th*: /data25, /data26, /data27, /data28, /data29, /data30, /data31
+- 1st: /data1, /data2, /data3, /data4, /data5, /data6, /data7, /data8
+- 2nd: /data9, /data10, /data11, /data12, /data13, /data14, /data15, /data16
+- 3rd: /data17, /data18, /data19, /data20, /data21, /data22, /data23, /data24
+- 4th*: /data25, /data26, /data27, /data28, /data29, /data30, /data31
 
 * note that 4th run only contains 7 blocks where others contain 8 blocks
 
