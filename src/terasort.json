@@ -6,6 +6,13 @@
         "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar terasort -Dmapreduce.job.reduce.shuffle.consumer.plugin.class=org.apache.hadoop.mapreduce.task.reduce.Shuffle -Ddfs.client.block_write.locateFollowingBlock.retries=30 -Dmapred.reduce.child.log.level=WARN -Ddfs.replication=1 -Ddfs.blocksize=%(dfsblock)s -Dmapreduce.map.java.opts=\"-Xms`expr %(n_nodes)s \\* %(mem_in_mb)s / %(mappers)s / 10 \\* 8`m -Xmx`expr %(n_nodes)s \\* %(mem_in_mb)s / %(mappers)s / 10 \\* 8`m\" -Dmapreduce.reduce.java.opts=\"-Xms`expr %(n_nodes)s \\* %(mem_in_mb)s / %(mappers)s / 10 \\* 8`m -Xmx`expr %(n_nodes)s \\* %(mem_in_mb)s / %(mappers)s / 10 \\* 8`m\" -Dyarn.app.mapreduce.am.job.cbd-mode.enable=false -Dyarn.app.mapreduce.am.job.map.pushdown=false -Dmapreduce.job.maps=%(mappers)s -Dmapreduce.job.reduces=%(mappers)s -Dmapreduce.reduce.memory.mb=`expr %(n_nodes)s \\* %(mem_in_mb)s / %(mappers)s` /Terasort/Input /Terasort/Output"
     ], 
     "size": {
+        "bigdata2x": {
+		"num_rows": 12000000000,
+		"dfsblock": 536870912,
+		"mappers": "{{os.environ['B_VAR_MAPPERS']}}",
+		"mem_in_mb": "{{int(os.environ['B_VAR_MEM']) * 1024}}",
+		"n_nodes": "{{os.environ['B_VAR_WORKERS']}}"
+        }, 
         "bigdata": {
 		"num_rows": 6000000000,
 		"dfsblock": 536870912,
