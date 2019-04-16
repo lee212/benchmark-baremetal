@@ -17,7 +17,7 @@ def _render_vars(var_dict):
 			continue
 		eval_msg = re.match("{{(.*)}}(.*)", v)
 		if eval_msg:
-			var_dict[k] = "{}{}".format(eval(eval_msg.group(1)), eval_msg.group(2))
+			var_dict[k] = "{0}{1}".format(eval(eval_msg.group(1)), eval_msg.group(2))
 
 	return var_dict
 	
