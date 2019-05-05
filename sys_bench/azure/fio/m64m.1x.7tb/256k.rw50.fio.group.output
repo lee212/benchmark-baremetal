@@ -1,0 +1,39 @@
+job1: (g=0): rw=randrw, bs=256K-256K/256K-256K/256K-256K, ioengine=libaio, iodepth=200
+fio-2.16
+Starting 1 process
+
+job1: (groupid=0, jobs=1): err= 0: pid=3051: Sun May  5 16:34:58 2019
+  read : io=23145MB, bw=394390KB/s, iops=1540, runt= 60094msec
+    slat (usec): min=8, max=50395, avg=12.90, stdev=285.76
+    clat (msec): min=6, max=149, avg=64.58, stdev=23.08
+     lat (msec): min=6, max=149, avg=64.60, stdev=23.07
+    clat percentiles (msec):
+     |  1.00th=[   44],  5.00th=[   48], 10.00th=[   48], 20.00th=[   49],
+     | 30.00th=[   49], 40.00th=[   50], 50.00th=[   51], 60.00th=[   54],
+     | 70.00th=[   94], 80.00th=[   98], 90.00th=[   99], 95.00th=[  100],
+     | 99.00th=[  102], 99.50th=[  103], 99.90th=[  147], 99.95th=[  149],
+     | 99.99th=[  149]
+  write: io=23034MB, bw=392494KB/s, iops=1533, runt= 60094msec
+    slat (usec): min=11, max=50357, avg=18.67, stdev=461.43
+    clat (msec): min=5, max=151, avg=65.44, stdev=23.33
+     lat (msec): min=5, max=151, avg=65.46, stdev=23.32
+    clat percentiles (msec):
+     |  1.00th=[   45],  5.00th=[   48], 10.00th=[   49], 20.00th=[   50],
+     | 30.00th=[   50], 40.00th=[   51], 50.00th=[   52], 60.00th=[   55],
+     | 70.00th=[   94], 80.00th=[  100], 90.00th=[  100], 95.00th=[  101],
+     | 99.00th=[  102], 99.50th=[  103], 99.90th=[  149], 99.95th=[  151],
+     | 99.99th=[  151]
+    lat (msec) : 10=0.61%, 20=0.05%, 50=38.74%, 100=53.17%, 250=7.43%
+  cpu          : usr=10.14%, sys=4.28%, ctx=1703, majf=0, minf=86
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued    : total=r=92580/w=92135/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=200
+
+Run status group 0 (all jobs):
+   READ: io=23145MB, aggrb=394390KB/s, minb=394390KB/s, maxb=394390KB/s, mint=60094msec, maxt=60094msec
+  WRITE: io=23034MB, aggrb=392494KB/s, minb=392494KB/s, maxb=392494KB/s, mint=60094msec, maxt=60094msec
+
+Disk stats (read/write):
+  sdb: ios=92580/93378, merge=0/41, ticks=5706614/5766933, in_queue=11467488, util=100.00%

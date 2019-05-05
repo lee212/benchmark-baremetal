@@ -1,0 +1,30 @@
+job1: (g=0): rw=randwrite, bs=256K-256K/256K-256K/256K-256K, ioengine=libaio, iodepth=200
+fio-2.16
+Starting 1 process
+
+job1: (groupid=0, jobs=1): err= 0: pid=3090: Sun May  5 16:35:58 2019
+  write: io=46061MB, bw=785602KB/s, iops=3068, runt= 60038msec
+    slat (usec): min=11, max=50380, avg=17.80, stdev=396.66
+    clat (usec): min=132, max=242799, avg=65088.83, stdev=23376.79
+     lat (usec): min=146, max=242817, avg=65107.18, stdev=23372.92
+    clat percentiles (msec):
+     |  1.00th=[   36],  5.00th=[   47], 10.00th=[   48], 20.00th=[   49],
+     | 30.00th=[   49], 40.00th=[   50], 50.00th=[   51], 60.00th=[   58],
+     | 70.00th=[   90], 80.00th=[   98], 90.00th=[   99], 95.00th=[  100],
+     | 99.00th=[  104], 99.50th=[  137], 99.90th=[  159], 99.95th=[  167],
+     | 99.99th=[  186]
+    lat (usec) : 250=0.01%, 500=0.02%, 750=0.02%, 1000=0.01%
+    lat (msec) : 2=0.01%, 4=0.01%, 10=0.01%, 20=0.74%, 50=44.95%
+    lat (msec) : 100=50.28%, 250=3.95%
+  cpu          : usr=17.92%, sys=4.74%, ctx=1544, majf=0, minf=136
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued    : total=r=0/w=184242/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=200
+
+Run status group 0 (all jobs):
+  WRITE: io=46061MB, aggrb=785601KB/s, minb=785601KB/s, maxb=785601KB/s, mint=60038msec, maxt=60038msec
+
+Disk stats (read/write):
+  sdb: ios=0/185495, merge=0/44, ticks=0/11253597, in_queue=11253968, util=100.00%
