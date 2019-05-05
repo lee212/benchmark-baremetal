@@ -1,0 +1,52 @@
+job1: (g=0): rw=randread, bs=16K-16K/16K-16K/16K-16K, ioengine=libaio, iodepth=200
+job2: (g=0): rw=randread, bs=16K-16K/16K-16K/16K-16K, ioengine=libaio, iodepth=200
+job3: (g=0): rw=randread, bs=16K-16K/16K-16K/16K-16K, ioengine=libaio, iodepth=200
+job4: (g=0): rw=randread, bs=16K-16K/16K-16K/16K-16K, ioengine=libaio, iodepth=200
+job5: (g=0): rw=randread, bs=16K-16K/16K-16K/16K-16K, ioengine=libaio, iodepth=200
+job6: (g=0): rw=randread, bs=16K-16K/16K-16K/16K-16K, ioengine=libaio, iodepth=200
+job7: (g=0): rw=randread, bs=16K-16K/16K-16K/16K-16K, ioengine=libaio, iodepth=200
+job8: (g=0): rw=randread, bs=16K-16K/16K-16K/16K-16K, ioengine=libaio, iodepth=200
+fio-2.16
+Starting 8 processes
+job1: Laying out IO file(s) (1 file(s) / 2048MB)
+job2: Laying out IO file(s) (1 file(s) / 2048MB)
+job3: Laying out IO file(s) (1 file(s) / 2048MB)
+job4: Laying out IO file(s) (1 file(s) / 2048MB)
+job5: Laying out IO file(s) (1 file(s) / 2048MB)
+job6: Laying out IO file(s) (1 file(s) / 2048MB)
+job7: Laying out IO file(s) (1 file(s) / 2048MB)
+job8: Laying out IO file(s) (1 file(s) / 2048MB)
+
+job1: (groupid=0, jobs=8): err= 0: pid=3215: Sun May  5 15:24:09 2019
+  read : io=151617MB, bw=2526.5MB/s, iops=161694, runt= 60011msec
+    slat (usec): min=4, max=20801, avg=47.76, stdev=305.34
+    clat (usec): min=19, max=46451, avg=9844.44, stdev=4100.82
+     lat (usec): min=184, max=47145, avg=9892.30, stdev=4116.55
+    clat percentiles (usec):
+     |  1.00th=[ 1416],  5.00th=[ 2608], 10.00th=[ 5344], 20.00th=[ 7840],
+     | 30.00th=[ 8256], 40.00th=[ 8640], 50.00th=[ 9024], 60.00th=[ 9536],
+     | 70.00th=[10560], 80.00th=[12480], 90.00th=[15680], 95.00th=[17536],
+     | 99.00th=[22144], 99.50th=[24192], 99.90th=[28032], 99.95th=[29824],
+     | 99.99th=[34560]
+    lat (usec) : 20=0.01%, 100=0.01%, 250=0.02%, 500=0.02%, 750=0.01%
+    lat (usec) : 1000=0.06%
+    lat (msec) : 2=2.37%, 4=5.61%, 10=57.92%, 20=31.79%, 50=2.21%
+  cpu          : usr=2.98%, sys=41.49%, ctx=410811, majf=0, minf=6471
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued    : total=r=9703477/w=0/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=200
+
+Run status group 0 (all jobs):
+   READ: io=151617MB, aggrb=2526.5MB/s, minb=2526.5MB/s, maxb=2526.5MB/s, mint=60011msec, maxt=60011msec
+
+Disk stats (read/write):
+  nvme0n2: ios=1186186/1443, merge=0/29, ticks=6997344/1764, in_queue=6999244, util=99.70%
+  nvme0n3: ios=1185447/1444, merge=0/31, ticks=7043560/1672, in_queue=7048396, util=99.74%
+  nvme0n4: ios=1237622/989, merge=0/23, ticks=6981572/1120, in_queue=6982768, util=99.69%
+  nvme0n5: ios=1184853/1454, merge=0/29, ticks=7027920/1348, in_queue=7030200, util=99.77%
+  nvme0n6: ios=1184496/1456, merge=0/28, ticks=7007568/1168, in_queue=7009716, util=99.80%
+  nvme0n7: ios=1237143/996, merge=0/44, ticks=6967076/924, in_queue=6968844, util=99.80%
+  nvme0n8: ios=1236855/996, merge=0/42, ticks=6961512/724, in_queue=6963368, util=99.74%
+  nvme0n1: ios=1238617/985, merge=0/43, ticks=6953092/1332, in_queue=6955696, util=99.82%
