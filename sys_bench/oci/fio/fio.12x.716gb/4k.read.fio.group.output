@@ -1,0 +1,54 @@
+job1: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job2: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job3: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job4: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job5: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job6: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job7: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job8: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job9: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job10: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job11: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+job12: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=200
+fio-3.1
+Starting 12 processes
+
+job1: (groupid=0, jobs=12): err= 0: pid=28322: Mon May  6 01:15:59 2019
+   read: IOPS=292k, BW=1142MiB/s (1198MB/s)(66.9GiB/60021msec)
+    slat (usec): min=2, max=49935, avg=38.86, stdev=211.74
+    clat (usec): min=637, max=92479, avg=8166.69, stdev=3853.52
+     lat (usec): min=640, max=92496, avg=8205.63, stdev=3860.97
+    clat percentiles (usec):
+     |  1.00th=[ 3326],  5.00th=[ 3687], 10.00th=[ 4359], 20.00th=[ 5080],
+     | 30.00th=[ 5997], 40.00th=[ 6849], 50.00th=[ 7635], 60.00th=[ 8586],
+     | 70.00th=[ 9372], 80.00th=[10290], 90.00th=[11731], 95.00th=[14615],
+     | 99.00th=[22152], 99.50th=[26608], 99.90th=[38536], 99.95th=[43779],
+     | 99.99th=[55313]
+   bw (  KiB/s): min=56881, max=130388, per=8.35%, avg=97677.02, stdev=9234.14, samples=1440
+   iops        : min=14220, max=32597, avg=24418.90, stdev=2308.54, samples=1440
+  lat (usec)   : 750=0.01%, 1000=0.01%
+  lat (msec)   : 2=0.03%, 4=8.68%, 10=68.01%, 20=21.83%, 50=1.42%
+  lat (msec)   : 100=0.02%
+  cpu          : usr=3.79%, sys=13.74%, ctx=569234, majf=0, minf=6131
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwt: total=17549600,0,0, short=0,0,0, dropped=0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=200
+
+Run status group 0 (all jobs):
+   READ: bw=1142MiB/s (1198MB/s), 1142MiB/s-1142MiB/s (1198MB/s-1198MB/s), io=66.9GiB (71.9GB), run=60021-60021msec
+
+Disk stats (read/write):
+  sdc: ios=1427857/704, merge=16683/18, ticks=8406592/9355, in_queue=8418401, util=99.99%
+  sdd: ios=1415276/701, merge=16526/19, ticks=8373808/9359, in_queue=8384853, util=100.00%
+  sde: ios=1432893/701, merge=17128/17, ticks=8400312/9208, in_queue=8410838, util=99.99%
+  sdf: ios=1506750/702, merge=17748/19, ticks=8391095/9275, in_queue=8402580, util=100.00%
+  sdg: ios=1507690/701, merge=17716/19, ticks=8388144/9995, in_queue=8402278, util=100.00%
+  sdh: ios=1455485/701, merge=17200/18, ticks=8390038/9139, in_queue=8402748, util=100.00%
+  sdi: ios=1473483/695, merge=17144/17, ticks=8387555/9152, in_queue=8398614, util=100.00%
+  sdb: ios=1520703/373, merge=18662/14, ticks=8370269/4604, in_queue=8377089, util=100.00%
+  sdj: ios=1504186/702, merge=18166/19, ticks=8401060/9017, in_queue=8412027, util=100.00%
+  sdk: ios=1506354/700, merge=17881/20, ticks=8395499/9356, in_queue=8409089, util=100.00%
+  sdl: ios=1436096/701, merge=17201/19, ticks=8391309/9319, in_queue=8402395, util=100.00%
+  sdm: ios=1088254/699, merge=15963/16, ticks=8299119/9120, in_queue=8310467, util=100.00%
