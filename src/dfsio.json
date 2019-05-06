@@ -1,35 +1,45 @@
 {
     "cmds": [
-        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient.jar TestDFSIO -write -nrFiles %(option1)s -fileSize %(option2)s -resFile logs/dfsio.%(option1)s.%(option2)s -bufferSize 4096",
-        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient.jar TestDFSIO -read -nrFiles %(option1)s -fileSize %(option2)s -resFile logs/dfsio.%(option1)s.%(option2)s -bufferSize 4096"
+        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient.jar TestDFSIO -write -nrFiles %(nr_files)s -fileSize `expr %(file_size)s / %(nr_files)s` -resFile logs/dfsio.%(nr_files)s.%(file_size)s -bufferSize 4096",
+        "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient.jar TestDFSIO -read -nrFiles %(nr_files)s -fileSize `expr %(file_size)s / %(nr_files)s` -resFile logs/dfsio.%(nr_files)s.%(file_size)s -bufferSize 4096"
     ], 
     "size": {
+        "8tb": {
+                "nr_files": "{{os.environ['B_VAR_MAPPERS']}}",
+		"file_size": 8192000 
+        }, 
+
+        "4tb": {
+                "nr_files": "{{os.environ['B_VAR_MAPPERS']}}",
+		"file_size": 4096000 
+        }, 
+
         "bigdata": {
-		"option1": 2048, 
-		"option2": 1000 
+		"nr_files": 2048, 
+		"file_size": 2048000 
         }, 
         "gigantic": {
-		"option1": 512, 
-		"option2": 400 
+		"nr_files": 512, 
+		"file_size": 204800 
         }, 
 
         "huge": {
-		"option1": 256, 
-		"option2": 100 
+		"nr_files": 256, 
+		"file_size": 25600 
         }, 
 
         "large": {
-		"option1": 64, 
-		"option2": 10 
+		"nr_files": 64, 
+		"file_size": 640 
         }, 
 
         "small": {
-		"option1": 32, 
-		"option2": 10 
+		"nr_files": 32, 
+		"file_size": 320 
         }, 
         "tiny": {
-		"option1": 16, 
-		"option2": 1 
+		"nr_files": 16, 
+		"file_size": 16
         }
     }
 }
