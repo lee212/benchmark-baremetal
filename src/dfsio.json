@@ -13,10 +13,17 @@
                 "nr_files": "{{os.environ['B_VAR_MAPPERS']}}",
 		"file_size": 4096000 
         }, 
-
+        "bigdata2x": {
+                "nr_files": "{{os.environ['B_VAR_MAPPERS']}}",
+		"file_size": 4096000 
+        }, 
         "bigdata": {
-		"nr_files": 2048, 
+                "nr_files": "{{os.environ['B_VAR_MAPPERS']}}",
 		"file_size": 2048000 
+        }, 
+        "bigdata0.5x": {
+                "nr_files": "{{os.environ['B_VAR_MAPPERS']}}",
+		"file_size": 1024000 
         }, 
         "gigantic": {
 		"nr_files": 512, 

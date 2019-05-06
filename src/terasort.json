@@ -28,6 +28,14 @@
 		"mem_in_mb": "{{int(os.environ['B_VAR_MEM']) * 1024}}",
 		"n_nodes": "{{os.environ['B_VAR_WORKERS']}}"
         }, 
+        "bigdata0.5x": {
+		"num_rows": 3000000000,
+		"dfsblock": 536870912,
+		"mappers": "{{os.environ['B_VAR_MAPPERS']}}",
+		"mem_in_mb": "{{int(os.environ['B_VAR_MEM']) * 1024}}",
+		"n_nodes": "{{os.environ['B_VAR_WORKERS']}}"
+        }, 
+
 
         "gigantic": {
 		"num_rows": 3200000000,

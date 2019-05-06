@@ -6,8 +6,22 @@
 	"hadoop jar /var/lib/hadoop-hdfs/pegasus-2.0-SNAPSHOT.jar pegasus.PagerankNaive /Pagerank/Input/edges /Pagerank/Output %(pages)s %(mappers)s %(iterations)s nosym new"
     ], 
     "size": {
+        "bigdata2x": {
+		"pages": 100000000,
+		"iterations": 1,
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
+        }, 
+
         "bigdata": {
 		"pages": 50000000,
+		"iterations": 1,
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
+        }, 
+
+        "bigdata0.5x": {
+		"pages": 25000000,
 		"iterations": 1,
 		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
 		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"

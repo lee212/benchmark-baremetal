@@ -6,12 +6,27 @@
         "/usr/bin/hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount -D mapreduce.job.maps=%(mappers)s -Dmapreduce.job.reduces=%(reducers)s /Wordcount/Input /Wordcount/Output"
     ], 
     "size": {
+        "bigdata2x": {
+		"total_bytes": 3200000000000, 
+		"total_vcores": "{{int(os.environ[\"B_VAR_VCORES\"]) * int(os.environ[\"B_VAR_WORKERS\"])}}",
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
+        }, 
         "bigdata": {
 		"total_bytes": 1600000000000, 
 		"total_vcores": "{{int(os.environ[\"B_VAR_VCORES\"]) * int(os.environ[\"B_VAR_WORKERS\"])}}",
 		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
 		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
         }, 
+
+
+        "bigdata0.5x": {
+		"total_bytes": 800000000000, 
+		"total_vcores": "{{int(os.environ[\"B_VAR_VCORES\"]) * int(os.environ[\"B_VAR_WORKERS\"])}}",
+		"mappers": "{{os.environ[\"B_VAR_MAPPERS\"]}}",
+		"reducers": "{{os.environ[\"B_VAR_REDUCERS\"]}}"
+        }, 
+
         "gigantic": {
 		"total_bytes": 320000000000, 
 		"total_vcores": "{{int(os.environ[\"B_VAR_VCORES\"]) * int(os.environ[\"B_VAR_WORKERS\"])}}",
