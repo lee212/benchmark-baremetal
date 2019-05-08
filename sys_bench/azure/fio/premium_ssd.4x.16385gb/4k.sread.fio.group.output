@@ -1,0 +1,34 @@
+job1: (g=0): rw=read, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=200
+job2: (g=0): rw=read, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=200
+job3: (g=0): rw=read, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=200
+job0: (g=0): rw=read, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=200
+fio-2.16
+Starting 4 processes
+
+job1: (groupid=0, jobs=4): err= 0: pid=3285: Wed May  8 19:15:07 2019
+  read : io=6680.3MB, bw=113952KB/s, iops=28488, runt= 60030msec
+    slat (usec): min=2, max=1998, avg= 9.24, stdev=12.77
+    clat (msec): min=3, max=75, avg=28.07, stdev= 1.46
+     lat (msec): min=3, max=75, avg=28.08, stdev= 1.46
+    clat percentiles (usec):
+     |  1.00th=[25216],  5.00th=[25984], 10.00th=[26496], 20.00th=[27008],
+     | 30.00th=[27264], 40.00th=[27776], 50.00th=[28032], 60.00th=[28288],
+     | 70.00th=[28544], 80.00th=[29056], 90.00th=[29824], 95.00th=[30336],
+     | 99.00th=[32128], 99.50th=[33024], 99.90th=[36096], 99.95th=[39168],
+     | 99.99th=[52992]
+    lat (msec) : 4=0.01%, 10=0.01%, 20=0.03%, 50=99.95%, 100=0.01%
+  cpu          : usr=4.78%, sys=14.69%, ctx=847584, majf=0, minf=1344
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued    : total=r=1710139/w=0/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=200
+
+Run status group 0 (all jobs):
+   READ: io=6680.3MB, aggrb=113952KB/s, minb=113952KB/s, maxb=113952KB/s, mint=60030msec, maxt=60030msec
+
+Disk stats (read/write):
+  sdd: ios=429120/259, merge=0/15, ticks=11952057/16169, in_queue=12002156, util=100.00%
+  sde: ios=429066/259, merge=0/15, ticks=11955158/14747, in_queue=12031308, util=100.00%
+  sdf: ios=425460/258, merge=0/14, ticks=11952588/15102, in_queue=12013904, util=100.00%
+  sdc: ios=422226/259, merge=0/15, ticks=11954248/16791, in_queue=12011160, util=100.00%
